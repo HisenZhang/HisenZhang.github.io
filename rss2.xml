@@ -9,8 +9,42 @@
     <atom:link href="https://hisenz.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>海森的博客 - 技术, 料理 &amp; 爵士乐</description>
-    <pubDate>Sat, 07 Nov 2020 19:29:54 GMT</pubDate>
+    <pubDate>Sun, 19 Mar 2023 04:11:10 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>短篇 | 三驾马车（三要素驱动模型）</title>
+      <link>https://hisenz.com/post/Troika/</link>
+      <guid>https://hisenz.com/post/Troika/</guid>
+      <pubDate>Sat, 18 Mar 2023 15:19:52 GMT</pubDate>
+      
+      <description>&lt;meta name=&quot;description&quot; itemprop=&quot;description&quot; content=&quot;海森的博客&quot;/&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;每个人在每个领域里想要获得源源不断的内驱力，都该找到自己的三驾马车。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;观察&quot;&gt;&lt;a href=&quot;#观察&quot; class=&quot;headerlink&quot; title=&quot;观察&quot;&gt;&lt;/a&gt;观察&lt;/h2&gt;&lt;p&gt;成就霸权的三驾马车：军事，科技与金融。在这种三要素驱动的模型中，&lt;strong&gt;其中任意一个因素均受益于其他两者的进步&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;三驾马车提供源源不断的强大内驱力&lt;/strong&gt;，且整体不会由于单个因素暂时受阻而停滞不前，因此相比于双要素驱动（例如，教学相长）稳定性更胜一筹。&lt;/p&gt;
+&lt;p&gt;三驾马车的本质是三要素之间相互叠加的杠杆带来的规模效应。&lt;/p&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<meta name="description" itemprop="description" content="海森的博客"/><blockquote><p>每个人在每个领域里想要获得源源不断的内驱力，都该找到自己的三驾马车。</p></blockquote><h2 id="观察"><a href="#观察" class="headerlink" title="观察"></a>观察</h2><p>成就霸权的三驾马车：军事，科技与金融。在这种三要素驱动的模型中，<strong>其中任意一个因素均受益于其他两者的进步</strong>。</p><p><strong>三驾马车提供源源不断的强大内驱力</strong>，且整体不会由于单个因素暂时受阻而停滞不前，因此相比于双要素驱动（例如，教学相长）稳定性更胜一筹。</p><p>三驾马车的本质是三要素之间相互叠加的杠杆带来的规模效应。</p><span id="more"></span><h2 id="推广"><a href="#推广" class="headerlink" title="推广"></a>推广</h2><p>在一个大领域内选取三个最感兴趣的主题，反复强化。</p><p>学业上：软件、无线电、硬件。三个主题可以两两组合或全部结合。当一个主题受阻时候可切换到另两个的研究上，多项目并行。</p><p>商业上：创业、投资、管理。三者之间互相强化，多视角看待问题。</p><h2 id="注意"><a href="#注意" class="headerlink" title="注意"></a>注意</h2><p>要素之间有可能会相互制约，如消费，投资，出口三者之间此消彼长。在资源有限（总GDP一定）的情况下划分难以避免零和博弈，故选取要素时候应分析是否可以互相强化。</p>]]></content:encoded>
+      
+      
+      <category domain="https://hisenz.com/categories/Spark/">Spark</category>
+      
+      
+      <category domain="https://hisenz.com/tags/Spark/">Spark</category>
+      
+      <category domain="https://hisenz.com/tags/Investment/">Investment</category>
+      
+      <category domain="https://hisenz.com/tags/Learning/">Learning</category>
+      
+      
+      <comments>https://hisenz.com/post/Troika/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>研报 | 公开行业报告资源合集</title>
@@ -603,35 +637,6 @@
       
       
       <comments>https://hisenz.com/post/voice-type/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>料理 | 完美鸡腿排指南</title>
-      <link>https://hisenz.com/post/fried-chicken/</link>
-      <guid>https://hisenz.com/post/fried-chicken/</guid>
-      <pubDate>Sat, 04 May 2019 13:32:41 GMT</pubDate>
-      
-      <description>&lt;meta name=&quot;description&quot; itemprop=&quot;description&quot; content=&quot;料理 | 完美鸡腿排指南&quot;/&gt;
-
-&lt;p&gt;市售的鸡排大多是合成的鸡肉饼, 口感和来源均令人堪忧. 这篇教程教你如何从鸡腿开始做出一块完美鸡排.&lt;/p&gt;</description>
-      
-      
-      
-      <content:encoded><![CDATA[<meta name="description" itemprop="description" content="料理 | 完美鸡腿排指南"/><p>市售的鸡排大多是合成的鸡肉饼, 口感和来源均令人堪忧. 这篇教程教你如何从鸡腿开始做出一块完美鸡排.</p><span id="more"></span><p><img src="https://s2.ax1x.com/2019/05/04/EdXkh6.jpg"></p><h2 id="食材"><a href="#食材" class="headerlink" title="食材"></a>食材</h2><table><thead><tr><th align="center">食材</th><th align="center">数量</th><th align="center">市价/人民币</th></tr></thead><tbody><tr><td align="center">琵琶腿</td><td align="center">4个</td><td align="center">12.9</td></tr><tr><td align="center">鸡蛋</td><td align="center">2个</td><td align="center">2</td></tr><tr><td align="center">玉米淀粉</td><td align="center">适量 *</td><td align="center">N/A</td></tr><tr><td align="center">面粉</td><td align="center">适量 *</td><td align="center">N/A</td></tr><tr><td align="center">面包糠</td><td align="center">适量</td><td align="center">N/A</td></tr><tr><td align="center">海盐</td><td align="center">适量</td><td align="center">N/A</td></tr><tr><td align="center">现磨黑胡椒</td><td align="center">适量</td><td align="center">N/A</td></tr><tr><td align="center">橄榄油</td><td align="center">适量</td><td align="center">N/A</td></tr><tr><td align="center">大蒜(可选)</td><td align="center">适量</td><td align="center">N/A</td></tr><tr><td align="center">黄油(可选)</td><td align="center">适量</td><td align="center">N/A</td></tr><tr><td align="center">百里香(可选)</td><td align="center">适量</td><td align="center">N/A</td></tr><tr><td align="center">欧芹(可选)</td><td align="center">适量</td><td align="center">N/A</td></tr></tbody></table><p>备注:</p><ol><li>玉米淀粉:面粉的比例在1:3左右</li><li>强烈建议添加百里香! 百里香和鸡肉的味道搭配令人十分愉悦.</li></ol><h2 id="处理过程"><a href="#处理过程" class="headerlink" title="处理过程"></a>处理过程</h2><h3 id="剔骨"><a href="#剔骨" class="headerlink" title="剔骨"></a>剔骨</h3><p>想要剔骨的过程流畅的话, 在这一步操作前, <strong>请先磨刀</strong>. 不要问我怎么知道的.</p><p>剔骨的过程<del>很简单</del>需要一点耐心. 拿起鸡腿端详一圈. 从鸡腿贴近鸡身的那一面和那一端下刀. 沿着腿骨耐心划开鸡肉直至鸡爪的一端. 立起鸡腿, 手握在上的鸡爪一端, 用刀向下剔开鸡肉. 稍加修整可以得到一块完整的腿排.</p><p><del>好吧我知道这描述根本听不懂.</del> 可以参考<a href="https://www.bilibili.com/video/av33668013/">这个视频</a>35秒处. </p><p>剔骨的过程多练习几遍, 就熟练了.</p><h3 id="腌制"><a href="#腌制" class="headerlink" title="腌制"></a>腌制</h3><p>在鸡皮上用牙签扎洞, 这样可以腌制得更入味, 也可以防止鸡皮油炸过程中过度收缩. </p><p>在鸡皮面仅抹上盐, 用力按揉. 翻面抹上盐, 现磨黑胡椒, 百里香的干叶. 百里香的气味和鸡肉十分搭配; 我怀疑吮指原味鸡的配方里也有这种的成分. 你可以在一些大超市里找到百里香 (我使用的这款麦德龙有售).</p><blockquote><p>题外话, 牛排和鼠尾草或者百里香的气味搭配起来都不错.</p></blockquote><p>适量抹上橄榄油可以让鸡肉变得更嫩. 等待15分钟左右鸡肉就会出水. 除去这些多余的水分, 下面开始最具技巧性的一步: 裹粉.</p><h3 id="裹粉"><a href="#裹粉" class="headerlink" title="裹粉"></a>裹粉</h3><p>裹粉的质量直接决定了最后成品的质量. 时刻记住 <strong>均匀</strong> 二字.</p><p>将玉米淀粉和面粉以<code>1:3</code>的比例混合拌匀. 放入已经开始腌制的鸡排, 均匀裹上一层. 再裹一层蛋液. 注意蛋液是全蛋而不仅是蛋清. 最后均匀粘上面包糠即可.</p><p>如果追求更厚的脆壳, 可以在第一次裹蛋液之后, 再裹一层混合粉和蛋液.</p><h3 id="等待"><a href="#等待" class="headerlink" title="等待"></a>等待</h3><p>时间的魔法是料理里的一个最重要也最难得的要诀. 很多时候, 优秀的料理不过是巧妙融入了时间这种元素. 我个人很喜欢一个叫做<code>肥丁手工坊</code>的料理频道, 她的许多作品, 比如<a href="https://www.bilibili.com/video/av46970609/">酿酒</a>, 就需要耐心的观察与等待. </p><p>可惜快餐文化盛行的当代, 时间这种昂贵的元素, 早已在料理中难觅.</p><p>将裹好粉的腿排放入冰箱等待24小时左右, 使其腌制入味. 确保在油炸之前恢复到室温.</p><h3 id="油炸"><a href="#油炸" class="headerlink" title="油炸"></a>油炸</h3><p>由于面包糠的存在, 我们需要 <strong>低温油炸</strong> , 防止外壳焦化并确保腿排熟透. </p><p><strong>不要使用黄油油炸</strong>, 因为黄油在高温下很容易焦化. 黄油在鸡排出锅后放在脆壳上融化, 用以提升香气.</p><p>下<strong>宽油</strong>(橄榄油), 如果喜欢蒜香的话可以下带皮的蒜瓣 (不然容易焦). 把一根木质的筷子戳入油里, 开始冒泡意味着油温到了合适的水平. 将带皮的一面向下放置. 保持低温油炸. 保持低温油炸. 保持低温油炸. </p><p>判断鸡肉熟成的方法如下: 当鸡肉成熟以后会开始析出汤汁 (直到完全变柴), 而水份碰到热油会发生溅射. 当反应逐渐变弱的时候, 就说明鸡肉开始变干了, 已经熟成.</p><p>沥干控油. 讲究的话可以用厨房纸吸去多余的油. 静置一段时间即可装盘, 撒上欧芹叶装饰.</p><p><img src="https://s2.ax1x.com/2019/05/04/EdXE9K.jpg"></p><h3 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h3><p>如同<a href="/post/Sous-Vide/#%E8%88%92%E8%82%A5%E9%B8%A1%E8%83%B8%E8%82%89">舒肥鸡胸肉</a>一样, 可以搭配土豆泥和白葡萄酒. 可乐也是个不错的选择.</p>]]></content:encoded>
-      
-      
-      <category domain="https://hisenz.com/categories/Food/">Food</category>
-      
-      
-      <category domain="https://hisenz.com/tags/Cuisine/">Cuisine</category>
-      
-      <category domain="https://hisenz.com/tags/Frying/">Frying</category>
-      
-      <category domain="https://hisenz.com/tags/Drumsticks/">Drumsticks</category>
-      
-      
-      <comments>https://hisenz.com/post/fried-chicken/#disqus_thread</comments>
       
     </item>
     
