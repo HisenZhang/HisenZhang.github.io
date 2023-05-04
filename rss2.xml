@@ -9,8 +9,106 @@
     <atom:link href="https://hisenz.com/rss2.xml" rel="self" type="application/rss+xml"/>
     
     <description>海森的博客 - 技术, 料理 &amp; 爵士乐</description>
-    <pubDate>Fri, 31 Mar 2023 19:46:23 GMT</pubDate>
+    <pubDate>Thu, 04 May 2023 19:20:02 GMT</pubDate>
     <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>Hisen&#39;s Memo on OPSYS</title>
+      <link>https://hisenz.com/post/opsys-memo/home/</link>
+      <guid>https://hisenz.com/post/opsys-memo/home/</guid>
+      <pubDate>Wed, 03 May 2023 16:00:00 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;A collection of memos on CSCI 4210 Operating System.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;/post/opsys-memo/memory-debugging/&quot; title=&quot;The Guide to Memory</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p>A collection of memos on CSCI 4210 Operating System.</p><ol><li><a href="/post/opsys-memo/memory-debugging/" title="The Guide to Memory Debugging">The Guide to Memory Debugging</a></li><li><a href="/post/opsys-memo/unix-c/" title="The Philosophy of UNIX and C Programming Language">The Philosophy of UNIX and C Programming Language</a></li></ol>]]></content:encoded>
+      
+      
+      <category domain="https://hisenz.com/categories/Technology/">Technology</category>
+      
+      <category domain="https://hisenz.com/categories/Technology/Lecture/">Lecture</category>
+      
+      
+      <category domain="https://hisenz.com/tags/Spark/">Spark</category>
+      
+      <category domain="https://hisenz.com/tags/Tutorial/">Tutorial</category>
+      
+      <category domain="https://hisenz.com/tags/OPSYS/">OPSYS</category>
+      
+      
+      <comments>https://hisenz.com/post/opsys-memo/home/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>The Philosophy of UNIX and C Programming Language</title>
+      <link>https://hisenz.com/post/opsys-memo/unix-c/</link>
+      <guid>https://hisenz.com/post/opsys-memo/unix-c/</guid>
+      <pubDate>Wed, 03 May 2023 16:00:00 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;This memo overviews UNIX and C programming for CSCI 4210 Operating System from both high-level and low-level perspectives. &lt;strong&gt;In sho</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p>This memo overviews UNIX and C programming for CSCI 4210 Operating System from both high-level and low-level perspectives. <strong>In short: everything is an integer.</strong></p><h2 id="Alternative-Spelling-of-Integer"><a href="#Alternative-Spelling-of-Integer" class="headerlink" title="Alternative Spelling of Integer"></a>Alternative Spelling of Integer</h2><p>This class is about UNIX programming. We explore UNIX OS mechanisms and interact with them through APIs. One of the fundamental principles of the UNIX philosophy is to treat everything as a file, including hardware devices, directories, pipes, shared memory, and network sockets. The brilliant design allows read and write system calls to handle all IOs.</p><p>Now, let’s rethink some programming concepts you already know:</p><ul><li>Characters are small integers (0-127).</li><li>Pointers, aka addresses, are integers.</li><li>Functions are just pointers, so they are integers.</li><li>Structs are accessed through pointers - again, integers!<ul><li>Sometimes a pointer to a struct is called a handle because you can “grab” the struct with it.</li></ul></li></ul><p>All these concepts are just fancy ways to spell “integer”! Programming in C is to encode everything with integers and perform integer arithmetics. Apollo Guidance Computer sent people to the moon using only the magic power of integers. Files are no exception - you may have learned the concept of file descriptors already - again, integers. No surprise here, as C was initially designed for UNIX development in the 1970s.</p><h2 id="Read-and-Write"><a href="#Read-and-Write" class="headerlink" title="Read and Write"></a>Read and Write</h2><p>As mentioned above, many functions in the C library use the <code>read</code> and <code>write</code> function under the hood:</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">ssize_t</span> <span class="title">read</span><span class="params">(<span class="keyword">int</span> fd, <span class="keyword">void</span> *buf, <span class="keyword">size_t</span> count)</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">ssize_t</span> <span class="title">write</span><span class="params">(<span class="keyword">int</span> fd, <span class="keyword">const</span> <span class="keyword">void</span> *buf, <span class="keyword">size_t</span> count)</span></span>;</span><br></pre></td></tr></table></figure><p>As a low-level function, the read interface is straightforward: all you need is where to read from (file descriptor), where to read to (your buffer), and the number of bytes to read. This function makes a direct system call. So does the write function. You don’t care if the destination is on a floppy disk, an SSD, a pipe, or a network socket as long as it is a file-like object with a file descriptor (spell: i-n-t-e-g-e-r).</p><p>You may also find a set of file-related functions online:</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="keyword">size_t</span> <span class="title">fread</span><span class="params">(<span class="keyword">void</span> *<span class="keyword">restrict</span> ptr, <span class="keyword">size_t</span> size, <span class="keyword">size_t</span> nmemb, FILE *<span class="keyword">restrict</span> stream)</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">size_t</span> <span class="title">fwrite</span><span class="params">(<span class="keyword">const</span> <span class="keyword">void</span> *<span class="keyword">restrict</span> ptr, <span class="keyword">size_t</span> size, <span class="keyword">size_t</span> nmemb, FILE *<span class="keyword">restrict</span> stream)</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">char</span> *<span class="title">fgets</span><span class="params">(<span class="keyword">char</span> *s, <span class="keyword">int</span> size, FILE *stream)</span></span>;</span><br><span class="line"><span class="function"><span class="keyword">int</span> <span class="title">fputs</span><span class="params">(<span class="keyword">const</span> <span class="keyword">char</span> *s, FILE *stream)</span></span>;</span><br></pre></td></tr></table></figure><p>These functions are part of the C library and provide buffered IO for better performance. When you call fread() to read binary data from a file, it makes multiple calls to read() to fetch the requested data. Similarly, when you call fwrite() to write binary data to a file, it makes multiple calls to write().</p><p>In this class, I encourage you to use read() and write() for file IO for their simplicity, plus you will get no performance boost because of disabled IO buffers via setvbuf().</p>]]></content:encoded>
+      
+      
+      <category domain="https://hisenz.com/categories/Technology/">Technology</category>
+      
+      <category domain="https://hisenz.com/categories/Technology/Lecture/">Lecture</category>
+      
+      
+      <category domain="https://hisenz.com/tags/Spark/">Spark</category>
+      
+      <category domain="https://hisenz.com/tags/Tutorial/">Tutorial</category>
+      
+      <category domain="https://hisenz.com/tags/OPSYS/">OPSYS</category>
+      
+      
+      <comments>https://hisenz.com/post/opsys-memo/unix-c/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>The Guide to Memory Debugging</title>
+      <link>https://hisenz.com/post/opsys-memo/memory-debugging/</link>
+      <guid>https://hisenz.com/post/opsys-memo/memory-debugging/</guid>
+      <pubDate>Mon, 01 May 2023 16:00:00 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;As a C programmer, debugging memory issues can be one of the most frustrating tasks. When your code is dealing with memory, the slightest</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p>As a C programmer, debugging memory issues can be one of the most frustrating tasks. When your code is dealing with memory, the slightest mistake can cause your program to crash or produce unexpected results. Therefore, it is crucial to be equipped with handy tools and techniques to effectively and elegantly debug memory issues.</p><p>In this memo, I will cover some tips and tricks for troubleshooting 90% of memory issues in C for the CSCI 4210 Operating System, based on my observation as a TA/mentor over semesters.</p><h2 id="Get-Handy-Tools"><a href="#Get-Handy-Tools" class="headerlink" title="Get Handy Tools"></a>Get Handy Tools</h2><p>The first step in debugging memory issues is to have a reliable memory debugger. It sounds funny as I make this the first tip, but I found some past students don’t have a memory debugger installed on their machines by the end of the semester. More people have memory debuggers installed on VM but rarely use them. Save your life by making your tools handy.</p><p>Several memory debuggers are available in the market, including valgrind and drmemory. These tools help you detect and fix memory issues by providing detailed information about the program’s memory usage.</p><h2 id="Print-Print-Print"><a href="#Print-Print-Print" class="headerlink" title="Print. Print. Print"></a>Print. Print. Print</h2><p>If you are unsure where the program encountered segmentation fault, add a bunch of print statements here and there. See where the program halts. Then, print variables referenced around that location to see if they meet your expectation.</p><p>A more elegant way is to use a debugger such as GDB. Despite this class not requiring it, and it’s a steep learning curve initially, I strongly encourage you to pick it up because your precious time and good mood saved are well worth the effort.</p><h2 id="Apply-the-g-flag"><a href="#Apply-the-g-flag" class="headerlink" title="Apply the -g flag"></a>Apply the -g flag</h2><p>To enable debugging information in your code, compile your program with the -g flag. This flag tells the compiler to generate debug information that the debugger can use to provide detailed information about your program’s memory usage. You will see the line number indicating where the error was detected. From there, you can reason along your code to trace where the error was made.</p><h2 id="First-Error-First"><a href="#First-Error-First" class="headerlink" title="First Error First"></a>First Error First</h2><p>Debugging memory issues can be overwhelming, especially when dealing with hundreds of error messages. Therefore, it is important to start with the first error you encounter. This will eliminate cascading failures as much as possible and help you gain confidence and momentum as you move on to more complex issues.</p><h2 id="Invalid-Read-Invalid-Write"><a href="#Invalid-Read-Invalid-Write" class="headerlink" title="Invalid Read, Invalid Write"></a>Invalid Read, Invalid Write</h2><p>One of the most common memory issues is an invalid read or write. This occurs when you attempt to read or write to a memory location you cannot access. This can be caused by several factors, including uninitialized variables, out-of-bounds array access, and invalid pointers.</p><p>Check the address being accessed. Is it REALLY what you thought it should be?</p><p>When debugging an invalid read or write, pay attention to the location and size of the accessed memory. For example:</p><ul><li>”Address is 4 bytes after a block of 4096 bytes alloc’d” may imply an integer being accessed out-of-boundary of a large int array</li><li>“Address is 0 bytes after …” could be something wrong with terminating zero (“\0” or 0x00) of a string</li></ul><h2 id="Leaks-and-Double-Free"><a href="#Leaks-and-Double-Free" class="headerlink" title="Leaks and Double Free"></a>Leaks and Double Free</h2><p>Memory leaks occur when you allocate memory and do not release it properly, causing out-of-memory (OOM) and crashing. Another common issue is double free. This occurs when you attempt to free a block of memory that has already been freed, which can lead to heap corruption and cause your program to crash.</p><p>Both problems can be avoided in the first place by structuring your programs neatly. All homework in this class would be painless if programs were neatly structured, yet it takes intentional practice to build such a gut reaction.</p><p>As we call C the “memory-oriented programming,” drawing your memory chunks on paper and seeing how they interact with functions dramatically helps, similar to objects in OOP. Think about the data life cycle and determine the best time to allocate or free them - and always write malloc and free in pairs.</p>]]></content:encoded>
+      
+      
+      <category domain="https://hisenz.com/categories/Technology/">Technology</category>
+      
+      <category domain="https://hisenz.com/categories/Technology/Lecture/">Lecture</category>
+      
+      
+      <category domain="https://hisenz.com/tags/Spark/">Spark</category>
+      
+      <category domain="https://hisenz.com/tags/Tutorial/">Tutorial</category>
+      
+      <category domain="https://hisenz.com/tags/OPSYS/">OPSYS</category>
+      
+      
+      <comments>https://hisenz.com/post/opsys-memo/memory-debugging/#disqus_thread</comments>
+      
+    </item>
     
     <item>
       <title>中华人民共和国无线电频率划分规定（业余部分摘录）</title>
@@ -552,90 +650,6 @@
       
       
       <comments>https://hisenz.com/post/beef-soup/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>料理 | 鸡腿排练习</title>
-      <link>https://hisenz.com/post/fried-chicken-2/</link>
-      <guid>https://hisenz.com/post/fried-chicken-2/</guid>
-      <pubDate>Sun, 26 May 2019 12:47:19 GMT</pubDate>
-      
-      <description>&lt;meta name=&quot;description&quot; itemprop=&quot;description&quot; content=&quot;料理 | 鸡腿排练习&quot;/&gt;
-
-&lt;p&gt;继上次的&lt;a href=&quot;/post/fried-chicken&quot;&gt;完美鸡腿排指南&lt;/a&gt;, 这一次的练习做出了一些改进.&lt;/p&gt;</description>
-      
-      
-      
-      <content:encoded><![CDATA[<meta name="description" itemprop="description" content="料理 | 鸡腿排练习"/><p>继上次的<a href="/post/fried-chicken">完美鸡腿排指南</a>, 这一次的练习做出了一些改进.</p><span id="more"></span><h2 id="复炸"><a href="#复炸" class="headerlink" title="复炸"></a>复炸</h2><p>上一次我采取了一次油炸的方式制作的鸡排, 外观看上去颜色较深. 为了解决这一问题, 这一次在炸制时候选择了更低的温度, 并且在开始呈现出金黄色的时候捞出, 重新裹粉并冷却. 随后提升油温, 较快的在油里过一遍, 捞起控油. </p><p>这里放两张图片作为对比</p><p><img src="https://s2.ax1x.com/2019/05/04/EdXE9K.jpg"></p><blockquote><p>一次油炸</p></blockquote><p><img src="https://s2.ax1x.com/2019/05/27/VZy1w4.jpg"></p><blockquote><p>二次油炸(复炸)</p></blockquote><p>可见复炸可以有效解决解决焦黑的问题.</p><p>可以使用厨房纸吸掉多余的油. 额外提一句. 厨房纸似乎在中国厨房里很少见 - 其实它很好用, 吸油吸水都很合适, 价格也不贵(我用的7块5买到两大卷), 一般超市纸制品的地方都有售.</p><h2 id="简单摆盘"><a href="#简单摆盘" class="headerlink" title="简单摆盘"></a>简单摆盘</h2><p>尝试了一下简单的摆盘布局. 立体堆积产生空间感, 加以新鲜薄荷叶撞色点缀.</p><p>目前正在研究这个方面的内容. 之后(小概率, 咕咕咕)会单独抽一篇来展开细节.</p><h2 id="百里香的添加"><a href="#百里香的添加" class="headerlink" title="百里香的添加"></a>百里香的添加</h2><p>为了验证百里香对于鸡肉烹调的重要性, 我这一次做了对比试验 - 其中有一块鸡肉在腌制的时候只放盐和黑胡椒. 事实证明这块鸡肉没有什么香气可言 - 主要是外面的脆壳带来的风味而吃不出鸡肉的风味.</p><h2 id="拍摄布光"><a href="#拍摄布光" class="headerlink" title="拍摄布光"></a>拍摄布光</h2><p>这一次既然有了<del>精致</del>走心的摆盘, 那么摄影就不能懈怠了. 由于桌面本身色调较暗的缘故, 我这一次选择使用较暗的环境光.(如上面两张图的对比, 上一次的背景光很亮)</p><p>主光源采用暖色的射灯, 垂直向下打在主体的右后方, 使得盘子上阴影不会过分夸张. 画面的右上角方向还有微弱的低色温环境光. 最后在后期处理的时候增强暗边, 可以使得注意力集中在画面的中心主体.</p><h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>热咖啡浇入冰的苏打水, 竟有一丝微妙的甜味.</p><p>干杯[]<del>(￣▽￣)</del>*</p><p><img src="https://s2.ax1x.com/2019/05/27/VZyGk9.jpg"></p>]]></content:encoded>
-      
-      
-      <category domain="https://hisenz.com/categories/Food/">Food</category>
-      
-      
-      <category domain="https://hisenz.com/tags/Cuisine/">Cuisine</category>
-      
-      <category domain="https://hisenz.com/tags/Frying/">Frying</category>
-      
-      <category domain="https://hisenz.com/tags/Drumsticks/">Drumsticks</category>
-      
-      
-      <comments>https://hisenz.com/post/fried-chicken-2/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>料理 | 基于食材的料理练习</title>
-      <link>https://hisenz.com/post/ingredient-based-study/</link>
-      <guid>https://hisenz.com/post/ingredient-based-study/</guid>
-      <pubDate>Sun, 26 May 2019 12:47:19 GMT</pubDate>
-      
-      <description>&lt;meta name=&quot;description&quot; itemprop=&quot;description&quot; content=&quot;料理 | 基于食材的料理练习&quot;/&gt;
-
-&lt;p&gt;有的蔬菜吸油, 有的蔬菜不吸油. 这由食材本身的特性决定.&lt;/p&gt;
-&lt;p&gt;依我目前的浅见, 料理这门学问的核心是如何使手上的食材发挥出最大的潜力. 因此, 学习料理的第一步也就是熟悉各种食材的特性. 只有当厨师对于基本的食材特性了然于胸的时候, 卓越和创新才会成为可能.&lt;/p&gt;</description>
-      
-      
-      
-      <content:encoded><![CDATA[<meta name="description" itemprop="description" content="料理 | 基于食材的料理练习"/><p>有的蔬菜吸油, 有的蔬菜不吸油. 这由食材本身的特性决定.</p><p>依我目前的浅见, 料理这门学问的核心是如何使手上的食材发挥出最大的潜力. 因此, 学习料理的第一步也就是熟悉各种食材的特性. 只有当厨师对于基本的食材特性了然于胸的时候, 卓越和创新才会成为可能.</p><span id="more"></span><p>过去做的每一份料理, 我都是当做习作作品来对待的, 所用的食材(肉类)也是西餐中常见的牛肉和鸡肉. 这是我对于肉类特性的探索. 我的关注点主要就集中在它们的特性上. 比方说, 鸡肉的缩水比牛肉要严重, 鸡皮可以带来特殊的口感(牛肉则没有这个concern), 等等.</p><h2 id="基于菜品分类的练习"><a href="#基于菜品分类的练习" class="headerlink" title="基于菜品分类的练习"></a>基于菜品分类的练习</h2><p>我翻看过一些西餐烹饪指南. 绝大多数的这些指南都是设计为简单的菜谱, 而最常见的安排内容的方法则是依照菜品的类型(这个名词我暂时没想到合适的中文, 先如此称呼), 如前菜, 汤, 主菜, 甜品等等. 如此一来, 想要做个汤的时候, 目录一翻便可找到合适的条目开始动手. </p><p>当然, 我无意攻击这样的练习方式. 每个人都会找到最合适自己的方式, 且基于菜品分类的练习确实可以短时间内速成料理技术. 但是, 我的哲学是无意速成. <strong>走捷径总是要付出代价的.</strong></p><h2 id="基于食材的练习"><a href="#基于食材的练习" class="headerlink" title="基于食材的练习"></a>基于食材的练习</h2><p>但是对着菜谱做菜, 这最多也只是学了个形似. 想到做到神似, 要知其所以然. </p><p>同一种食材, 可能使用在前菜里, 也同样出现在main course中. 这就是对于食材的特性在不同的维度上加以利用而做到的: 这背后是对于食材特性有深入了解; 如果我们只注重于菜品类型, 则很难在食材处理想象力上有所突破. </p><p>最后, 思考下面的这个列表或许对你有所启发:</p><ol><li>小番茄</li><li>土豆</li><li>柠檬</li><li>牛尾</li><li>青瓜</li><li>苏打水</li><li>鼠尾草</li></ol><p>它们各自都有什么特点? 如何处理(或搭配)可以利用这些特点来呈现出风味? 这些风味可以放到一顿饭中的哪些环节?</p>]]></content:encoded>
-      
-      
-      <category domain="https://hisenz.com/categories/Food/">Food</category>
-      
-      
-      <category domain="https://hisenz.com/tags/Summary/">Summary</category>
-      
-      <category domain="https://hisenz.com/tags/Tutorial/">Tutorial</category>
-      
-      <category domain="https://hisenz.com/tags/Cuisine/">Cuisine</category>
-      
-      
-      <comments>https://hisenz.com/post/ingredient-based-study/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>后申请季的阅读</title>
-      <link>https://hisenz.com/post/reading-after-application/</link>
-      <guid>https://hisenz.com/post/reading-after-application/</guid>
-      <pubDate>Mon, 13 May 2019 00:26:01 GMT</pubDate>
-      
-      <description>&lt;meta name=&quot;description&quot; itemprop=&quot;description&quot; content=&quot;后申请季的阅读&quot;/&gt;
-
-&lt;p&gt;后申请季从寒假开始算起, 到现在五月中旬, 已有三个月之久. 只有在这些赋闲的日子里, 我真正有了时间来实现去年念想的&lt;a href=&quot;/post/%E5%85%B3%E4%BA%8E%E5%A4%A7%E9%87%8F%E9%98%85%E8%AF%BB%E7%9A%84%E4%B8%80%E4%BA%9B%E6%80%9D%E8%80%83/&quot;&gt;大量阅读计划&lt;/a&gt;. 这里我回顾了三个月来主要阅读的作品, 简单记录一些想法.&lt;/p&gt;</description>
-      
-      
-      
-      <content:encoded><![CDATA[<meta name="description" itemprop="description" content="后申请季的阅读"/><p>后申请季从寒假开始算起, 到现在五月中旬, 已有三个月之久. 只有在这些赋闲的日子里, 我真正有了时间来实现去年念想的<a href="/post/%E5%85%B3%E4%BA%8E%E5%A4%A7%E9%87%8F%E9%98%85%E8%AF%BB%E7%9A%84%E4%B8%80%E4%BA%9B%E6%80%9D%E8%80%83/">大量阅读计划</a>. 这里我回顾了三个月来主要阅读的作品, 简单记录一些想法.</p><span id="more"></span><p>这一次的读书范围主要包括一些在书单上躺了很久的西方名著, 一些我在申请时候没有空看但是心心念念了很久的”闲书”. </p><h2 id="悉达多"><a href="#悉达多" class="headerlink" title="悉达多"></a>悉达多</h2><p>这是一本浅显的哲学书. 不像其他的作品长篇大论, 这本书通过观察悉达多一生的故事, 让读者自己去领悟什么才是生命中最重要的东西.</p><p>这是我最近两年读的为数不多的虚构文学作品 - 在有一段时期我觉得虚构文学”没什么用” - 不过现在有了闲余时间, 读个几本也无所谓. 没想到在这之后我又继续阅读了许多虚构文学, 因为它的意义不像工具书所谓的”实用”, 它更多的是积淀, 为的是在往后的日子里, 一旦有了感悟, 自会联想到书中的情境.</p><h2 id="如何阅读一本小说"><a href="#如何阅读一本小说" class="headerlink" title="如何阅读一本小说"></a>如何阅读一本小说</h2><p>寒假作业书目, 其实算不上特别感兴趣, 只是因为之前有选修English Literature的经历, 所以翻起来也还算轻松 - 只是尚有许多提到的例子我没有读过, 体会不深. 我想等我阅读了足够数量的时候, 再回头看这本书, 还会有不少新的收获. 不过至少, 现在还是先专注的扩展阅读量吧.</p><p>其实这本书的原名是<em>How to Read Novels Like a Professor</em>. 我觉得翻译的时候去掉了<em>像个教授一样</em>是一处败笔 - 虽然此举增加了潜在读者的数量 - 因为这本书确实是从语言和历史的宏观角度来讨论小说这种文体, 而非大众所想的”若干条阅读建议”. </p><p>这本书其中一章讨论了小说开篇的学问, 也因此我开始阅读<em>Lolita</em>.</p><h2 id="洛丽塔"><a href="#洛丽塔" class="headerlink" title="洛丽塔"></a>洛丽塔</h2><p>入坑这本书缘于其开篇. 短短两段话, 变态的爱欲描绘到极致:</p><blockquote><p>Lolita, light of my life, fire of my loins. My sin, my soul. Lo-lee-ta: the tip of the tongue taking a trip of three steps down the palate to tap, at three, on the teeth. Lo. Lee .Ta.</p><p>She was Lo, plain Lo, in the morning, standing four feet ten in one sock. She was Lola in slacks. She was Dolly at school. She was Dolores on the dotted line. But in my arms she was always Lolita.</p></blockquote><p>在我看来Humbert真心的付出了爱, 而错的是时间. 时间(年龄差)令两人永远不可能走到一起 - 无论是否真爱. 这是时间的悲剧. 这是人们在面对时间之河时无力状的悲剧.</p><p>很棒的文学作品, 值得一读.</p><p><a href="https://www.zhihu.com/question/20834605/answer/21343310">如何评价纳博科夫的《洛丽塔》 - 知乎</a></p><h2 id="我们"><a href="#我们" class="headerlink" title="我们"></a>我们</h2><p>反乌托邦三部曲中我唯一还没有看的一部, 大概也是在国内知名度较低的一本. 但是论创作时间来说, 它是<em>1984</em>的爷爷. 作为第一本比较出名的反乌托邦题材小说, 它影响了后来的<em>1984</em>和<em>美丽新世界</em> - 你总是可以在后两部作品中找到<em>我们</em>里的元素.</p><p>唯一的遗憾是, 我认为这本小说的后半部分过于仓促, 如果展开了写, 它将会是一本在文学上比肩<em>1984</em>的作品.</p><h2 id="房思琪的初恋乐园"><a href="#房思琪的初恋乐园" class="headerlink" title="房思琪的初恋乐园"></a>房思琪的初恋乐园</h2><p>读这本书是因为它和洛丽塔有一些联系. 况且这本书在书单上躺了很久, 所以朋友告诉我她正在阅读的时候, 也就上手了. 一个人深夜挑灯实在太孤独. 如果有两个人一起读书, 兴趣自然会浓厚.</p><p>这本书带有厚重的洛丽塔的影子. 两本书都涉及到文学这一主题 - 亨伯特是文学教授, 伊纹也受过良好的教育, 李老师也教语文. 文学在这其中扮演的角色, 我一时说不清. 大概是文学和人类的情感有异常紧密的联系, 因此作家们不约而同选择它作为设定的一大元素? 不同之处则在于故事构建在了当代的台湾社会上, 相关#MeToo运动, 确实和人们的生活更接近. 林警示世人性侵和家暴, 离人们并不遥远.</p><p>林在如何用语言调动感情这个问题上十分擅长, 有些话写的刺痛人心:</p><blockquote><p>他发现社会对性的禁忌感太方便了, 强暴一个女生, 全世界都觉得是她自己的错, 连她都觉得是自己的错. 罪恶感又会把她赶回他身边. </p><p>英文老师不会明白李国华第一次听说有女生自杀时那歌舞升平的感觉. 心里头清平调的海啸. 对一个男人最高的恭维就是为他自杀. </p></blockquote><p>另有林奕含的文集一部, 日后细细品鉴.</p><h2 id="人生最美是清欢"><a href="#人生最美是清欢" class="headerlink" title="人生最美是清欢"></a>人生最美是清欢</h2><p>俗世里, 人们借外物(理性, 物质等等)来控制自己的内心, 而禅宗 - 依我浅见 - 使用内心控制自己的内心. 清欢的实质是后者.</p><p>这本书我还没有看完. 这种文集大概就是闲时拿起来, 随性翻阅, 找寻清静之感, 不必一口气读完. 老林刚走不久, 所幸清欢相伴.</p><h2 id="罪与罚"><a href="#罪与罚" class="headerlink" title="罪与罚"></a>罪与罚</h2><p>这本书是<em>房思琪</em>里提到的. 尚未读完.</p><p>典型的俄国文学, 大部头, 细节繁多. 读了陀的作品, 我终于明白林奕含的语言大概是受到了陀思妥耶夫斯基的影响. 关于陀和他作品更多的讨论, 我大概会在日后单独写一篇 - 当我有足够积累的时候. (咕咕咕)</p><h2 id="富爸爸穷爸爸"><a href="#富爸爸穷爸爸" class="headerlink" title="富爸爸穷爸爸"></a>富爸爸穷爸爸</h2><p>一本知名的理财入门书, 在看了小土刀博客的理财文章后入手试读. 基本上的道理, 在改革开放40年后大家都懂了. 这本书最精辟的地方就是对于资产和负债的定义:</p><blockquote><p>资产就是往你口袋里赚钱的东西<br>负债就是从你口袋里掏钱的东西</p></blockquote><p>如此一来, 明辨资产和负债, 多购入资产来平衡现金流.</p><p>但是从文学角度来说这本书十分差劲, 值得看的主要也就是富爸爸给他上的第一课的内容, 其它皆为废话.</p><h2 id="工作前5年-决定你一生的财富"><a href="#工作前5年-决定你一生的财富" class="headerlink" title="工作前5年, 决定你一生的财富"></a>工作前5年, 决定你一生的财富</h2><p>继上一本书, 看了一本更加贴近国情的理财书. 我吹这本书的原因在于作者用自己五年的真实经历, 一步一步写出了如何开始理财和投资的过程. 虽然很多情况下过程并不能复制, 至少这本书让很多人看到了积累财富的希望.</p><p>看完这两本书, 结合2018年冬天炒币的血泪教训, 更加深刻的理解了”别人贪婪我恐惧, 别人恐惧我贪婪”的道理. </p>]]></content:encoded>
-      
-      
-      <category domain="https://hisenz.com/categories/Spark/">Spark</category>
-      
-      
-      <category domain="https://hisenz.com/tags/Reading/">Reading</category>
-      
-      
-      <comments>https://hisenz.com/post/reading-after-application/#disqus_thread</comments>
       
     </item>
     
