@@ -819,6 +819,13 @@
   </url>
   
   <url>
+    <loc>https://hisenz.com/tags/Meditation/</loc>
+    <lastmod>2023-05-11</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>https://hisenz.com/tags/Coronavirus/</loc>
     <lastmod>2023-05-11</lastmod>
     <changefreq>weekly</changefreq>
@@ -918,13 +925,6 @@
   
   <url>
     <loc>https://hisenz.com/tags/OPSYS/</loc>
-    <lastmod>2023-05-11</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://hisenz.com/tags/Meditation/</loc>
     <lastmod>2023-05-11</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
