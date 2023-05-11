@@ -1,11 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://hisenz.com/post/opsys-memo/home/</loc>
-    <lastmod>2023-05-11</lastmod>
-  </url>
-  <url>
-    <loc>https://hisenz.com/post/opsys-memo/program-structuring/</loc>
+    <loc>https://hisenz.com/post/opsys-memo/unix-c/</loc>
     <lastmod>2023-05-11</lastmod>
   </url>
   <url>
@@ -13,11 +9,7 @@
     <lastmod>2023-05-11</lastmod>
   </url>
   <url>
-    <loc>https://hisenz.com/post/lake-side/</loc>
-    <lastmod>2023-05-11</lastmod>
-  </url>
-  <url>
-    <loc>https://hisenz.com/post/opsys-memo/unix-c/</loc>
+    <loc>https://hisenz.com/post/opsys-memo/memory-debugging/</loc>
     <lastmod>2023-05-11</lastmod>
   </url>
   <url>
@@ -25,7 +17,15 @@
     <lastmod>2023-05-11</lastmod>
   </url>
   <url>
-    <loc>https://hisenz.com/post/opsys-memo/memory-debugging/</loc>
+    <loc>https://hisenz.com/post/lake-side/</loc>
+    <lastmod>2023-05-11</lastmod>
+  </url>
+  <url>
+    <loc>https://hisenz.com/post/opsys-memo/home/</loc>
+    <lastmod>2023-05-11</lastmod>
+  </url>
+  <url>
+    <loc>https://hisenz.com/post/opsys-memo/program-structuring/</loc>
     <lastmod>2023-05-11</lastmod>
   </url>
   <url>
