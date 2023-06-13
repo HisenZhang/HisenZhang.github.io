@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"
+  xmlns:atom="http://www.w3.org/2005/Atom"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>海森的博客</title>
+    <link>https://hisenz.com/</link>
+    
+    <atom:link href="https://hisenz.com/rss2.xml" rel="self" type="application/rss+xml"/>
+    
+    <description>海森的博客 - 技术, 料理 &amp; 爵士乐</description>
+    <pubDate>Sat, 10 Jun 2023 13:32:57 GMT</pubDate>
+    <generator>http://hexo.io/</generator>
+    
+    <item>
+      <title>信息资本论</title>
+      <link>https://hisenz.com/post/ai-and-society/home/</link>
+      <guid>https://hisenz.com/post/ai-and-society/home/</guid>
+      <pubDate>Mon, 29 May 2023 16:00:00 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;AI之于信息商品，正如机器之于实物商品。&lt;/p&gt;
+&lt;p&gt;人工智能是推动下一轮工业革命的动力。&lt;/p&gt;
+&lt;p&gt;对于人工智能如何改变行业的断言，&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;&lt;a href=&quot;/post/ai-and-society/intro/&quot; title=&quot;信息资本论&quot;&gt;信</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p>AI之于信息商品，正如机器之于实物商品。</p><p>人工智能是推动下一轮工业革命的动力。</p><p>对于人工智能如何改变行业的断言，</p><ol><li><a href="/post/ai-and-society/intro/" title="信息资本论">信息资本论</a></li><li><a href="/post/ai-and-society/info-as-goods/" title="作为商品的信息">作为商品的信息</a></li><li><a href="/post/ai-and-society/llm-as-machine/" title="人工智能大工业与机器大工业">人工智能大工业与机器大工业</a></li></ol>]]></content:encoded>
+      
+      
+      <category domain="https://hisenz.com/categories/Spark/">Spark</category>
+      
+      <category domain="https://hisenz.com/categories/Spark/Technology/">Technology</category>
+      
+      
+      <category domain="https://hisenz.com/tags/Spark/">Spark</category>
+      
+      
+      <comments>https://hisenz.com/post/ai-and-society/home/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>作为商品的信息</title>
+      <link>https://hisenz.com/post/ai-and-society/info-as-goods/</link>
+      <guid>https://hisenz.com/post/ai-and-society/info-as-goods/</guid>
+      <pubDate>Mon, 29 May 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;在进一步讨论前，我们有必要理清一些基本的概念以及这些概念之间的关系。&lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;商品 Goods&lt;ul&gt;
+&lt;li&gt;产品 Commodity&lt;/li&gt;
+&lt;li&gt;服务 Service&lt;/li&gt;
+&lt;li&gt;信息 Information&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;最一般的商品包括产品、服务和信息，这三者之间又有相互包含的部分。&lt;/p&gt;
+&lt;p&gt;这里的产品特指实物产品。马克思原文中 commodity 和 good 可以互换，但是它是物质基础&lt;br&gt;服务是商品的子集；换言之，它是一种特殊的商品。信息往往以服务的形式提供（尽管这并非是必须的，后文论证）。&lt;/p&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<p>在进一步讨论前，我们有必要理清一些基本的概念以及这些概念之间的关系。</p><ul><li>商品 Goods<ul><li>产品 Commodity</li><li>服务 Service</li><li>信息 Information</li></ul></li></ul><p>最一般的商品包括产品、服务和信息，这三者之间又有相互包含的部分。</p><p>这里的产品特指实物产品。马克思原文中 commodity 和 good 可以互换，但是它是物质基础<br>服务是商品的子集；换言之，它是一种特殊的商品。信息往往以服务的形式提供（尽管这并非是必须的，后文论证）。</p><span id="more"></span><h2 id="信息定义"><a href="#信息定义" class="headerlink" title="信息定义"></a>信息定义</h2><p>信息消除不确定性</p><p>信息是一种商品。</p><p>劳动-》有目的的使用能量</p><p>自然中的信息</p><h2 id="信息的生命周期"><a href="#信息的生命周期" class="headerlink" title="信息的生命周期"></a>信息的生命周期</h2><h3 id="产生"><a href="#产生" class="headerlink" title="产生"></a>产生</h3><p>一切源头:采集<br>数据：人、传感器<br>思想：人</p><h3 id="存储"><a href="#存储" class="headerlink" title="存储"></a>存储</h3><p>主体：抽象为节点，可以是人或者机器。</p><h3 id="流通"><a href="#流通" class="headerlink" title="流通"></a>流通</h3><p>传播：存储节点之间 （有概率失真）<br>思考、分析：存储节点内部发生</p><h3 id="销毁"><a href="#销毁" class="headerlink" title="销毁"></a>销毁</h3><p>遗忘、覆写</p><h2 id="信息的流动"><a href="#信息的流动" class="headerlink" title="信息的流动"></a>信息的流动</h2><p>传播学研究信息在人之间的流通。这里的框架分析更一般的情况：信息可以在人与人之间，机器与机器之间，人与机器之间流通。</p><h2 id="作为商品的信息"><a href="#作为商品的信息" class="headerlink" title="作为商品的信息"></a>作为商品的信息</h2><h3 id="信息的价值"><a href="#信息的价值" class="headerlink" title="信息的价值"></a>信息的价值</h3><table><thead><tr><th>特征</th><th>一般概念上的商品</th><th>实物商品</th><th>服务</th><th>信息</th></tr></thead><tbody><tr><td>使用价值</td><td>具有满足人们需求的功能</td><td>物理实体，能够被触摸和感知</td><td>无法被触摸和感知，通常是人的劳动</td><td>以数字形式存在，无法被触摸和感知</td></tr><tr><td>交换价值</td><td>能够在市场上被交换</td><td>有实际价格，能够被交换</td><td>有实际价格，能够被交换</td><td>有实际价格，能够被交换</td></tr><tr><td>生产方式</td><td>可以通过生产来制造</td><td>需要物理生产</td><td>需要人的劳动来提供</td><td>需要人的劳动和技术来生产</td></tr><tr><td>物质性</td><td>具有物质形态</td><td>具有物质形态</td><td>无法具体触摸和感知</td><td>无法具体触摸和感知</td></tr><tr><td>存储和运输</td><td>需要特定的存储和运输方式</td><td>需要特定的存储和运输方式</td><td>无需特定的存储和运输方式</td><td>无需特定的存储和运输方式</td></tr><tr><td>消费方式</td><td>可以直接消费或生产其他商品</td><td>可以直接消费或生产其他商品</td><td>通常需要在特定场所提供服务</td><td>可以在任何地方消费</td></tr><tr><td>市场需求</td><td>受市场需求影响</td><td>受市场需求影响</td><td>受市场需求影响</td><td>受市场需求影响</td></tr><tr><td>市场竞争</td><td>受市场竞争影响</td><td>受市场竞争影响</td><td>受市场竞争影响</td><td>受市场竞争影响</td></tr><tr><td>生命周期</td><td>有生命周期，会过时</td><td>有生命周期，会过时</td><td>通常没有生命周期</td><td>有生命周期，会过时</td></tr></tbody></table><h2 id="元信息"><a href="#元信息" class="headerlink" title="元信息"></a>元信息</h2>]]></content:encoded>
+      
+      
+      <category domain="https://hisenz.com/categories/Spark/">Spark</category>
+      
+      <category domain="https://hisenz.com/categories/Spark/Technology/">Technology</category>
+      
+      
+      <category domain="https://hisenz.com/tags/Spark/">Spark</category>
+      
+      
+      <comments>https://hisenz.com/post/ai-and-society/info-as-goods/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>信息资本论</title>
+      <link>https://hisenz.com/post/ai-and-society/intro/</link>
+      <guid>https://hisenz.com/post/ai-and-society/intro/</guid>
+      <pubDate>Mon, 29 May 2023 16:00:00 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;马克思对资本主义机器大工业的分析根植于商品和劳动。马克思在《资本论》中主要关注的是商品(goods)的生产、交换和价值理论，而对服务的讨论相对较少。在马克思的时代，商品主要指代实物商品（即产品）。因此，原文中没有明确涉及到服务（service）的内容。不过，马克思的理论可以</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p>马克思对资本主义机器大工业的分析根植于商品和劳动。马克思在《资本论》中主要关注的是商品(goods)的生产、交换和价值理论，而对服务的讨论相对较少。在马克思的时代，商品主要指代实物商品（即产品）。因此，原文中没有明确涉及到服务（service）的内容。不过，马克思的理论可以适用于服务，只是需要进行适当的调整和解释以反映服务与商品的不同之处。战后第三产业大幅发展，自上世纪以来服务被接受为一种商品。而计算机的发明与广泛应用使得信息（Information）在近年来也逐渐被接受为一种商品。<strong>随着经济发展，商品的定义随之一再扩充。</strong></p><p>在机器大工业中，机器的出现使得商品生产更加高效、自动化和规模化，从而大大提高了生产力。同样地，人工智能（Artificial Intelligence / AI）技术的出现也大大提高了信息生产力。AI技术可以自动地分析和处理大量的数据，从而生成有价值的信息，并且可以不断地学习和优化自身的算法和模型来提高信息生产的效率和质量。由此可以认为，<strong>信息之于AI大工业，正如产品之于机器大工业</strong>。信息是AI大工业的处理对象，类比机器大工业中的产品；AI技术则类似于机器。</p><p>资本论写成于产品手工业时代向机器大工业过渡的时期，而当今我们正处于信息的手工业时代向大工业过渡的早期。对资本论中商品的定义扩充使得我们可以借用资本论这具宏大的框架来分析信息时代下当前形势及未来趋势。本文从信息的本质出发，讨论信息的生命周期，分析其经济学性质，追踪信息如何作为商品在技术、社会、经济层面流动。</p>]]></content:encoded>
+      
+      
+      <category domain="https://hisenz.com/categories/Spark/">Spark</category>
+      
+      <category domain="https://hisenz.com/categories/Spark/Technology/">Technology</category>
+      
+      
+      <category domain="https://hisenz.com/tags/Spark/">Spark</category>
+      
+      
+      <comments>https://hisenz.com/post/ai-and-society/intro/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>人工智能大工业与机器大工业</title>
+      <link>https://hisenz.com/post/ai-and-society/llm-as-machine/</link>
+      <guid>https://hisenz.com/post/ai-and-society/llm-as-machine/</guid>
+      <pubDate>Mon, 29 May 2023 16:00:00 GMT</pubDate>
+      
+      
+      
+      
+      <category domain="https://hisenz.com/categories/Spark/">Spark</category>
+      
+      <category domain="https://hisenz.com/categories/Spark/Technology/">Technology</category>
+      
+      
+      <category domain="https://hisenz.com/tags/Spark/">Spark</category>
+      
+      
+      <comments>https://hisenz.com/post/ai-and-society/llm-as-machine/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Hisen&#39;s Memo on OPSYS</title>
+      <link>https://hisenz.com/post/opsys-memo/home/</link>
+      <guid>https://hisenz.com/post/opsys-memo/home/</guid>
+      <pubDate>Mon, 29 May 2023 16:00:00 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;A collection of memos on CSCI 4210 Operating System. I hope these memos offer additional (and unique) perspectives to lectures. They are </description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p>A collection of memos on CSCI 4210 Operating System. I hope these memos offer additional (and unique) perspectives to lectures. They are probably good both as preludes and epilogues for this class.</p><ol><li><a href="/post/opsys-memo/memory-debugging/" title="The Guide to Memory Debugging">The Guide to Memory Debugging</a></li><li><a href="/post/opsys-memo/unix-c/" title="The Philosophy of UNIX and C Programming Language">The Philosophy of UNIX and C Programming Language</a></li><li><a href="/post/opsys-memo/libc/" title="About libc - The Standard C library">About libc - The Standard C library</a></li><li><a href="/post/opsys-memo/syscall/" title="System Calls - What&#39;s Underneath the Hood">System Calls - What&#39;s Underneath the Hood</a><!-- 5. <a href="/post/opsys-memo/program-structuring/" title="Structure Your Program Neatly">Structure Your Program Neatly</a> --></li></ol>]]></content:encoded>
+      
+      
+      <category domain="https://hisenz.com/categories/Lecture/">Lecture</category>
+      
+      
+      <category domain="https://hisenz.com/tags/Spark/">Spark</category>
+      
+      <category domain="https://hisenz.com/tags/Tutorial/">Tutorial</category>
+      
+      <category domain="https://hisenz.com/tags/OPSYS/">OPSYS</category>
+      
+      
+      <comments>https://hisenz.com/post/opsys-memo/home/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>Structure Your Program Neatly</title>
+      <link>https://hisenz.com/post/opsys-memo/program-structuring/</link>
+      <guid>https://hisenz.com/post/opsys-memo/program-structuring/</guid>
+      <pubDate>Thu, 11 May 2023 16:00:00 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;Coming soon.&lt;/p&gt;
+</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p>Coming soon.</p>]]></content:encoded>
+      
+      
+      <category domain="https://hisenz.com/categories/Lecture/">Lecture</category>
+      
+      
+      <category domain="https://hisenz.com/tags/Spark/">Spark</category>
+      
+      <category domain="https://hisenz.com/tags/Tutorial/">Tutorial</category>
+      
+      <category domain="https://hisenz.com/tags/OPSYS/">OPSYS</category>
+      
+      
+      <comments>https://hisenz.com/post/opsys-memo/program-structuring/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>System Calls - What&#39;s Underneath the Hood</title>
+      <link>https://hisenz.com/post/opsys-memo/syscall/</link>
+      <guid>https://hisenz.com/post/opsys-memo/syscall/</guid>
+      <pubDate>Wed, 10 May 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;In previous memos, I briefly mentioned that &lt;code&gt;read()&lt;/code&gt; and &lt;code&gt;write()&lt;/code&gt; functions in libc are wrappers of system call &lt;code&gt;read&lt;/code&gt; and &lt;code&gt;write&lt;/code&gt;. Note that they are very different animals not to be confused. In short, libc functions provide a higher-level interface for common programming tasks, while system calls offer direct access to kernel services and are used for privileged operations.&lt;/p&gt;
+&lt;p&gt;System calls, also known as &lt;code&gt;syscalls&lt;/code&gt;, enable applications to request services and resources from the operating system. By invoking specific system calls, applications can perform operations such as file I/O, process management, memory allocation, and hardware interaction. System calls facilitate privileged operations by transferring control from user mode to kernel mode, where the operating system handles the requested tasks.&lt;/p&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<p>In previous memos, I briefly mentioned that <code>read()</code> and <code>write()</code> functions in libc are wrappers of system call <code>read</code> and <code>write</code>. Note that they are very different animals not to be confused. In short, libc functions provide a higher-level interface for common programming tasks, while system calls offer direct access to kernel services and are used for privileged operations.</p><p>System calls, also known as <code>syscalls</code>, enable applications to request services and resources from the operating system. By invoking specific system calls, applications can perform operations such as file I/O, process management, memory allocation, and hardware interaction. System calls facilitate privileged operations by transferring control from user mode to kernel mode, where the operating system handles the requested tasks.</p><span id="more"></span><h2 id="Linux-System-Call-Table"><a href="#Linux-System-Call-Table" class="headerlink" title="Linux System Call Table"></a>Linux System Call Table</h2><p><a href="https://chromium.googlesource.com/chromiumos/docs/+/master/constants/syscalls.md#x86_64-64_bit">Reference</a></p><p>System calls are vital for the functioning of an operating system as they provide a standardized mechanism for applications to interact with the underlying system, offering a predefined set of functions and parameters for various operations. Below is an excerpt from the Linux system call table:</p><table><thead><tr><th>NR</th><th>syscall name</th><th>%rax</th><th>arg0 (%rdi)</th><th>arg1 (%rsi)</th><th>arg2 (%rdx)</th><th>arg3 (%r10)</th><th>arg4 (%r8)</th><th>arg5 (%r9)</th></tr></thead><tbody><tr><td>0</td><td>read</td><td>0x00</td><td>unsigned int fd</td><td>char *buf</td><td>size_t count</td><td>-</td><td>-</td><td>-</td></tr><tr><td>1</td><td>write</td><td>0x01</td><td>unsigned int fd</td><td>const char *buf</td><td>size_t count</td><td>-</td><td>-</td><td>-</td></tr><tr><td>2</td><td>open</td><td>0x02</td><td>const char *filename</td><td>int flags</td><td>umode_t mode</td><td>-</td><td>-</td><td>-</td></tr><tr><td>3</td><td>close</td><td>0x03</td><td>unsigned int fd</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>4</td><td>stat</td><td>0x04</td><td>const char *filename</td><td>struct __old_kernel_stat *statbuf</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>7</td><td>poll</td><td>0x07</td><td>struct pollfd *ufds</td><td>unsigned int nfds</td><td>int timeout</td><td>-</td><td>-</td><td>-</td></tr><tr><td>8</td><td>lseek</td><td>0x08</td><td>unsigned int fd</td><td>off_t offset</td><td>unsigned int whence</td><td>-</td><td>-</td><td>-</td></tr><tr><td>9</td><td>mmap</td><td>0x09</td><td>?</td><td>?</td><td>?</td><td>?</td><td>?</td><td>?</td></tr><tr><td>12</td><td>brk</td><td>0x0c</td><td>unsigned long brk</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>16</td><td>ioctl</td><td>0x10</td><td>unsigned int fd</td><td>unsigned int cmd</td><td>unsigned long arg</td><td>-</td><td>-</td><td>-</td></tr><tr><td>21</td><td>access</td><td>0x15</td><td>const char *filename</td><td>int mode</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>22</td><td>pipe</td><td>0x16</td><td>int *fildes</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>23</td><td>select</td><td>0x17</td><td>int n</td><td>fd_set *inp</td><td>fd_set *outp</td><td>fd_set *exp</td><td>struct timeval *tvp</td><td>-</td></tr><tr><td>29</td><td>shmget</td><td>0x1d</td><td>key_t key</td><td>size_t size</td><td>int flag</td><td>-</td><td>-</td><td>-</td></tr><tr><td>30</td><td>shmat</td><td>0x1e</td><td>int shmid</td><td>char *shmaddr</td><td>int shmflg</td><td>-</td><td>-</td><td>-</td></tr><tr><td>31</td><td>shmctl</td><td>0x1f</td><td>int shmid</td><td>int cmd</td><td>struct shmid_ds *buf</td><td>-</td><td>-</td><td>-</td></tr><tr><td>32</td><td>dup</td><td>0x20</td><td>unsigned int fildes</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>33</td><td>dup2</td><td>0x21</td><td>unsigned int oldfd</td><td>unsigned int newfd</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>39</td><td>getpid</td><td>0x27</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>41</td><td>socket</td><td>0x29</td><td>int</td><td>int</td><td>int</td><td>-</td><td>-</td><td>-</td></tr><tr><td>42</td><td>connect</td><td>0x2a</td><td>int</td><td>struct sockaddr *</td><td>int</td><td>-</td><td>-</td><td>-</td></tr><tr><td>43</td><td>accept</td><td>0x2b</td><td>int</td><td>struct sockaddr *</td><td>int *</td><td>-</td><td>-</td><td>-</td></tr><tr><td>44</td><td>sendto</td><td>0x2c</td><td>int</td><td>void *</td><td>size_t</td><td>struct sockaddr</td><td></td><td></td></tr><tr><td>45</td><td>recvfrom</td><td>0x2d</td><td>int</td><td>void *</td><td>size_t</td><td>unsigned</td><td>struct sockaddr *</td><td>int *</td></tr><tr><td>49</td><td>bind</td><td>0x31</td><td>int</td><td>struct sockaddr *</td><td>int</td><td>-</td><td>-</td><td>-</td></tr><tr><td>50</td><td>listen</td><td>0x32</td><td>int</td><td>int</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>56</td><td>clone</td><td>0x38</td><td>unsigned long</td><td>unsigned long</td><td>int *</td><td>int *</td><td>unsigned long</td><td>-</td></tr><tr><td>57</td><td>fork</td><td>0x39</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>59</td><td>execve</td><td>0x3b</td><td>const char *filename</td><td>const char *const *argv</td><td>const char *const *envp</td><td>-</td><td>-</td><td>-</td></tr><tr><td>60</td><td>exit</td><td>0x3c</td><td>int error_code</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>61</td><td>wait4</td><td>0x3d</td><td>pid_t pid</td><td>int *stat_addr</td><td>int options</td><td>struct rusage *ru</td><td>-</td><td>-</td></tr><tr><td>62</td><td>kill</td><td>0x3e</td><td>pid_t pid</td><td>int sig</td><td>-</td><td>-</td><td>-</td><td>-</td></tr><tr><td>67</td><td>shmdt</td><td>0x43</td><td>char *shmaddr</td><td>-</td><td>-</td><td>-</td><td>-</td><td>-</td></tr></tbody></table><p>Do you see many familiar names? Yes, those libc functions are just wrapper for syscalls. Also note that <code>read</code> and <code>write</code> syscalls are on the very top of the table, as they are critical features since the earliest days of UNIX.</p><p>Let’s take the example of the read system call. When making a read system call in a program, the following steps occur:</p><ol><li>The actual system call number is typically stored in the rax register, which would contain the value 0 for <code>read</code>.</li><li>The file descriptor identifying the file or input stream to read from is typically passed as the first argument. In the x86_64 architecture, this value would be placed in the rdi register. The buffer where the read data will be stored is passed as the second argument, usually a pointer to a memory location. This pointer would be placed in the rsi register. The maximum number of bytes to read is provided as the third argument, which would be placed in the rdx register.</li><li>Once the necessary arguments are prepared in the respective registers, the program triggers the system call by executing the syscall instruction, causing a transition to kernel mode. Inside the kernel, the system call handler identifies the system call number (0 in this case) from the rax register.</li><li>The handler retrieves the arguments from the appropriate registers (rdi, rsi, rdx) and performs the requested operation, which is reading data from the specified file descriptor into the provided buffer.After the read operation is completed, the number of bytes read is usually returned in the rax register.</li></ol><p>Technically it is possible to write programs only using system calls - you may try hard to print an integer in decimal with write syscall only - but libc serves as a collection of programmer-friendly snippets. When a libc function is called, it internally invoke the corresponding system call to interact with the kernel and perform the required operation. The libc function acts as a wrapper around the system call, providing a higher-level and more convenient interface to the application developer.</p><h2 id="Trace-Syscalls"><a href="#Trace-Syscalls" class="headerlink" title="Trace Syscalls"></a>Trace Syscalls</h2><p>If you wonder how system calls are used in program execution, use strace utility. strace is a command-line tool used on Unix-like systems to trace the system calls and signals made by a program. It allows you to see the interactions between a program and the operating system, which can be helpful for debugging, performance analysis, or understanding program behavior.</p><p>Let’s say we have a simple C program called hello.c that prints “Hello, world!” to the console:</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line"><span class="meta"># <span class="keyword">include</span> <span class="string">&lt;stdio.h&gt;</span></span></span><br><span class="line"></span><br><span class="line"><span class="type">int</span> <span class="title function_">main</span><span class="params">()</span> &#123;</span><br><span class="line">    <span class="built_in">printf</span>(<span class="string">&quot;Hello, world!\n&quot;</span>);</span><br><span class="line">    <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><p>To trace the system calls made by this program, we can compile it and run strace as follows:</p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">gcc -o hello hello.c</span><br><span class="line">strace ./hello</span><br></pre></td></tr></table></figure><p>The output of strace will show each system call made by the program and its corresponding result. Here’s a sample excerpt of the strace output for the hello program:</p><figure class="highlight text"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">execve(&quot;./hello&quot;, [&quot;./hello&quot;], 0x7ffdcdd64280 /*58 vars*/) = 0</span><br><span class="line">brk(NULL)                               = 0x5609415c4000</span><br><span class="line">…</span><br><span class="line">fstat(1, &#123;st_mode=S_IFCHR|0620, st_rdev=makedev(136, 0), ...&#125;) = 0</span><br><span class="line">brk(NULL)                               = 0x5609415c4000</span><br><span class="line">brk(0x5609415e5000)                     = 0x5609415e5000</span><br><span class="line">write(1, &quot;Hello, world!\n&quot;, 14Hello, world!</span><br><span class="line">)         = 14</span><br><span class="line">exit_group(0)                           = ?</span><br><span class="line">+++ exited with 0 +++</span><br></pre></td></tr></table></figure><p>In the above output, you can see various system calls such as execve, brk, arch_prctl, access, openat, write, and exit_group. Each line provides information about the system call, its arguments, and the return value. By analyzing the strace output, you can gain insights into how the program interacts with the operating system, diagnose issues, or understand the underlying system behavior during program execution.</p>]]></content:encoded>
+      
+      
+      <category domain="https://hisenz.com/categories/Lecture/">Lecture</category>
+      
+      
+      <category domain="https://hisenz.com/tags/Spark/">Spark</category>
+      
+      <category domain="https://hisenz.com/tags/Tutorial/">Tutorial</category>
+      
+      <category domain="https://hisenz.com/tags/OPSYS/">OPSYS</category>
+      
+      
+      <comments>https://hisenz.com/post/opsys-memo/syscall/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>About Libc - the Standard C Library</title>
+      <link>https://hisenz.com/post/opsys-memo/libc/</link>
+      <guid>https://hisenz.com/post/opsys-memo/libc/</guid>
+      <pubDate>Mon, 08 May 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;The C standard library, often referred to as libc, is a standard library for the C programming language. It provides a collection of functions and macros that are widely used in C programs. The functions mentioned in this memo series, such as printf, strcpy, and memmove, are part of the libc.&lt;/p&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<p>The C standard library, often referred to as libc, is a standard library for the C programming language. It provides a collection of functions and macros that are widely used in C programs. The functions mentioned in this memo series, such as printf, strcpy, and memmove, are part of the libc.</p><span id="more"></span><p>You may have seen header such “stdio.h”, “math.h” and “thread.h” so far in this class. The C library provides various modules and headers that contain functions for different purposes, including string manipulation, memory operations, file I/O, time handling, and more. These functions are typically implemented in C and are designed to be portable across different platforms and operating systems to provide convenient and efficient ways to perform those tasks, abstracting away the low-level details of memory management and data manipulation.</p><p>The most common libc in all major Linux distributions is glibc, The GNU C Library. The code is highly optimized thus not suitable for education purpose. Alternatively, Musl libc prioritizes simplicity, performance, and standards compliance while providing a minimal and highly compatible implementation of C library functions, therefore widely used in embedded systems.</p><p>Familiarize yourself with how libc works paves the way to a deeper understanding of operating systems and the language itself.</p><h2 id="Functions-Families"><a href="#Functions-Families" class="headerlink" title="Functions Families"></a>Functions Families</h2><p>You will often see functions with similar names in the C library. Functions with the “s-“ prefix generally deal with strings, while “mem-” is related to memory operations. Examples:</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">char</span> *<span class="title function_">strcpy</span><span class="params">(<span class="type">char</span> *dest, <span class="type">const</span> <span class="type">char</span> *src)</span>; <span class="comment">// copies one string to another</span></span><br><span class="line"><span class="type">int</span> <span class="title function_">strcmp</span><span class="params">(<span class="type">const</span> <span class="type">char</span> *s1, <span class="type">const</span> <span class="type">char</span> *s2)</span>; <span class="comment">// compares two strings</span></span><br><span class="line"><span class="type">void</span> *<span class="title function_">memcpy</span><span class="params">(<span class="type">void</span> *dest, <span class="type">const</span> <span class="type">void</span> *src, <span class="type">size_t</span> n)</span>;  <span class="comment">// copies a block of memory from one location to another</span></span><br><span class="line"><span class="type">int</span> <span class="title function_">memcmp</span><span class="params">(<span class="type">const</span> <span class="type">void</span> *s1, <span class="type">const</span> <span class="type">void</span> *s2, <span class="type">size_t</span> n)</span>; <span class="comment">// compares two blocks of memory</span></span><br><span class="line"><span class="type">void</span> *<span class="title function_">memmove</span><span class="params">(<span class="type">void</span> *dest, <span class="type">const</span> <span class="type">void</span> *src, <span class="type">size_t</span> n)</span>; <span class="comment">// similar to memcpy(), but allows overlapping memory block</span></span><br></pre></td></tr></table></figure><p>Note how similar their signatures are. The behavior of string and memory variants differ in several ways, primarily in handling the null byte: string functions will return upon hitting a ‘\0’. As an exercise, research the behavior of following functions in printf family:</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">int</span> <span class="title function_">printf</span><span class="params">(<span class="type">const</span> <span class="type">char</span> *<span class="keyword">restrict</span> format, ...)</span>;</span><br><span class="line"><span class="type">int</span> <span class="title function_">fprintf</span><span class="params">(FILE *<span class="keyword">restrict</span> stream, <span class="type">const</span> <span class="type">char</span> *<span class="keyword">restrict</span> format, ...)</span>;</span><br><span class="line"><span class="type">int</span> <span class="title function_">snprintf</span><span class="params">(<span class="type">char</span> *<span class="keyword">restrict</span> s, <span class="type">size_t</span> n, <span class="type">const</span> <span class="type">char</span> *<span class="keyword">restrict</span> format, ...)</span>;</span><br><span class="line"><span class="type">int</span> <span class="title function_">sprintf</span><span class="params">(<span class="type">char</span> *<span class="keyword">restrict</span> s, <span class="type">const</span> <span class="type">char</span> *<span class="keyword">restrict</span> format, ...)</span>;</span><br></pre></td></tr></table></figure><h2 id="Replacing-malloc"><a href="#Replacing-malloc" class="headerlink" title="Replacing malloc"></a>Replacing malloc</h2><p><a href="https://www.gnu.org/software/libc/manual/html_node/Replacing-malloc.html">Reference</a></p><p>The GNU C Library allows for the replacement of its default malloc implementation with an alternative allocator that follows the same interface. Some memory debuggers work this way by having a alternative malloc and free to track allocation history.</p><p>This replacement can be achieved for dynamically linked programs through ELF symbol interposition, using shared object dependencies or LD_PRELOAD. For statically linked programs, the custom malloc library needs to be linked before linking against libc.a, either explicitly or implicitly.</p><p>To ensure proper functioning of the GNU C Library, a minimum set of functions must be provided by the custom malloc implementation. These functions include malloc, free, calloc, and realloc. These specific malloc-related functions are essential for the proper operation of the GNU C Library.</p>]]></content:encoded>
+      
+      
+      <category domain="https://hisenz.com/categories/Lecture/">Lecture</category>
+      
+      
+      <category domain="https://hisenz.com/tags/Spark/">Spark</category>
+      
+      <category domain="https://hisenz.com/tags/Tutorial/">Tutorial</category>
+      
+      <category domain="https://hisenz.com/tags/OPSYS/">OPSYS</category>
+      
+      
+      <comments>https://hisenz.com/post/opsys-memo/libc/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>The Philosophy of UNIX and C Programming Language</title>
+      <link>https://hisenz.com/post/opsys-memo/unix-c/</link>
+      <guid>https://hisenz.com/post/opsys-memo/unix-c/</guid>
+      <pubDate>Wed, 03 May 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;This memo overviews UNIX and C programming for CSCI 4210 Operating System from both high-level and low-level perspectives. &lt;strong&gt;In short: everything is an integer.&lt;/strong&gt;&lt;/p&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<p>This memo overviews UNIX and C programming for CSCI 4210 Operating System from both high-level and low-level perspectives. <strong>In short: everything is an integer.</strong></p><span id="more"></span><h2 id="Alternative-Spelling-of-Integer"><a href="#Alternative-Spelling-of-Integer" class="headerlink" title="Alternative Spelling of Integer"></a>Alternative Spelling of Integer</h2><p>This class is about UNIX programming. We explore UNIX OS mechanisms and interact with them through APIs. One of the fundamental principles of the UNIX philosophy is to treat everything as a file, including hardware devices, directories, pipes, shared memory, and network sockets that we discussed in this class. The brilliant design allows read and write system calls to handle all IOs.</p><p>Now, let’s rethink some programming concepts you already know:</p><ul><li>Characters are small integers (0-127).</li><li>Pointers, aka addresses, are integers.</li><li>Functions are just pointers, so they are integers.</li><li>Structs are accessed through pointers - again, integers!<ul><li>Sometimes a pointer to a struct is called a handle because you can “grab” the struct with it.</li></ul></li></ul><p>All these concepts are just fancy ways to spell “integer”! Programming in C is to encode everything with integers and perform integer arithmetics. Apollo Guidance Computer sent people to the moon using only the magic power of integers. Files are no exception - you may have learned the concept of file descriptors already - again, integers. No surprise here, as C was initially designed for UNIX development in the 1970s.</p><p><strong>So, what’s magical with integers?</strong></p><p>Well, not really. An integer just maps to one state in a finite state machine, in this case, our computer. A computer has finite memory, thus can only represent finite number of states. Integer arithmetic models the transition between states.  Any finite set may be used for this task, but with integers you can easily find the preceding and succeeding elements, as its arithmetic is intuitive.</p><h2 id="Read-and-Write"><a href="#Read-and-Write" class="headerlink" title="Read and Write"></a>Read and Write</h2><p>As mentioned above, many functions in the C library use the <code>read</code> and <code>write</code> function under the hood:</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">ssize_t</span> <span class="title function_">read</span><span class="params">(<span class="type">int</span> fd, <span class="type">void</span> *buf, <span class="type">size_t</span> count)</span>;</span><br><span class="line"><span class="type">ssize_t</span> <span class="title function_">write</span><span class="params">(<span class="type">int</span> fd, <span class="type">const</span> <span class="type">void</span> *buf, <span class="type">size_t</span> count)</span>;</span><br></pre></td></tr></table></figure><p>As a low-level function, the read interface is straightforward: all you need is where to read from (file descriptor), where to read to (your buffer), and the number of bytes to read. This function makes a direct system call. So does the write function. You don’t care if the destination is on a floppy disk, an SSD, a pipe, or a network socket as long as it is a file-like object with a file descriptor (spell: i-n-t-e-g-e-r).</p><p>You may also find a set of file-related functions online:</p><figure class="highlight c"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line"><span class="type">size_t</span> <span class="title function_">fread</span><span class="params">(<span class="type">void</span> *<span class="keyword">restrict</span> ptr, <span class="type">size_t</span> size, <span class="type">size_t</span> nmemb, FILE *<span class="keyword">restrict</span> stream)</span>;</span><br><span class="line"><span class="type">size_t</span> <span class="title function_">fwrite</span><span class="params">(<span class="type">const</span> <span class="type">void</span> *<span class="keyword">restrict</span> ptr, <span class="type">size_t</span> size, <span class="type">size_t</span> nmemb, FILE *<span class="keyword">restrict</span> stream)</span>;</span><br><span class="line"><span class="type">char</span> *<span class="title function_">fgets</span><span class="params">(<span class="type">char</span> *s, <span class="type">int</span> size, FILE *stream)</span>;</span><br><span class="line"><span class="type">int</span> <span class="title function_">fputs</span><span class="params">(<span class="type">const</span> <span class="type">char</span> *s, FILE *stream)</span>;</span><br></pre></td></tr></table></figure><p>These functions are part of the C library and provide buffered IO for better performance. When you call fread() to read binary data from a file, it makes multiple calls to read() to fetch the requested data. Similarly, when you call fwrite() to write binary data to a file, it makes multiple calls to write().</p><p>In this class, I encourage you to use read() and write() for file IO for their simplicity, plus you will get no performance boost because of disabled IO buffers via setvbuf().</p>]]></content:encoded>
+      
+      
+      <category domain="https://hisenz.com/categories/Lecture/">Lecture</category>
+      
+      
+      <category domain="https://hisenz.com/tags/Spark/">Spark</category>
+      
+      <category domain="https://hisenz.com/tags/Tutorial/">Tutorial</category>
+      
+      <category domain="https://hisenz.com/tags/OPSYS/">OPSYS</category>
+      
+      
+      <comments>https://hisenz.com/post/opsys-memo/unix-c/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>The Guide to Memory Debugging</title>
+      <link>https://hisenz.com/post/opsys-memo/memory-debugging/</link>
+      <guid>https://hisenz.com/post/opsys-memo/memory-debugging/</guid>
+      <pubDate>Mon, 01 May 2023 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;As a C programmer, debugging memory issues can be one of the most frustrating tasks. When your code is dealing with memory, the slightest mistake can cause your program to crash or produce unexpected results. Therefore, it is crucial to be equipped with handy tools and techniques to effectively and elegantly debug memory issues.&lt;/p&gt;
+&lt;p&gt;In this memo, I will cover some tips and tricks for troubleshooting 90% of memory issues in C for the CSCI 4210 Operating System, based on my observation as a TA/mentor over semesters.&lt;/p&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<p>As a C programmer, debugging memory issues can be one of the most frustrating tasks. When your code is dealing with memory, the slightest mistake can cause your program to crash or produce unexpected results. Therefore, it is crucial to be equipped with handy tools and techniques to effectively and elegantly debug memory issues.</p><p>In this memo, I will cover some tips and tricks for troubleshooting 90% of memory issues in C for the CSCI 4210 Operating System, based on my observation as a TA/mentor over semesters.</p><span id="more"></span><h2 id="Get-Handy-Tools"><a href="#Get-Handy-Tools" class="headerlink" title="Get Handy Tools"></a>Get Handy Tools</h2><p>The first step in debugging memory issues is to have a reliable memory debugger. It sounds funny as I make this the first tip, but I found some past students don’t have a memory debugger installed on their machines by the end of the semester. More people have memory debuggers installed on VM but rarely use them. Save your life by making your tools handy.</p><p>Several memory debuggers are available in the market, including valgrind and drmemory. These tools help you detect and fix memory issues by providing detailed information about the program’s memory usage.</p><h2 id="Print-Print-Print"><a href="#Print-Print-Print" class="headerlink" title="Print. Print. Print"></a>Print. Print. Print</h2><p>If you are unsure where the program encountered segmentation fault, add a bunch of print statements here and there. See where the program halts. Then, print variables referenced around that location to see if they meet your expectation.</p><p>A more elegant way is to use a debugger such as GDB. Despite this class not requiring it, and it’s a steep learning curve initially, I strongly encourage you to pick it up because your precious time and good mood saved are well worth the effort.</p><h2 id="Apply-the-g-flag"><a href="#Apply-the-g-flag" class="headerlink" title="Apply the -g flag"></a>Apply the -g flag</h2><p>To enable debugging information in your code, compile your program with the -g flag. This flag tells the compiler to generate debug information that the debugger can use to provide detailed information about your program’s memory usage. You will see the line number indicating where the error was detected. From there, you can reason along your code to trace where the error was made.</p><h2 id="First-Error-First"><a href="#First-Error-First" class="headerlink" title="First Error First"></a>First Error First</h2><p>Debugging memory issues can be overwhelming, especially when dealing with hundreds of error messages. Therefore, it is important to start with the first error you encounter. This will eliminate cascading failures as much as possible and help you gain confidence and momentum as you move on to more complex issues.</p><h2 id="Invalid-Read-Invalid-Write"><a href="#Invalid-Read-Invalid-Write" class="headerlink" title="Invalid Read, Invalid Write"></a>Invalid Read, Invalid Write</h2><p>One of the most common memory issues is an invalid read or write. This occurs when you attempt to read or write to a memory location you cannot access. This can be caused by several factors, including uninitialized variables, out-of-bounds array access, and invalid pointers.</p><p>Check the address being accessed. Is it REALLY what you thought it should be?</p><p>When debugging an invalid read or write, pay attention to the location and size of the accessed memory. For example:</p><ul><li>”Address is 4 bytes after a block of 4096 bytes alloc’d” may imply an integer being accessed out-of-boundary of a large int array</li><li>“Address is 0 bytes after …” could be something wrong with terminating zero (“\0” or 0x00) of a string</li></ul><h2 id="Leaks-and-Double-Free"><a href="#Leaks-and-Double-Free" class="headerlink" title="Leaks and Double Free"></a>Leaks and Double Free</h2><p>Memory leaks occur when you allocate memory and do not release it properly, causing out-of-memory (OOM) and crashing. Another common issue is double free. This occurs when you attempt to free a block of memory that has already been freed, which can lead to heap corruption and cause your program to crash.</p><p>Both problems can be avoided in the first place by structuring your programs neatly. All homework in this class would be painless if programs were neatly structured, yet it takes intentional practice to build such a gut reaction.</p><p>As we call C the “memory-oriented programming,” drawing your memory chunks on paper and seeing how they interact with functions dramatically helps, similar to objects in OOP. Think about the data life cycle and determine the best time to allocate or free them - and always write malloc and free in pairs.</p>]]></content:encoded>
+      
+      
+      <category domain="https://hisenz.com/categories/Lecture/">Lecture</category>
+      
+      
+      <category domain="https://hisenz.com/tags/Spark/">Spark</category>
+      
+      <category domain="https://hisenz.com/tags/Tutorial/">Tutorial</category>
+      
+      <category domain="https://hisenz.com/tags/OPSYS/">OPSYS</category>
+      
+      
+      <comments>https://hisenz.com/post/opsys-memo/memory-debugging/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>中华人民共和国无线电频率划分规定（业余部分摘录）</title>
+      <link>https://hisenz.com/post/CHN-ham-freq/</link>
+      <guid>https://hisenz.com/post/CHN-ham-freq/</guid>
+      <pubDate>Fri, 31 Mar 2023 02:41:25 GMT</pubDate>
+      
+      <description>&lt;meta name=&quot;description&quot; itemprop=&quot;description&quot; content=&quot;海森的博客&quot;/&gt;
+
+&lt;p&gt;国内业余无线电活跃频段集中在HF-UHF，而其他频段的使用与了解者甚少。本文总结中国内地业余电台频率划分与备注。内容摘录自2018 年 7 月 1 日起实施的《中华人民共和国无线电频率划分规定》。&lt;/p&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<meta name="description" itemprop="description" content="海森的博客"/><p>国内业余无线电活跃频段集中在HF-UHF，而其他频段的使用与了解者甚少。本文总结中国内地业余电台频率划分与备注。内容摘录自2018 年 7 月 1 日起实施的《中华人民共和国无线电频率划分规定》。</p><span id="more"></span><h2 id="频率划分表"><a href="#频率划分表" class="headerlink" title="频率划分表"></a>频率划分表</h2><table><thead><tr><th>频段</th><th>频率范围</th><th>备注</th></tr></thead><tbody><tr><td>MF</td><td>135.7—137.8 kHz</td><td>5.67A</td></tr><tr><td>HF</td><td>1800—2000 kHz</td><td>5.97</td></tr><tr><td></td><td>3500—3900 kHz</td><td></td></tr><tr><td></td><td>5351.5—5366.5 kHz</td><td>5.133B</td></tr><tr><td></td><td>7000—7100 kHz</td><td>5.140, 5.141, 5.141A</td></tr><tr><td></td><td>7100—7200 kHz</td><td>5.141B</td></tr><tr><td></td><td>10100—10150 kHz</td><td></td></tr><tr><td></td><td>14000—14250 kHz</td><td></td></tr><tr><td></td><td>14250—14350 kHz</td><td></td></tr><tr><td></td><td>18068—18168 kHz</td><td></td></tr><tr><td></td><td>21000—21450 kHz</td><td></td></tr><tr><td></td><td>24890—24990 kHz</td><td></td></tr><tr><td></td><td>28000—29700 kHz</td><td></td></tr><tr><td>VHF</td><td>50—54 MHz</td><td>5.162A</td></tr><tr><td></td><td>144—146 MHz</td><td></td></tr><tr><td></td><td>146—148 MHz</td><td></td></tr><tr><td>UHF</td><td>430—440 MHz</td><td>5.282</td></tr><tr><td></td><td>1240—1260 MHz</td><td>5.332</td></tr><tr><td></td><td>1260—1300 MHz</td><td>5.282, 5.335A</td></tr><tr><td></td><td>2300—2450 MHz</td><td>5.150, 5.282</td></tr><tr><td>SHF</td><td>3300—3400 MHz</td><td>5.149</td></tr><tr><td></td><td>3400—3500 MHz</td><td>5.282</td></tr><tr><td></td><td>5650—5725 MHz</td><td>5.282</td></tr><tr><td></td><td>5725—5830 MHz</td><td>5.150</td></tr><tr><td></td><td>5830—5850 MHz</td><td>5.150</td></tr><tr><td></td><td>10—10.4 GHz</td><td>5.479, 5.474D</td></tr><tr><td></td><td>10.4—10.45 GHz</td><td></td></tr><tr><td></td><td>10.45—10.5 GHz</td><td></td></tr><tr><td></td><td>24—24.05 GHz</td><td>5.150</td></tr><tr><td></td><td>24.05—24.25 GHz</td><td>5.150</td></tr><tr><td>EHF</td><td>47—47.2 GHz</td><td></td></tr><tr><td></td><td>76—77.5 GHz</td><td>5.149</td></tr><tr><td></td><td>77.5—78 GHz</td><td>5.149</td></tr><tr><td></td><td>78—79 GHz</td><td>5.149, 5.560</td></tr><tr><td></td><td>79—81 GHz</td><td>5.149</td></tr><tr><td></td><td>122.25—123 GHz</td><td>5.138</td></tr><tr><td></td><td>134—136 GHz</td><td></td></tr><tr><td></td><td>136—141 GHz</td><td>5.149</td></tr><tr><td></td><td>241—248 GHz</td><td>5.138, 5.149</td></tr><tr><td></td><td>248—250 GHz</td><td>5.149</td></tr></tbody></table><h2 id="备注"><a href="#备注" class="headerlink" title="备注"></a>备注</h2><h3 id="5-67A"><a href="#5-67A" class="headerlink" title="5.67A"></a>5.67A</h3><p>使用 135.7-137.8 kHz 频段内频率的业余业务台站，其最大辐射功率不得超过 1 瓦（e.i.r.p.），且不应对在第 5.67 款所列国家内运行的无线电导航业务台站造成有害干扰。（WRC-07）</p><h3 id="5-97"><a href="#5-97" class="headerlink" title="5.97"></a>5.97</h3><p>在 3 区，罗兰系统工作在 1850kHz 或 1950kHz 上，其分别占用 1825-1875kHz 和 1925-1975kHz 频段。划分在 1800-2000kHz 频段内的其他业务，在不对工作在 1850kHz 和 1950kHz 的罗兰系统造成有害干扰的条件下，可以使用该频段内的任一频率。</p><h3 id="5-133B"><a href="#5-133B" class="headerlink" title="5.133B"></a>5.133B</h3><p>使用 5351.5-5366.5 kHz 频段的业余业务电台的最大辐射功率不得超过 15 W（e.i.r.p.）。但是，在 2 区的墨西哥，使用 5351.5-5366.5kHz 频段的业余业务电台的最大辐射功率不得超过 20 W（e.i.r.p.）。在以下 2 区国家：安提瓜和巴布达、阿根廷、巴哈马、巴巴多斯、伯利兹、玻利维亚、巴西、智利、哥伦比亚、哥斯达黎加、古巴、多米尼加共和国、多米尼克、萨尔瓦多、厄瓜多尔、格林纳达、危地马拉、圭亚那、海地、洪都拉斯、牙买加、尼加拉瓜、巴拿马、巴拉圭、秘鲁、圣卢西亚、圣基茨和尼维斯、圣文森特和格林纳丁斯、苏里南、特立尼达和多巴哥、乌拉圭、委内瑞拉以及荷兰在 2 区的海外领土，使用 5351.5-5366.5kHz 频段的业余业务电台的最大辐射功率不得超过 25 W（e.i.r.p.）。（WRC-15）</p><h3 id="5-138"><a href="#5-138" class="headerlink" title="5.138"></a>5.138</h3><p>下列频段：</p><ul><li>6765-6795kHz （中心频率为 6780kHz），</li><li>433.05-434.79MHz （中心频率为 433.92MHz），除 5.280 款所列国家以外的 1 区，</li><li>61-61.5GHz （中心频率为 61.25GHz），</li><li>122-123GHz （中心频率为 122.5GHz），</li><li>和 244-246GHz （中心频率为 245GHz）。</li></ul><p>指定给工业、科学和医疗（ISM）使用，但须经有关部门与那些无线电通信业务可能受到影响的主管部门达成协议后给予特别批准。援用本规定时，主管部门应考虑有关的 ITU-R 最新建议书。</p><h3 id="5-140"><a href="#5-140" class="headerlink" title="5.140"></a>5.140</h3><p>附加划分：在安哥拉、伊拉克、索马里和多哥，7000-7050kHz 频段亦划分给<br>作为主要业务的固定业务。（WRC-15）</p><h3 id="5-141"><a href="#5-141" class="headerlink" title="5.141"></a>5.141</h3><p>替代划分：在埃及、厄立特里亚、埃塞俄比亚、几内亚、利比亚、马达加斯加和尼日尔，7000-7050 kHz 频段划分给作为主要业务的固定业务。（WRC-12）</p><h3 id="5-141A"><a href="#5-141A" class="headerlink" title="5.141A"></a>5.141A</h3><p>附加划分：在乌兹别克斯坦和吉尔吉斯斯坦，7000-7100kHz 和 7100-7200kHz 频段以次要使用条件也划分给固定业务和陆地移动业务。（WRC-03）</p><h3 id="5-141B"><a href="#5-141B" class="headerlink" title="5.141B"></a>5.141B</h3><p>附加划分：在阿尔及利亚、沙特阿拉伯、澳大利亚、巴林、博茨瓦纳、文莱达鲁萨兰国、中国、科摩罗、韩国、迪戈加西亚岛、吉布提、埃及、阿拉伯联合国酋长国、厄立特里亚、几内亚、印度尼西亚、伊朗伊斯兰共和国、日本、约旦、科威特、利比亚、马里、摩洛哥、毛里塔尼亚、尼日尔、新西兰、阿曼、巴布亚新几内亚、卡塔尔、阿拉伯叙利亚共和国、新加坡、苏丹、南苏丹、突尼斯、越南和也门，7100-7200 kHz 频段亦划分给作为主要业务的固定和除航空移动（R）以外的移动业务。（WRC-15）</p><h3 id="5-149"><a href="#5-149" class="headerlink" title="5.149"></a>5.149</h3><p>在向已划分到下列频段的其它业务的电台进行指配时：<br> 13360-13410kHz， 4990-5000MHz， 94.1-100GHz，<br> 25550-25670kHz， 6650-6675.2MHz， 102-109.5GHz，<br> 37.5-38.25MHz， 10.6-10.68GHz， 111.8-114.25GHz，<br> 73-74.6MHz（1 区和 3 区），14.47-14.5GHz， 128.33-128.59GHz，<br> 150.05-153MHz（1 区）， 22.01-22.21GHz， 129.23-129.49GHz，<br> 322-328.6MHz， 22.21-22.5GHz， 130-134GHz，<br> 406.1-410MHz， 22.81-22.86GHz， 136-148.5GHz，<br> 608-614MHz（1 区和 3 区），23.07-23.12GHz， 151 .5-158.5GHz，<br> 1330-1400MHz， 31.2-31.3GHz， 168.59-168.93GHz，<br> 1610.6-1613.8MHz， 31.5-31.8GHz（1 区和 3 区），171.11-171.45GHz，<br> 1660-1670MHz， 36.43-36.5GHz， 172.31-172.65GHz，<br> 1718.8-1722.2MHz， 42.5-43.5GHz， 173.52-173.85GHz，<br> 2655-2690MHz， 195.75-196.15GHz，<br> 3260-3267MHz， 209-226GHz，<br> 3332-3339MHz， 241-250GHz，<br> 3345.8-3352.5MHz， 48.94 - 49.04GHz， 252 - 275GHz，<br> 4825-4835MHz， 76 - 86GHz，<br> 4950-4990MHz， 92 - 94GHz，<br>敦促主管部门采用一切实际可行的措施保护射电天文业务免受有害干扰。星载电台或机载电台的发射对射电天文业务可能是特别严重的干扰源（见 4.5 和 4.6 款以及第29 条）。（WRC-07）</p><h3 id="5-162A"><a href="#5-162A" class="headerlink" title="5.162A"></a>5.162A</h3><p>附加划分：在德国、奥地利、比利时、波斯尼亚和黑塞哥维那、中国、梵蒂冈、丹麦、西班牙、爱沙尼亚、俄罗斯联邦、芬兰、法国、爱尔兰、冰岛、意大利、拉托维亚、前南斯拉夫马其顿共和国、列支敦士登、立陶宛、卢森堡、摩纳哥、黑山、挪威、荷兰、波兰、葡萄牙、捷克共和国、英国、塞尔维亚、斯洛文尼亚、瑞典和瑞士，46-68 MHz频段亦划分给作为次要业务的无线电定位业务。这项使用限于按照第 217 号决议（WRC-97）运行的风廓线雷达。（WRC-12）</p><h3 id="5-282"><a href="#5-282" class="headerlink" title="5.282"></a>5.282</h3><p>在 435-438 MHz，1 260-1 270 MHz，2 400-2 450 MHz，3 400-3 410 MHz（仅限于 2 区和 3 区）和 5 650-5 670 MHz 频段，卫星业余业务在对按频率划分表工作的其他业务不造成有害干扰的条件下可以使用（见 5.43 款）。主管部门在批准这种使用时，应确保一旦卫星业余业务电台的发射造成有害干扰时，立即根据 25.11 款的规定予以消除。卫星业余业务使用 1 260-1 270 MHz 和 5 650-5 670 MHz 频段仅限于地对空方向。</p><h3 id="5-332"><a href="#5-332" class="headerlink" title="5.332"></a>5.332</h3><p>在 1 215-1 260 MHz 频段，卫星地球探测业务和空间研究业务中的星载有源传感器不得对处于主要使用条件的无线电定位业务、卫星无线电导航业务和其他业务造成有害干扰。不能提出保护要求，或限制这些业务的操作或发展。（WRC-2000）</p><h3 id="5-335A"><a href="#5-335A" class="headerlink" title="5.335A"></a>5.335A</h3><p>在 1 260-1 300 MHz 频段，卫星地球探测业务和空间研究业务中的星载有源传感器不得对脚注中处于主要使用条件的无线电定位业务和其他业务造成有害干扰，要求得到其保护，或限制其操作与发展。（WRC-2000）</p><h3 id="5-474D"><a href="#5-474D" class="headerlink" title="5.474D"></a>5.474D</h3><p>卫星地球探测业务（有源）台站不得对 9 200-9 300 MHz 频段的水上无线电导航和无线电定位业务台站、9 900-10 000 MHz 频段内的无线电导航和无线电定位业务台站以及 10.0-10.4 GHz 频段内的无线电定位业务台站产生有害干扰，亦不得要求这些台站提供保护。 （WRC-15）</p><h3 id="5-479"><a href="#5-479" class="headerlink" title="5.479"></a>5.479</h3><p>9 975-10 025 MHz 频段以次要使用条件也划分给卫星气象业务，供气象雷达使用。</p><h3 id="5-560"><a href="#5-560" class="headerlink" title="5.560"></a>5.560</h3><p>在卫星地球探测业务和空间研究业务中，空间站雷达可按主要使用条件在78-79 GHz 频段内工作。</p>]]></content:encoded>
+      
+      
+      <category domain="https://hisenz.com/categories/Technology/">Technology</category>
+      
+      
+      <category domain="https://hisenz.com/tags/Radio/">Radio</category>
+      
+      
+      <comments>https://hisenz.com/post/CHN-ham-freq/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>短篇 | 三驾马车（三要素驱动模型）</title>
+      <link>https://hisenz.com/post/Troika/</link>
+      <guid>https://hisenz.com/post/Troika/</guid>
+      <pubDate>Sat, 18 Mar 2023 15:19:52 GMT</pubDate>
+      
+      <description>&lt;meta name=&quot;description&quot; itemprop=&quot;description&quot; content=&quot;海森的博客&quot;/&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;每个人在每个领域里想要获得源源不断的内驱力，都该找到自己的三驾马车。&lt;/p&gt;
+&lt;/blockquote&gt;
+&lt;h2 id=&quot;观察&quot;&gt;&lt;a href=&quot;#观察&quot; class=&quot;headerlink&quot; title=&quot;观察&quot;&gt;&lt;/a&gt;观察&lt;/h2&gt;&lt;p&gt;成就霸权的三驾马车：军事，科技与金融。在这种三要素驱动的模型中，&lt;strong&gt;其中任意一个因素均受益于其他两者的进步&lt;/strong&gt;。&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;三驾马车提供源源不断的强大内驱力&lt;/strong&gt;，且整体不会由于单个因素暂时受阻而停滞不前，因此相比于双要素驱动（例如，教学相长）稳定性更胜一筹。&lt;/p&gt;
+&lt;p&gt;三驾马车的本质是三要素之间相互叠加的杠杆带来的规模效应。&lt;/p&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<meta name="description" itemprop="description" content="海森的博客"/><blockquote><p>每个人在每个领域里想要获得源源不断的内驱力，都该找到自己的三驾马车。</p></blockquote><h2 id="观察"><a href="#观察" class="headerlink" title="观察"></a>观察</h2><p>成就霸权的三驾马车：军事，科技与金融。在这种三要素驱动的模型中，<strong>其中任意一个因素均受益于其他两者的进步</strong>。</p><p><strong>三驾马车提供源源不断的强大内驱力</strong>，且整体不会由于单个因素暂时受阻而停滞不前，因此相比于双要素驱动（例如，教学相长）稳定性更胜一筹。</p><p>三驾马车的本质是三要素之间相互叠加的杠杆带来的规模效应。</p><span id="more"></span><h2 id="推广"><a href="#推广" class="headerlink" title="推广"></a>推广</h2><p>在一个大领域内选取三个最感兴趣的主题，反复强化。</p><p>学业上：软件、无线电、硬件。三个主题可以两两组合或全部结合。当一个主题受阻时候可切换到另两个的研究上，多项目并行。</p><p>商业上：创业、投资、管理。三者之间互相强化，多视角看待问题。</p><h2 id="讨论"><a href="#讨论" class="headerlink" title="讨论"></a>讨论</h2><p>要素之间有可能会相互制约，如消费，投资，出口三者之间此消彼长。在资源有限（总GDP一定）的情况下划分难以避免零和博弈，故选取要素时候应分析是否可以互相强化。</p><p>要素也可能陷入衰退，如科技一般不会倒退，但经济会。一些优势往往建立起来之后不容易消失，因此三驾马车的组成里应存在两个不易衰退的要素进行支撑，避免崩盘。</p><p>更多元化的要素可以形成网络进一步分摊衰退风险，但由于人的精力有限，建议选取前三重点关注。</p>]]></content:encoded>
+      
+      
+      <category domain="https://hisenz.com/categories/Spark/">Spark</category>
+      
+      
+      <category domain="https://hisenz.com/tags/Spark/">Spark</category>
+      
+      <category domain="https://hisenz.com/tags/Investment/">Investment</category>
+      
+      <category domain="https://hisenz.com/tags/Learning/">Learning</category>
+      
+      
+      <comments>https://hisenz.com/post/Troika/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>一人，一椅，一孤灯</title>
+      <link>https://hisenz.com/post/lake-side/</link>
+      <guid>https://hisenz.com/post/lake-side/</guid>
+      <pubDate>Fri, 21 Oct 2022 16:00:00 GMT</pubDate>
+      
+      <description>&lt;p&gt;&lt;img src=&quot;https://i.imgur.com/AgKHXuS.jpg&quot;&gt;&lt;/p&gt;
+&lt;p&gt;日落后水库边，一人，一椅，一孤灯&lt;/p&gt;
+&lt;p&gt;撑开一把露营躺椅，我在水库岸边的碎石滩上独自静享深秋日落后的片刻晚霞。涛声与晚风阵阵，天边粉云淡淡三两抹，加之水面上破碎的对岸秋叶倒影，远处依稀松涛与最后的虫鸣，颇有空寂的意味。那个平日我参与其中的忙碌世间在我停下脚步静静旁观时只围绕着我一人运转。&lt;/p&gt;
+&lt;p&gt;从繁忙中逃脱获得的片刻宁静实在令人满足。此刻时间仿佛停滞，我因而得以暂时超脱于时间之外。我产生了时间并不存在的错觉；而时间确实存在。掉落在身上的枯黄松针一根一根可数地多了起来。恍惚间，星空悄悄取代了晚霞。彩林退去色彩成为剪影，缀以阑珊灯火。原本无形的时间因为世间万物的运动而拥有了具象体现。于是我也点起一盏燃气灯加入其中，成为这风景的一部分。&lt;/p&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<p><img src="https://i.imgur.com/AgKHXuS.jpg"></p><p>日落后水库边，一人，一椅，一孤灯</p><p>撑开一把露营躺椅，我在水库岸边的碎石滩上独自静享深秋日落后的片刻晚霞。涛声与晚风阵阵，天边粉云淡淡三两抹，加之水面上破碎的对岸秋叶倒影，远处依稀松涛与最后的虫鸣，颇有空寂的意味。那个平日我参与其中的忙碌世间在我停下脚步静静旁观时只围绕着我一人运转。</p><p>从繁忙中逃脱获得的片刻宁静实在令人满足。此刻时间仿佛停滞，我因而得以暂时超脱于时间之外。我产生了时间并不存在的错觉；而时间确实存在。掉落在身上的枯黄松针一根一根可数地多了起来。恍惚间，星空悄悄取代了晚霞。彩林退去色彩成为剪影，缀以阑珊灯火。原本无形的时间因为世间万物的运动而拥有了具象体现。于是我也点起一盏燃气灯加入其中，成为这风景的一部分。</p><span id="more"></span><p>一时鱼跃掀起的涟漪向水面四散去，向岸边袭来，也去向很远很远的地方。我听见远处的山风掠过峡谷与树梢，那是从数秒前的过去传来的声音；我还看见了那些自遥远的、数十亿年前古代到来的漫天星光，那些与我此生永不可及、曾经发生在不可想象的遥远地方的事物，在时间的撮合下相遇于此时此地，成就此刻繁华。</p><p>而也正是在相遇的此时此刻，那些星星早已离开了那个位置十亿年之久。它们此刻还存在吗？我觉得自己超脱于时间，无非是因为目光短浅只能看到当下转瞬一刻。然而什么才是当下？是于我而言看到星光的当下，抑或是对星星而言，那缕星光在十亿年前发出的一瞬？在未来，这一缕路过地球的星光继续前进，离开此刻的繁华，向着宇宙更深处一路探索。在我有限一生结束后的数百万年，数十亿年，乃至于无穷无尽的时间之后，这一缕光会到达宇宙的每个角落，即便发出这道光的恒星或许早已衰亡。它已然永存于这个宇宙中。从诞生时刻起它便超脱于时间，这缕光成为了不朽。</p><p>一旦意识到这一点，眼前的时空开始交融。在这前所未有的奇妙体验中，我看到了时间：我看到这眼前水库的过去，现在，和未来。长久以来的地质运动中诞生了今天的水库，而长久之后它又将消失于此地。我看见南飞的大雁们将会在温暖的地方过冬，年年如此。我看见了古代的诗人与哲人在世界各地的水岸边、星空下和我进行着相同的关乎时空的思考；他们也可能是未来的人，我无从得知。碎石滩上熙熙攘攘，来自过去，当下与将来的人们交流着对不朽的思考与追求。此刻于我而言，时间即是空间；空间即是时间。此刻空寂不再，眼前世界之繁华我从所未见：在这一幅气势恢宏的宏大图景前我只感到脊背一阵酥麻。</p><p>那也可能是寒噤。凉意袭来，岸边只剩下孤灯一盏嘶嘶作响。在这寂静天启的最后，我收起躺椅提起灯，在林荫公路沿途寻找我的车。无尽的漆黑公路上，灯的微光只能照亮我身前身后有限范围，而我目所能及的一切，也不过是漫漫长路中的当下一瞬。在广袤的时空之下，我们所能及、甚至所能想象的，唯有当下一瞬一息。而斗转星移，繁华散尽，唯不朽永存。</p><p>10月22日夜。</p>]]></content:encoded>
+      
+      
+      <category domain="https://hisenz.com/categories/Spark/">Spark</category>
+      
+      
+      <category domain="https://hisenz.com/tags/Meditation/">Meditation</category>
+      
+      
+      <comments>https://hisenz.com/post/lake-side/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>研报 | 公开行业报告资源合集</title>
+      <link>https://hisenz.com/post/research-sources/</link>
+      <guid>https://hisenz.com/post/research-sources/</guid>
+      <pubDate>Fri, 06 Nov 2020 08:21:33 GMT</pubDate>
+      
+      <description>&lt;meta name=&quot;description&quot; itemprop=&quot;description&quot; content=&quot;公开行业报告资源合集&quot;/&gt;
+
+&lt;p&gt;使用指南:&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;注意数据报告时效性&lt;/li&gt;
+&lt;li&gt;注意报告质量良莠不齐&lt;/li&gt;
+&lt;li&gt;用于特定目的需结合实际, 切勿臆断&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;数据收集整理自互联网, 来源见文末.&lt;/p&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<meta name="description" itemprop="description" content="公开行业报告资源合集"/><p>使用指南:</p><ol><li>注意数据报告时效性</li><li>注意报告质量良莠不齐</li><li>用于特定目的需结合实际, 切勿臆断</li></ol><p>数据收集整理自互联网, 来源见文末.</p><span id="more"></span><h2 id="搜索引擎"><a href="#搜索引擎" class="headerlink" title="搜索引擎"></a>搜索引擎</h2><ul><li><a href="https://wk.askci.com/">前沿报告库</a></li></ul><h2 id="综合"><a href="#综合" class="headerlink" title="综合"></a>综合</h2><h3 id="中国"><a href="#中国" class="headerlink" title="中国"></a>中国</h3><ul><li><a href="https://mob.com/mobdata/report">Mob研究院</a></li><li><a href="https://www.iresearch.com.cn/report.shtml">艾瑞咨询</a></li><li><a href="http://www.aliresearch.com/cn/presentation">阿里研究院</a></li><li><a href="https://tech.qq.com/biznext/list.html">企鹅智酷(腾讯)</a></li><li><a href="https://data.qq.com/reports">腾讯大数据</a></li><li><a href="https://tbaogao.docin.com/">豆丁报告</a></li><li><a href="https://www.questmobile.com.cn/research/report-new">QuestMobile</a></li><li><a href="https://bg.qianzhan.com/report/free/">前瞻</a></li><li><a href="http://free.chinabaogao.com/">中国报告网</a></li><li><a href="http://www.ibaogao.com/free/">智研咨询</a></li></ul><h3 id="国际"><a href="#国际" class="headerlink" title="国际"></a>国际</h3><ul><li><a href="https://www.mckinsey.com.cn/insights/">McKinsey</a></li><li><a href="https://www.data.gov/">美国政府公开数据</a></li><li><a href="https://www2.deloitte.com/cn/zh/pages/hot-topics/topics/hot-topics.html">Deloitte德勤</a></li><li><a href="https://www.nielsen.com/ssa/en/insights/report/">Nielsen尼尔森</a></li><li><a href="https://www.bcg.com/zh-cn/featured-insights/thought-leadership-ideas">BCG波士顿咨询</a></li><li><a href="https://home.kpmg/cn/zh/home.html">KPMG</a></li><li><a href="https://www.bain.cn/">Bain</a></li><li><a href="https://www.ipsos.com/zh-cn">Ipsos</a></li></ul><h2 id="互联网-移动"><a href="#互联网-移动" class="headerlink" title="互联网/移动"></a>互联网/移动</h2><ul><li><a href="http://www.199it.com/">199IT</a></li><li><a href="http://research.36kr.com/report.html">36氪</a></li><li><a href="https://www.analysys.cn/article/analysis/">易观分析</a></li><li><a href="https://www.jiguang.cn/reports">极光</a></li><li><a href="http://mi.talkingdata.com/reports.html">TalkingData</a></li><li><a href="http://www.itrustdata.cn/#publish">TrustData</a></li><li><a href="https://www.itjuzi.com/report">IT桔子</a></li><li><a href="https://www.caasdata.com/index/report/index.html">卡思数据</a></li><li><a href="https://toobigdata.com/">KOL合集</a></li></ul><h2 id="宏观"><a href="#宏观" class="headerlink" title="宏观"></a>宏观</h2><ul><li><a href="http://www.gov.cn/shuju/chaxun/index.htm">国家宏观经济运行情况</a></li><li><a href="http://www.stats.gov.cn/tjsj/zxfb/">国家统计局</a></li><li><a href="http://www.cnnic.net.cn/hlwfzyj/">中国互联网络信息中心</a></li><li><a href="http://www.bailuzhiku.com/">白鹿智库(政策大数据)</a></li></ul><h2 id="参考来源"><a href="#参考来源" class="headerlink" title="参考来源"></a>参考来源</h2><p><a href="https://blog.csdn.net/yuanziok/article/details/107931594">https://blog.csdn.net/yuanziok/article/details/107931594</a><br><a href="https://www.zhihu.com/question/22149167/answer/720822341">https://www.zhihu.com/question/22149167/answer/720822341</a><br><a href="https://www.zhihu.com/question/22149167/answer/1311218755">https://www.zhihu.com/question/22149167/answer/1311218755</a><br><a href="https://www.douban.com/note/613900167/">https://www.douban.com/note/613900167/</a></p>]]></content:encoded>
+      
+      
+      <category domain="https://hisenz.com/categories/Spark/">Spark</category>
+      
+      
+      <category domain="https://hisenz.com/tags/Resources/">Resources</category>
+      
+      <category domain="https://hisenz.com/tags/Research/">Research</category>
+      
+      <category domain="https://hisenz.com/tags/Report/">Report</category>
+      
+      <category domain="https://hisenz.com/tags/Industry/">Industry</category>
+      
+      <category domain="https://hisenz.com/tags/Market/">Market</category>
+      
+      
+      <comments>https://hisenz.com/post/research-sources/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>指南 | 快速上手一门编程语言</title>
+      <link>https://hisenz.com/post/new-language-jump-start/</link>
+      <guid>https://hisenz.com/post/new-language-jump-start/</guid>
+      <pubDate>Sun, 05 Jul 2020 15:26:17 GMT</pubDate>
+      
+      <description>&lt;meta name=&quot;description&quot; itemprop=&quot;description&quot; content=&quot;快速上手一门编程语言&quot;/&gt;
+
+&lt;p&gt;近来很多同学提问求助: 海森你学过XX语言吗? 其实在有限的时间经历下, 我不可能精通每一门编程语言. 但是通过本文介绍的方法, 你可以在一小时内快速上手一门语言.&lt;/p&gt;
+&lt;p&gt;本文前半篇介绍一些相关概念, 后半篇附上方法论.&lt;/p&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<meta name="description" itemprop="description" content="快速上手一门编程语言"/><p>近来很多同学提问求助: 海森你学过XX语言吗? 其实在有限的时间经历下, 我不可能精通每一门编程语言. 但是通过本文介绍的方法, 你可以在一小时内快速上手一门语言.</p><p>本文前半篇介绍一些相关概念, 后半篇附上方法论.</p><span id="more"></span><h2 id="相关概念"><a href="#相关概念" class="headerlink" title="相关概念"></a>相关概念</h2><p>在阐述方法论之前需要明确一些定义.</p><h3 id="使用-vs-精通"><a href="#使用-vs-精通" class="headerlink" title="使用 vs. 精通"></a>使用 vs. 精通</h3><p>使用一门语言意味着你可以利用该语言解决问题. 精通一门语言意味着你了解语言运作的原理, 底层实现细节, 以及语言生态(库).</p><p>通常语境下, 学会一门语言指的是前者. 精通一门语言所需要的时间精力远大于学会如何使用它. 所幸的是, 大多数情况下我们只需要掌握使用即可. 一个直观(但不准确)的对比: 如果精通一门语言需要投入一万小时, 学会使用只需要二十小时左右. 本文介绍的就是快速入门的技能.</p><h3 id="算法-vs-实现"><a href="#算法-vs-实现" class="headerlink" title="算法 vs. 实现"></a>算法 vs. 实现</h3><p>计算机解决问题的核心是算法与数据结构的总和. 但是同样的一个算法(功能)<code>function</code>可以有很多种实现<code>implementation</code>. 这里举一个例子:</p><p>问题:取出床头柜里的一件指定物品. 几种可能的解法如下:</p><ol><li>逐个打开抽屉, 遍历每一件物品. 如果当前物品是被指定的, 结束搜索.</li><li>在放入物品时候记录到索引里. 取出时直接查表并更新索引.</li><li>随机打开一个抽屉, 随机抽取一个物品. 重复该过程直到这个物品是指定的.</li><li>拆毁床头柜, 在散落一地的物品里找到指定的那一件, 然后把柜子组装回去.</li></ol><p>虽然其中一些解法匪夷所思, 但是它们都可以解决问题. 在这个例子里, 方案2在效率上有显著的优势. 在实际问题里, 不同实现很多各有优缺点, 需要结合实际权衡. 比如说归并排序<code>merge sort</code>, <code>in-place</code>实现需不要开辟额外的内存空间, 但内存交换次数会增加. 因此在大容量低速存储器上, 标准实现更占优势; 反之则原地实现更有利.</p><p>计算机程序的抽象允许我们只关心算法功能, 而不必纠结内部的实现. 这也是许多语言标准库存在的意义.</p><h2 id="方法论"><a href="#方法论" class="headerlink" title="方法论"></a>方法论</h2><p>这一节我们讨论如何快速上手一门编程语言. 这个方法适用于大多数的现代语言.</p><h3 id="概览"><a href="#概览" class="headerlink" title="概览"></a>概览</h3><p>学习一门新语言之前你需要回答以下问题:</p><ol><li>这门语言有什么特性?</li><li>这个特性如何解决目前遇到的问题?</li></ol><p>这会告诉你值不值得学习这门语言.</p><p>其次就是掌握结构化程序的常见语法在这门语言里的表示方法, 要点详细写在Checklist里.</p><p>注意并非所有语言都在语法层面支持下面提到的这些要点. 毕竟如果所有编程语言都一样, 那也就没有那么多名目存在的必要. 但是, 这些缺失的支持往往可以使用库/复杂的实现来完成, 例如C语言并没有类的概念, 但是也可以用struct来达成目的.</p><p>也有很多时候, 语言提供了语法糖(Syntax Sugar)来简化某些操作; 或者提供了不在下面列表内的新特性. 这些往往是这门语言的精髓, 但是如果只是想快速学习一门语言以快速投入生产, 把这些高级功能暂时忘了吧, 除非非用不可. 请在二十小时之外再拿些时间来学习它们.</p><p>此外还有一条建议. 和写作一样, 多读多写也是快速提升代码能力的一种<strong>非常有效</strong>的方式. 不妨在网络上找一个简短但演示了大多数常用语法的例程, 对照着原本已经熟悉的语言来学习.</p><h3 id="Checklist"><a href="#Checklist" class="headerlink" title="Checklist"></a>Checklist</h3><ol><li><p>基本数据类型</p><ul><li>声明</li><li>类型<ul><li><code>int</code></li><li><code>float</code></li><li><code>str</code></li></ul></li><li>变量赋值</li></ul></li><li><p>基本语句</p><ul><li>输入输出<ul><li>print</li><li>scan</li><li>文件操作<ul><li>open</li><li>close</li><li>read</li><li>write</li></ul></li></ul></li><li>条件跳转<ul><li><code>if/else</code></li><li><code>switch</code></li></ul></li><li>循环<ul><li><code>while</code></li><li><code>for</code></li><li><code>break/continue</code></li></ul></li></ul></li><li><p>复合数据类型</p><ul><li><p>OOP面向对象编程</p><ul><li>类定义</li><li>类实现</li><li>权限控制</li></ul></li><li><p>增删查改常见数据结构</p><ul><li>数组/列表/链表</li><li>字典/映射</li><li>集合</li></ul></li></ul></li><li><p>常用库</p><ul><li>网络</li><li>并发</li><li>图形</li></ul></li></ol>]]></content:encoded>
+      
+      
+      <category domain="https://hisenz.com/categories/Technology/">Technology</category>
+      
+      
+      <category domain="https://hisenz.com/tags/Tutorial/">Tutorial</category>
+      
+      <category domain="https://hisenz.com/tags/ProgrammingLanguage/">ProgrammingLanguage</category>
+      
+      
+      <comments>https://hisenz.com/post/new-language-jump-start/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>随想 | 疫情下的北美留学生活</title>
+      <link>https://hisenz.com/post/left-for-dead/</link>
+      <guid>https://hisenz.com/post/left-for-dead/</guid>
+      <pubDate>Thu, 26 Mar 2020 09:23:43 GMT</pubDate>
+      
+      <description>&lt;meta name=&quot;description&quot; itemprop=&quot;description&quot; content=&quot;海森的博客&quot;/&gt;
+
+&lt;p&gt;自病毒在纽约州爆发以来之变故实在是所有人未曾预料到的. 这篇北美租房记写于入住后一周 - 它未必具有普适性, 但至少可以带给紧急租房或者日后打算搬出学校的同学些许安慰和流程概览. 本文以日记形式呈现, 主要涵盖以下三方面: &lt;/p&gt;
+&lt;ul&gt;
+&lt;li&gt;租房流程&lt;/li&gt;
+&lt;li&gt;家具购置&lt;/li&gt;
+&lt;li&gt;饮食料理&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;&lt;strong&gt;欢迎在文末评论区留言提问, 我会定期解答并更新本文.&lt;/strong&gt;&lt;a href=&quot;#%E4%BF%AE%E8%AE%A2%E8%AE%B0%E5%BD%95&quot;&gt;修订记录&lt;/a&gt;附于文末.&lt;/p&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<meta name="description" itemprop="description" content="海森的博客"/><p>自病毒在纽约州爆发以来之变故实在是所有人未曾预料到的. 这篇北美租房记写于入住后一周 - 它未必具有普适性, 但至少可以带给紧急租房或者日后打算搬出学校的同学些许安慰和流程概览. 本文以日记形式呈现, 主要涵盖以下三方面: </p><ul><li>租房流程</li><li>家具购置</li><li>饮食料理</li></ul><p><strong>欢迎在文末评论区留言提问, 我会定期解答并更新本文.</strong><a href="#%E4%BF%AE%E8%AE%A2%E8%AE%B0%E5%BD%95">修订记录</a>附于文末.</p><span id="more"></span><h2 id="Day-0"><a href="#Day-0" class="headerlink" title="Day 0"></a>Day 0</h2><p>三月十一日下午四时, 一好友向我抱怨她们学校宿舍即将关闭, 即便是国际学生也要在短短数天内搬离. 这确实运气不佳, 当时我这么想. </p><p>两小时后, 同样的结局降临到我身上. </p><h2 id="Day-1"><a href="#Day-1" class="headerlink" title="Day 1"></a>Day 1</h2><p>早上八点醒来, 临时拼凑起的一支看房小队马不停蹄往返于各个公寓楼之间. 正如预计, 原本处于市场淡季的公寓一夜之间供不应求. 公寓管理员带我们去看房, 表示昨晚他电话不停, 然而学生宿舍原本的截止日期取决于学期起始, 手里无空房的他无能为力. </p><p>一上午又看了几所房子. 美国多小城, 如果没有车的话交通是个大问题. 其中一户哈得逊河畔的公寓引起我的兴趣, 说是公寓, 其实更像House, 沿河风景优美, 可惜家具需要另外购买, 钱和运输力必须到位. 但如若选择那些和学校有联系<code>Affiliation</code>的学生公寓, 基本上就可以领包入住. </p><p><img src="https://s1.ax1x.com/2020/03/27/G9LCRK.md.jpg" alt="河景"></p><blockquote><p>河景</p></blockquote><p>但是到了中午情况突变. 其中最大的一处学生公寓咨询十分繁忙, 以至于拒绝了我们实地看房请求. 这一情况最终使得我和我日后的室友决定签下河畔寓所. 打了个电话给管理处, 助理代接电话称管理员正在带客户看房, 稍等片刻. 飞速赶到办公室, 拦下带着一群学生刚刚归来的管理员, “是的我们就选择这里了”. 她对身后的学生表示歉意: 先到先得. </p><p>随后就是漫长的材料准备过程. 具体所需材料取决于公司, 大概学校所属的公寓会简单很多吧. 有社安号SSN也会大大降低申请复杂度, 否则需要填写许多信息表和证件来证明你的身份. 需要的材料主要有:  <strong>重申, 我的个人经历未必具有普适性！</strong></p><ul><li>学生ID</li><li>护照</li><li>签字过的借记卡/信用卡</li><li>银行证明<ul><li>BoA可以在APP上查看</li><li>最好证明有多次的入账(流水)</li><li>月结余足够支付当月房租</li></ul></li></ul><p>真是漫长的一天. 下午茶吃过刺身, 回到学校的我精疲力竭, 而上午紧绷的弦即便是交了申请押金也始终无法放松下来, 以至于虽然疲乏却无法入睡: 两周前重温<code>屋顶上的小提琴手</code>, 怎么也没想到结局竟可以被搬到现实中来. </p><p><img src="https://s1.ax1x.com/2020/03/27/G9LPxO.md.jpg" alt="土豆泥佐盐煎鸡翅及芦笋口菇"></p><blockquote><p>土豆泥佐盐煎鸡翅及芦笋口菇</p></blockquote><h2 id="Day-2"><a href="#Day-2" class="headerlink" title="Day 2"></a>Day 2</h2><p>签署协议, 拿到钥匙. </p><p>我们租下的房有独立厨房, 包水电网, 网速有限当然可以加钱升级, 取暖的燃气也需要另外开户并付费. 往往在住房合同之外, 还需要购置保险, 但价格取决于保值. 零零散散加起来<strong>三人均分约750每月</strong>;  即使条件比学校宿舍好上这么多, 房价反而要节省许多. 看来学校才是真正的市中心. </p><p>签协议本身花了小半天的时间. 时间所迫,仔细阅读44页协议是不可能的, 基本上这也就是一本详细的住户手册, 闲时翻阅也是个不是错的选择. 至此算是settled down. 接下来就是购买一些必要的 (和不必要的)家具. 学校二手群往往可以淘到物美价廉的物品. 常说急匆匆难做好事, 但是这一次学长学姐也是急匆匆的搬离, 因而物价低到离谱, 像极了近日的美股. (skr~)</p><p>再有就是打包和搬运. 又是车的问题！ 在美国生活没有车真的是非常麻烦. 如果运气好的话或许Uber可以叫到一辆SUV, 和车主商量好往返几次一并现金结算. 后面提及的懒人沙发就是这样运到新寓所的. </p><p><img src="https://s1.ax1x.com/2020/03/27/G9L9G6.md.jpg" alt="盐煎鸡翅特写"></p><blockquote><p>盐煎鸡翅特写</p></blockquote><p>又是没空吃饭的一天, 决定下午去炸鸡店简单庆祝租房手续完成. 临街座位的我静静看着夕阳下的小镇, 行人三三两两. 暖暖的阳光投射在街对面的一家私人影院门前的人行道上. 本想着天色尚早, 去边上唱片店看一看; 其时已过六点打烊, 小镇的“夏天”已然来临. 显然没有人意识到接下来将要发生的转变, 包括我 - 我从未想过这会是我最后一段关于小镇的记忆. </p><p><img src="https://s1.ax1x.com/2020/03/27/G9LFMD.md.jpg" alt="夕阳"></p><blockquote><p>夕阳</p></blockquote><h2 id="Day-3"><a href="#Day-3" class="headerlink" title="Day 3"></a>Day 3</h2><p>现在回过头来看采购家具的时候其实还是有一些值得注意的细节. 基本的规律是不易搬离的大件物品, 如床垫, 沙发,价格往往非常低, 卖家也不愿意花大力气去运送而要求买家自提 (Again, 要车), 结果就是我室友收来的<code>Queen Size</code>床垫只要10刀, 懒人沙发免费白嫖. </p><p>不过我自己对二手床垫不放心, 也是为了兼容学校宿舍的床型和已有的床罩, 另外购买了一张<code>Twin Size</code>的记忆泡沫<code>Memory foam</code>床垫, 7 inches厚100刀左右. 考虑到<code>Twin Size</code>床架可能难以转二手且搬运不方便, 就把床垫直接放在地上, 并无大碍. 充气床垫由于我个人有过不太愉快的经历 (漏气, 早上醒来发现自己躺在地上)不加以考虑, 另外事实证明室友的充气床垫体感不及记忆泡沫, 但好处就是不需要购买额外的床架. </p><p>此后的周末就是不停购入大件, 二手或网购. 彼时亚马逊发货速度已经有缓慢的迹象, 由此推断运力过载; 然而大规模的延迟和丢件还是发生在这一周之后. </p><p><img src="https://s1.ax1x.com/2020/03/27/G9LuJP.md.jpg" alt="无题"></p><blockquote><p>无题</p></blockquote><p>关于家具的风格选择, 仁者见仁智者见智. 寓所有着淡黄的墙, 白色的门/插座/百叶窗以及浅浅的咖啡色地毯, 总体风格明亮优雅. 因此在选配家具的时候以白色做基调 (写字桌), 一些原木色调和 (书架), 以及少量的银白色金属元素 (落地灯). 这个方案还带来一些意想不到的好处: 由于房间没有顶灯, 我选用可以调整照射方向的落地灯作为替代; 而大片的白色桌面形成了理想的漫反射源, 使整个房间布满柔和的暖光. </p><h2 id="Day-7"><a href="#Day-7" class="headerlink" title="Day 7"></a>Day 7</h2><p>学校接收并审核留校申请花了将近一周的时间. 巨大的不确定性面前我下定决心搬出学校. 许多的同学回国了, 朋友圈也天天看到机票被取消的消息, 甚至有人自嘲手里的废票够凑齐一副牌玩. 我做出留在美国并搬出宿舍的决策过程如下:</p><ol><li>机票价格贵的离谱</li><li>机票有取消的风险<ul><li>概率较大</li></ul></li><li>返程中有大量暴露给病毒的机会</li><li>学生签有失效的风险 <ul><li>后国际生办公室声明特殊情况特殊处理</li></ul></li><li>暑期研究安排不希望变动</li><li>宿舍不一定准许留下</li><li>宿舍重分配计划尚未出台</li><li>宿舍仍有感染风险<ul><li>概率中等</li></ul></li></ol><p>我选定的迁入日期是床垫寄达当日. 结果床垫提前一天送达, 我的搬家计划也就提前一天实施. 载着最后一批行李的车向山下驶去, 向哈德逊河边驶去, 驶向视野极为开阔的小镇西边, 驶向西边天空壮丽的血色暮光中. 我总觉得这似曾相识的一幕在<code>Gone with the Wind</code>里出现过. </p><p>接下来的六个月都要在这里生活了. 晚上调试音响系统和投影仪. 客厅有一整面的空白, 用做投影幕墙再适合不过. 之前受制于宿舍空间我一直没下决心的音响系统现在也购置到位. 两者组合就是绝佳的家庭影院.(其实应该把懒人沙发算进, 那么就是客厅三件套) 此外学长归国而寄存的唱机也可以连接到功放系统, 由此实现在客厅里<a href="/post/about-vinyls/">听唱片</a>的梦想.</p><p><img src="https://s1.ax1x.com/2020/03/27/G9LZdA.md.jpg" alt="家庭影院"></p><blockquote><p>家庭影院</p></blockquote><p>时隔一周后, 我终于躺在了新寓所的床上. 同一天, 周边地区感染人数上升到两位数, 封锁的纽约州氛围开始紧张起来. 在搬家期间暴露风险更大, 因此我们准备了<strong>足够的免洗洗手液和消毒酒精</strong>, 就放在寓所的入口处随手取用. 后期由于并不怎么再出门, 口罩就一直没有消耗, 但要记得检查余量.</p><h2 id="Day-11"><a href="#Day-11" class="headerlink" title="Day 11"></a>Day 11</h2><p><img src="https://s1.ax1x.com/2020/03/27/G9LVZd.md.jpg" alt="早晨"></p><blockquote><p>早晨</p></blockquote><p>早上起来看着窗外的河景做早餐, 有古典音乐相伴的早晨总是这么美好.</p><p><img src="https://s1.ax1x.com/2020/03/27/G9qzI1.md.jpg" alt="蒜香黄油面包佐黑胶培根及芦笋"></p><blockquote><p>蒜香黄油面包佐黑胶培根及芦笋</p></blockquote><p>先前住在寝室里的时候因为不愿专门购置养护厨具, 并且我住的Hall厨房资源有限, 采购机会也不多, 于是大半年没有做过饭. 春假基本上就是老干妈拌面撑过来的. 搬入新宅之后做饭次数多了, 仿佛回到高三<a href="/post/Sous-Vide/">申请季做饭</a>减压的时候. 但是那时做饭, 我承认玩的成分更大. 每顿饭试验性的做一道菜品. 但是现在需要完成一顿完整的料理, 包括主食与配餐, 制作时间往往每天都要占用两小时. </p><p><img src="https://s1.ax1x.com/2020/03/27/G9LeII.md.jpg" alt="照烧鸡翅佐盐煎三文鱼配米饭"></p><blockquote><p>照烧鸡翅佐盐煎三文鱼配米饭</p></blockquote><p>应对策略是一次性预先制备好接下来几天的原材料, 如熟虾, 腌鸡翅, 蛋液, 葱花等等, 实际上节约下来的时间十分可观. 便捷主食如面条吐司速冻水饺和土豆泥也可以大量囤货. 新鲜蔬菜属于稀缺品 - 美国人本来就消费较少, 保鲜不易, 外加现在供应不足且采购频率低. 或许可以药剂补充额外的维生素 (和矿物). </p><p><img src="https://s1.ax1x.com/2020/03/27/G9LKRf.md.jpg" alt="抱蛋煎饺"></p><blockquote><p>抱蛋猪肉白菜煎饺</p></blockquote><p>物资的供应虽然充足但是并不方便. 网购生鲜配送是一个选择, 主要分为两种服务:  配餐或是代购. 配餐如HelloFresh适合新手, APP上有现成菜谱且食材都是按分量准备好的. 但是据反馈并不怎么好吃, 分量也不大. 代购我们使用了InstaCart, 可从内置的几个超市采购; 但是也有因为售罄而实际上买不到的食物. <strong><a href="#%E7%BD%91%E8%B4%AD%E7%BD%91%E7%AB%99%E5%88%97%E8%A1%A8">文末</a>附有一份不完全且未经本人验证的网购网站列表</strong>, 收集自互联网, 仅供参考.</p><p><img src="https://s1.ax1x.com/2020/03/27/G9qxaR.md.jpg" alt="三文鱼蛋炒饭"></p><blockquote><p>三文鱼蛋炒饭</p></blockquote><h2 id="写在最后"><a href="#写在最后" class="headerlink" title="写在最后"></a>写在最后</h2><p>现在是三月下旬, 平时气温徘徊在十度附近, 可是前两天居然还下了雪. 瘟疫爆发算是一件意料之外的事, <strong>但是仔细一想这样或大或小的黑天鹅事件其实每天都在发生, 只是大多数都被忽略掉</strong>. 这样一来好像就算有一天末日审判真的发生, 也没什么好奇怪的.</p><p><img src="https://s1.ax1x.com/2020/03/27/G9Lkse.md.jpg" alt="雪后"></p><blockquote><p>雪后</p></blockquote><p>这篇文章按照设想本该是一篇<code>Well Compiled</code>的北美抗疫指南; 但是实际写作的时候由于事务繁忙, 实际上只能断断续续进行, 每天新写一小段, 也修正之前的文本, 结果两周下来写成了抗疫实录. 不过好在其中还是夹杂着一些有用的指南信息, 故最后略作编排整理成文.</p><p><strong>考虑到事态变动可能性仍然较大, 本文将会持续修正更新. 欢迎在文末评论区留言提问, 我会定期解答并更新本文.</strong> 此外若需求强烈, 我也会在博客美食版块后续发布一些教程.</p><p>三月二十六日夜, 哈德逊河</p><p>海森</p><blockquote><p>原标题: 求生之路<br>配图均由作者构思并拍摄</p></blockquote><h2 id="附录"><a href="#附录" class="headerlink" title="附录"></a>附录</h2><h3 id="网购网站列表"><a href="#网购网站列表" class="headerlink" title="网购网站列表"></a>网购网站列表</h3><ol><li><p>grocery delivery service that works with multiple stores</p><p> <a href="https://www.instacart.com/">https://www.instacart.com/</a></p></li><li><p>online Grocery shopping with delivery Giant</p><p> <a href="https://giantfood.com/shop-online/peapod/">https://giantfood.com/shop-online/peapod/</a></p></li><li><p>Safeway</p><p> <a href="https://www.safeway.com/">https://www.safeway.com/</a><br> or call Grocery Delivery - 877-505-4040</p></li><li><p>Costco</p><p> two day delivery:<br> <a href="https://www.costco.com/grocery-household.html">https://www.costco.com/grocery-household.html</a></p><p> same day delivery:<br> <a href="https://sameday.costco.com/?zipcode=20850">https://sameday.costco.com/?zipcode=20850</a></p></li><li><p>Amazon fresh:</p><p> <a href="https://www.amazon.com/alm/storefront?almBrandId=QW1hem9uIEZyZXNo">https://www.amazon.com/alm/storefront?almBrandId=QW1hem9uIEZyZXNo</a></p></li><li><p>whole food:</p><p> <a href="https://www.wholefoodsmarket.com/amazon/grocery-delivery-and-pickup">https://www.wholefoodsmarket.com/amazon/grocery-delivery-and-pickup</a></p></li><li><p>ranch 99 (delivery of dried goods and instore pickup for fresh goods)</p><p> <a href="https://www.99ranch.com/shop">https://www.99ranch.com/shop</a></p></li></ol><h3 id="修订记录"><a href="#修订记录" class="headerlink" title="修订记录"></a>修订记录</h3><ol><li>3/26 22:00        <ul><li>新增<ul><li>消毒用品</li><li>网购网站列表</li><li>留守并离校的决策</li><li>周边人感受</li></ul></li></ul></li></ol>]]></content:encoded>
+      
+      
+      <category domain="https://hisenz.com/categories/Spark/">Spark</category>
+      
+      
+      <category domain="https://hisenz.com/tags/Resources/">Resources</category>
+      
+      <category domain="https://hisenz.com/tags/Recommendation/">Recommendation</category>
+      
+      <category domain="https://hisenz.com/tags/RPI/">RPI</category>
+      
+      <category domain="https://hisenz.com/tags/Coronavirus/">Coronavirus</category>
+      
+      <category domain="https://hisenz.com/tags/Living/">Living</category>
+      
+      
+      <comments>https://hisenz.com/post/left-for-dead/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>硬件 | 百元选购第一块Arduino开发套件</title>
+      <link>https://hisenz.com/post/intro-2-arduino/</link>
+      <guid>https://hisenz.com/post/intro-2-arduino/</guid>
+      <pubDate>Sun, 09 Feb 2020 06:43:35 GMT</pubDate>
+      
+      <description>&lt;meta name=&quot;description&quot; itemprop=&quot;description&quot; content=&quot;海森的博客&quot;/&gt;
+
+&lt;p&gt;我第一次接触Arduino还是在五年前. 虽然那个时候的生态还未完善, Arduino仍然让我一个初中生很快的上手硬件开发. 直到现在我也常常顺手抄起一块Arduino花一个小时快速搭建原型. 这也正是Arduino对于工程师的意义所在 - 不仅仅是初学者的玩具, 也是快速验证概念的工具.&lt;/p&gt;
+&lt;p&gt;这一篇文章不讨论开发上的细节, 仅供有意入门嵌入式开发的同学选购第一块板时做参考. 在文末我会给出我个人比较推荐的组合. 你可以用100元配齐所需要的硬件!&lt;/p&gt;
+&lt;p&gt;本文在推荐时候主要的参考指标为实用性 &amp;gt; 上手复杂度 &amp;gt; 单价 &amp;gt; 板载资源. &lt;/p&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<meta name="description" itemprop="description" content="海森的博客"/><p>我第一次接触Arduino还是在五年前. 虽然那个时候的生态还未完善, Arduino仍然让我一个初中生很快的上手硬件开发. 直到现在我也常常顺手抄起一块Arduino花一个小时快速搭建原型. 这也正是Arduino对于工程师的意义所在 - 不仅仅是初学者的玩具, 也是快速验证概念的工具.</p><p>这一篇文章不讨论开发上的细节, 仅供有意入门嵌入式开发的同学选购第一块板时做参考. 在文末我会给出我个人比较推荐的组合. 你可以用100元配齐所需要的硬件!</p><p>本文在推荐时候主要的参考指标为实用性 &gt; 上手复杂度 &gt; 单价 &gt; 板载资源. </p><span id="more"></span><h2 id="大礼包-vs-单买"><a href="#大礼包-vs-单买" class="headerlink" title="大礼包 vs 单买"></a>大礼包 vs 单买</h2><p>不要买大礼包. 看着传感器齐全, 其实很多东西根本用不到. <strong>按照自己的需要来购买</strong>!</p><h2 id="官方板-vs-兼容板"><a href="#官方板-vs-兼容板" class="headerlink" title="官方板 vs. 兼容板"></a>官方板 vs. 兼容板</h2><p>Arduino是个开源的项目, 电路图可以在网上找来按照自己需求修改. 除了官方自己制造实体的硬件, 也有不少第三方基于原版电路做了改进(或是偷工减料). Digispark, Adafruit等公司属于这一类. 当然在国内, 万能的某宝上也有这样的兼容板. 比起官方板来, 兼容板有以下优点:</p><ol><li><p>价格极低</p><p> 比起官方上百的价格, 兼容版的UNO只需要14RMB(文中出现价格仅供参考,下同). 我认为各个型号的价格合理区间在:</p><ul><li>Nano 8-12</li><li>Micro 12-16</li><li>Uno 14-16</li><li>Mega 35-45</li></ul></li><li><p>有拓展功能</p><p> 例如ESP8266, 它在基本兼容Arduino的前提下包含了WiFi的功能, 无需购买外置的Wifi模块, 减少成本和体积.</p></li></ol><p>缺点也明显:</p><ol><li><p>兼容性</p><p> 同样使用AVR单片机, 虽然大多数方面兼容板和官方一致, 但是引脚的定义等细节上可能会有出入, 和网上的教程会不一致.</p></li><li><p>质量无保障</p><p> 大厂出的兼容板有一定的售后保障, 但是某宝上买的… 算了不要想了…</p></li></ol><p>我的建议是购买和完全兼容的板(没有附加功能). 这样的板很容易在上面提到的价格范围里找到; 通常使用蓝色PCB(区别于官方的Arduino绿).为什么这么说呢? 第一,  很多附加功能需要对硬件有一定了解之后才会使用, 等到熟悉之后在按需购买也不晚. 第二, 完全兼容的板适用于网上丰富的教材, 坑少. 第三, 相对于官方板, 这是一个低成本的学习方案.</p><p>对于进阶玩家, 以后我会再出一期兼容板的选购指南.</p><h2 id="板型选择"><a href="#板型选择" class="headerlink" title="板型选择"></a>板型选择</h2><p>这一部分我们用排除法来找到适合初学者的板. 注意<strong>按需选择</strong>才是最好的方案. 我的推荐在预算尽可能低的情况下找出适用于最多场合的一款. 文末有一张转载的图片对各个板之间参数做对比.</p><h3 id="Mega"><a href="#Mega" class="headerlink" title="Mega"></a>Mega</h3><p>Mega拥有大量的资源(仔细看芯片, 引脚数量远大于Uno的芯片). 但是对于初学者来说, 这么大量的IO口和存储是没有必要的. 甚至在我目前做的项目里Nano的资源也是足够的. 因为复杂项目也不会采用Arduino. 所以等你真正需要这么大量的资源再购买吧! 一块Mega的价钱可以买三块Nano呢! 此外体积也是最大的.</p><h3 id="Uno"><a href="#Uno" class="headerlink" title="Uno"></a>Uno</h3><p>Uno是我自己入门的第一块板. 这块板相对于其他的型号中庸, 但是和下面的几款相比在体积上劣势明显; 但是更小体积的板不再具有9v电池输入接口.</p><h3 id="Nano"><a href="#Nano" class="headerlink" title="Nano"></a>Nano</h3><p>Nano和Micro十分类似, 在IO口资源略输Micro. Nano使用古老的USBmini接口, 现在很难找到合适的线了.</p><h3 id="Micro"><a href="#Micro" class="headerlink" title="Micro"></a>Micro</h3><p>Micro的体积和价格都是无可争议的小, 同时IO口等资源齐全. 它的主控内集成了USB控制器, 可以做模拟鼠键(以及Bad USB), 可玩性高. 如果只是想玩一玩嵌入式控制而不深入, Micro是非常不错的选择. 和Leonardo采用相同的配置. 使用MicroUSB接口.</p><h3 id="Mini"><a href="#Mini" class="headerlink" title="Mini"></a>Mini</h3><p>不可以使用USB口下载, 对于初学者(没有下载器)非常不方便. 除非对体积要求非常严格, 不建议使用Mini.</p><h3 id="Lillypad"><a href="#Lillypad" class="headerlink" title="Lillypad"></a>Lillypad</h3><p>用于穿戴式设备, 圆形板. 支持宽电压, 但是IO口资源非常有限. 仅作特殊用途.</p><h2 id="传感器和其他外设选配"><a href="#传感器和其他外设选配" class="headerlink" title="传感器和其他外设选配"></a>传感器和其他外设选配</h2><p>看着丰富的传感器/配件大礼包, 我的建议是不要购买. <strong>按照你需要的来选购</strong>. 但是我文末清单里的一些模块可以考虑采购 - 它们大概率会被用到. </p><p>不要一开始就购买很复杂的外设. 我最早买的一对摄像头放了三年都没有用到(对初学者也不是很友好!)</p><p>最后关于LED灯, 其实可以好好利用板载的LED (引脚号LED_BUILTIN) 而不必购买额外. 不然还需要购买电阻…比较麻烦.</p><h2 id="推荐的购买组合"><a href="#推荐的购买组合" class="headerlink" title="推荐的购买组合"></a>推荐的购买组合</h2><h3 id="必备清单"><a href="#必备清单" class="headerlink" title="必备清单"></a>必备清单</h3><p>这个清单包括了最基础的套件 - 掌握了这些以后再考虑选备内容! 截稿时这些材料的总价约为100元.</p><ul><li>Micro x 2 - 两块之间可以交互</li><li>面包板(大) x 1</li><li>跳线(各种长度) 若干</li><li>排线(公对母) 若干</li><li>排线(母对母) 少量</li><li>DHT11温湿度传感器 x 1 - 学习数字输入</li><li>HC06蓝牙主从一体 x 2 - 学习无线串口</li><li>XY 摇杆 - 学习模拟输入</li></ul><h3 id="选备清单"><a href="#选备清单" class="headerlink" title="选备清单"></a>选备清单</h3><p>这些材料可以让你进一步学习Arduino嵌入式开发.</p><ul><li>面包板电源板</li><li>12864 OLED屏幕</li><li>ESP12 WIFI</li><li>MCU6050陀螺仪</li><li>RFID以及白卡</li><li>SD读卡器</li><li>9克舵机</li></ul><h2 id="参考"><a href="#参考" class="headerlink" title="参考"></a>参考</h2><ul><li>转载的参数比对表  <img src="https://www.arduino.cn/data/attachment/forum/201702/22/211543xjgg8attjataqkgk.jpg"></li></ul>]]></content:encoded>
+      
+      
+      <category domain="https://hisenz.com/categories/Technology/">Technology</category>
+      
+      
+      <category domain="https://hisenz.com/tags/Arduino/">Arduino</category>
+      
+      <category domain="https://hisenz.com/tags/MCU/">MCU</category>
+      
+      
+      <comments>https://hisenz.com/post/intro-2-arduino/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>FCC业余无线电考证指南</title>
+      <link>https://hisenz.com/post/fcc-ham-licensing/</link>
+      <guid>https://hisenz.com/post/fcc-ham-licensing/</guid>
+      <pubDate>Wed, 18 Dec 2019 10:54:44 GMT</pubDate>
+      
+      <description>&lt;meta name=&quot;description&quot; itemprop=&quot;description&quot; content=&quot;FCC业余无线电考证指南&quot;/&gt;
+
+
+&lt;p&gt;到美国的第一学期, 繁忙学习之余考取了FCC业余无线电General执照, 也算是达成了一个小目标. 这一篇博客大致介绍了其概况, 考试流程以及一些建议.文中提到的在线资源在文末链接汇总.&lt;/p&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<meta name="description" itemprop="description" content="FCC业余无线电考证指南"/><p>到美国的第一学期, 繁忙学习之余考取了FCC业余无线电General执照, 也算是达成了一个小目标. 这一篇博客大致介绍了其概况, 考试流程以及一些建议.文中提到的在线资源在文末链接汇总.</p><span id="more"></span><h2 id="执照级别与权限"><a href="#执照级别与权限" class="headerlink" title="执照级别与权限"></a>执照级别与权限</h2><p>美国FCC业余无线电执照的等级划分为T,G,E三级, 大致的分别对应国内的A,B,C三级</p><p>不同于国内对于频段和发射功率的限制, FCC三个级别的主要差异在于频段的范围. 作为入门的<code>Technician</code>级别, 可以使用2米和70厘米段的所有资源和一小部分30米段(美国band划分不像国内直接说UHF和VHF,因为在UV段里并不止一个业余段可用, 以此区分), 而国内则是B级才允许操作短波设备. <code>General</code>开放了所有的频段. <code>Extra</code>在G的基础上, 部分频段范围拓宽. 所有级别最大发射功率为1500W PEP.(特例是60米波段为100W PEP.)</p><p>FCC执照只管人不管设备, 所以没有验机设台一说. 因此可以自己动手制作符合规范的无线电设备.</p><h2 id="题库-amp-刷题"><a href="#题库-amp-刷题" class="headerlink" title="题库&amp;刷题"></a>题库&amp;刷题</h2><p>考题用英语编写, 没有中文题库. 实际上技术英语并不难(相比与人文学科),当然会英语可以大大加快做题速度.</p><p>T基本上就是国内初中的电学, 难度基本等同国内A级. 有一些知识如接地规范, 电线颜色标识等和国内略有区别. 相比之下主要内容是法律法规, 靠记忆就可以过.</p><p>G包含了更多技术内容-初级的电子学和无线电传播特性. 还是有不少的法规(频段划分等等). 相比之下, T到G的难度提升小于G到E. 因此我建议初学者学习时候准备到<code>General</code>级别, 考试时候就可以一并解决掉. 当然在攻克G的过程中不要忽视T级别的学习-要是T都没有通过的话会非常尴尬!</p><p>E主要为技术内容, 需要对电子学有比较深入的了解. 由于我没有通过这一级别的考试, 暂不做过多评论.</p><p>G和T级别的考试要求35答对26道以上. E要求50中答对37道. 可以到hamstudy.org这个网站去刷题, 有题库和模考模式, 带有答案和解析. 当然实际上是有些约定俗成的规范在考试里不会考到, 比方说发射功率的具体选择云云, 所以在拿到执照前后先多听别人的通联, 一点一滴地积累. 不懂可以提问-Ham圈子里的人总体还是非常友善的.</p><h2 id="考试流程"><a href="#考试流程" class="headerlink" title="考试流程"></a>考试流程</h2><p>在介绍流程之前首先明确几个定义:</p><ul><li><p>VE</p><p> Volunteering Examiner, 志愿考官. 美国FCC的业余考试由当地VEC来组织执行. VE不直接受FCC管辖.</p></li><li><p>VEC</p><p> Volunteer Examination Coordinator, 志愿考官调度组. 受FCC直接管辖, 负责组织调度当地的Ham考试.通常是依托于某个俱乐部形成的, 因此一个城市里可能也有多个VEC, 考试时间通常错开. 因此如果你错过了某一场考试而不想等太久(通常每个VEC每年组织6-7场, 不排除特别勤快的)可以看一看别家VEC组织的考试.</p></li></ul><p>具体流程可能在各个VEC略有不同, 但是大致的模式如下:</p><ol><li><p>如果学校有无线电社团, 请直接咨询-或者搜索你坐在的城市+VEC. 无论通过哪一种方法, 你需要和当地的VEC取得联系. 海外(美国之外)的考点比较少, 据我所知上海前几年有开展过FCC的考试.</p></li><li><p>在VEC的网站上找到最近一次考试的安排. <strong>给VEC发送电子邮件表明自己想要参加考试的意愿, 即便是网站上说无需预约并且在考试前一周再次发送邮件确认</strong>这是因为VEC并不知道考试当天有没有人来. 人数过少的话他们可能取消考试.</p></li><li><p>在考前去FCC网站注册一个账户, 得到FRN. 记住这个号码-特别是你没有SSN或者税号的情况下, 它是唯一被认可的身份识别码. <strong>据说</strong>有FRN的话可以加快审批-否则指望VEC帮你填写的话,效率是很低的.</p></li><li><p>考试当天携带软铅笔(HB或2B均可)橡皮以及计算器(可选). 开考前40分钟开放考场, 进入后填写信息并交钱15刀.</p></li><li><p>然后就是熟悉的题目了: 不难, 稳定发挥即可. 完成后几个VE会当场批改答卷-如果通过当前级别的考试, 你可以免费参加更高一级别的考试, 我就属于这种情况. 当然你也可以放弃, 并获得你通过级别的执照. 但既然不需要额外的费用, 何不一试? 如果没有通过, 通常会有一次重考的机会, 需要再交一次钱.</p></li><li><p>通过考试以后, VE会给一张``Certificate of Successful Completion of Examination`证明你已经通过相应级别的考试. 如果你先前没有呼号, 那么还需等待十天半月(取决于VEC效率)等呼号到手才可以发射-FCC的数据库查找你的FRN下出现呼号即可. 否则算作是执照升级, 享受更高权限的同时需要在你现有呼号后尾缀”/AG”或”/AE”(分别为T升G或G升E的两种情况)直到数据库更新完成.</p></li><li><p>至此, 你可以享受按下PTT键的快乐了. </p></li></ol><h2 id="最后"><a href="#最后" class="headerlink" title="最后"></a>最后</h2><p>欢迎步入新世界的大门. 在开始发射之前多听别人的通联-倾听也是学习的过程. 此外有很多考试已经不包括但是实际上还在使用的规范, 比方说NATO语音字母表和CW摩尔斯电码, 越是资深的Ham圈子里就越是需要具备这些能力, 多学一点总是好的. 除了语音通联, APRS, 数字模式, SSTV等等好玩的技术在获取执照以后也向你敞开.</p><p>我的第一次通联是在中继台上完成的-在网上搜索附近的中继频率, 耐心多尝试几个总可以找到活跃的中继台. 推荐一个叫做<code>RepeaterBook</code>的安卓APP, 当然可以直接访问它的网页. 最后, 可以在QRZ上记录你的通联. 现在很少有人寄送QSL卡片了, 毕竟网络上填写log加QSL一并完成实在过于方便.</p><p>如果这篇文章帮助到你, 记得回来在下方留言!</p><p>73, KD2TAI</p><h2 id="资源链接"><a href="#资源链接" class="headerlink" title="资源链接"></a>资源链接</h2><table><thead><tr><th>资源</th><th>备注</th></tr></thead><tbody><tr><td><a href="https://qrz.com/">QRZ</a></td><td>在线记录通联的log网站</td></tr><tr><td><a href="https://www.fcc.gov/">FCC官网</a></td><td>FCC爸爸的官网. 一切以他为准</td></tr><tr><td><a href="http://arrl.org/">ARRL官网</a></td><td>美国业余无线电爱好者联盟, 刊有杂志QSL</td></tr><tr><td><a href="https://wireless2.fcc.gov/UlsApp/UlsSearch/searchLicense.jsp">FCC执照数据库</a></td><td>查询呼号/FRN</td></tr><tr><td><a href="https://hamstudy.org/">刷题题库</a></td><td>题库齐全, 带有答案和解析</td></tr></tbody></table>]]></content:encoded>
+      
+      
+      <category domain="https://hisenz.com/categories/Technology/">Technology</category>
+      
+      
+      <category domain="https://hisenz.com/tags/Ham/">Ham</category>
+      
+      <category domain="https://hisenz.com/tags/Exam/">Exam</category>
+      
+      
+      <comments>https://hisenz.com/post/fcc-ham-licensing/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>爵士时代 | 2019年十月合集(下)</title>
+      <link>https://hisenz.com/post/the-jazz-age-1019-2/</link>
+      <guid>https://hisenz.com/post/the-jazz-age-1019-2/</guid>
+      <pubDate>Mon, 04 Nov 2019 02:19:25 GMT</pubDate>
+      
+      <description>&lt;p&gt;十月下旬播出了五场节目. 电台开始逐渐受到关注, 也有喜欢爵士乐的陌生人找上来聊音乐. 总之是顺利推进的一个阶段.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;103019 - Gerry Mulligan, Chet Baker &amp;amp; Benny Goodman&lt;/li&gt;
+&lt;li&gt;102319 - The Village Vanguard Sessions&lt;/li&gt;
+&lt;li&gt;102119 - Stormy Monday Blues&lt;/li&gt;
+&lt;li&gt;101919 - Billie Holiday Story Volume I&lt;/li&gt;
+&lt;li&gt;101619 - The Bethlehem Year&lt;/li&gt;
+&lt;/ol&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<p>十月下旬播出了五场节目. 电台开始逐渐受到关注, 也有喜欢爵士乐的陌生人找上来聊音乐. 总之是顺利推进的一个阶段.</p><ol><li>103019 - Gerry Mulligan, Chet Baker &amp; Benny Goodman</li><li>102319 - The Village Vanguard Sessions</li><li>102119 - Stormy Monday Blues</li><li>101919 - Billie Holiday Story Volume I</li><li>101619 - The Bethlehem Year</li></ol><span id="more"></span><meta name="description" itemprop="description" content="爵士时代 | 海森的博客"/><h2 id="103019-Gerry-Mulligan-Chet-Baker-amp-Benny-Goodman"><a href="#103019-Gerry-Mulligan-Chet-Baker-amp-Benny-Goodman" class="headerlink" title="103019 - Gerry Mulligan, Chet Baker &amp; Benny Goodman"></a>103019 - Gerry Mulligan, Chet Baker &amp; Benny Goodman</h2><p>小号手Chet和萨克斯手Gerry在Carnegie Hall的一场合作, 在Gerry的带动下曲风活泼, 更接近Swing而不是冷爵士. </p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=3&id=2063885058&auto=0&height=66"></iframe><h3 id="曲目列表-Tracklist"><a href="#曲目列表-Tracklist" class="headerlink" title="曲目列表 / Tracklist"></a>曲目列表 / Tracklist</h3><h4 id="Gerry-Mulligan-Chet-Baker-–-Carnegie-Hall-Concert"><a href="#Gerry-Mulligan-Chet-Baker-–-Carnegie-Hall-Concert" class="headerlink" title="Gerry Mulligan / Chet Baker – Carnegie Hall Concert"></a>Gerry Mulligan / Chet Baker – Carnegie Hall Concert</h4><ol><li>It’s Sandy At The Beach 9:10</li><li>Bernie’s Tune 7:58</li><li>K-4 Pacific 11:44</li><li>There Will Never Be Another You 6:51</li></ol><h4 id="Benny-Goodman-–-The-King-Of-Swing-Vol-1"><a href="#Benny-Goodman-–-The-King-Of-Swing-Vol-1" class="headerlink" title="Benny Goodman – The King Of Swing Vol. 1"></a>Benny Goodman – The King Of Swing Vol. 1</h4><ol><li>Ridin’ High </li><li>Nice Work If You Can Get It </li><li>Vibraphone Blues </li><li>The Sheik Of Araby </li><li>Always </li><li>Peckin’</li></ol><h2 id="102319-The-Village-Vanguard-Sessions"><a href="#102319-The-Village-Vanguard-Sessions" class="headerlink" title="102319 - The Village Vanguard Sessions"></a>102319 - The Village Vanguard Sessions</h2><p>Viilage Vanguard是一家位于纽约的著名爵士乐酒吧. 上世纪六七十年代许多的爵士乐大师曾在这里演出过. 直到今天, 它的演出仍然保持着优秀的水准.</p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=3&id=2063774916&auto=0&height=66"></iframe><h3 id="曲目列表-Tracklist-1"><a href="#曲目列表-Tracklist-1" class="headerlink" title="曲目列表 / Tracklist"></a>曲目列表 / Tracklist</h3><ol><li>All Of You 8:15</li><li>Alice In Wonderland 8:34</li><li>Porgy 5:56</li><li>Milestones 6:30</li><li>Detour Ahead 7:34</li><li>Waltz For Debby 6:55</li><li>Jade Visions 3:45</li></ol><h3 id="本次节目未播放-Not-Played-in-This-Show"><a href="#本次节目未播放-Not-Played-in-This-Show" class="headerlink" title="本次节目未播放 / Not Played in This Show"></a>本次节目未播放 / Not Played in This Show</h3><ol><li>My Foolish Heart 4:50</li><li>My Romance 7:10</li><li>Some Other Time 4:58</li><li>Solar 8:52</li><li>Gloria’s Step …</li></ol><h2 id="102119-Stormy-Monday-Blues"><a href="#102119-Stormy-Monday-Blues" class="headerlink" title="102119 - Stormy Monday Blues"></a>102119 - Stormy Monday Blues</h2><p>每周一在WRPI我们邀请当地的蓝调乐队来现场演出!<br>Every Mondays at WRPI we have local blues bands performing live show!</p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=3&id=2063722406&auto=0&height=66"></iframe><h2 id="101919-Billie-Holiday-Story-Volume-I"><a href="#101919-Billie-Holiday-Story-Volume-I" class="headerlink" title="101919 - Billie Holiday Story Volume I"></a>101919 - Billie Holiday Story Volume I</h2><p>这一合集是Billie在1936-1938年间演绎的一些主要作品.</p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=3&id=2063706629&auto=0&height=66"></iframe><h3 id="曲目列表-Tracklist-2"><a href="#曲目列表-Tracklist-2" class="headerlink" title="曲目列表 / Tracklist"></a>曲目列表 / Tracklist</h3><ol><li>A Fine Romance 2:50</li><li>Easy To Love 3:10</li><li>The Way You Look Tonight 2:58</li><li>Pennies From Heaven 3:13</li><li>That’s Life I Guess 3:05</li><li>I Can’t Give You Anything But Love 3:23</li><li>This Year’s Kisses 3:05</li><li>Why Was I Born? 2:48</li><li>The Mood That I’m In 2:57</li><li>I’ll Never Be The Same 3:00</li><li>Without Your Love 2:50</li><li>Swing! Brother, Swing! 1:47</li><li>They Can’t Take That Away From Me 3:18</li><li>Getting Some Fun Out Of Life 2:58</li><li>Trav’lin All Alone 2:11</li><li>When You’re Smiling (The Whole World Smiles With You) 2:49</li><li>If Dreams Come True 3:01</li><li>I Can’t Get Started 2:42</li><li>Back In Your Own Back Yard 2:37</li><li>On The Sentimental Side 3:00</li><li>When A Woman Loves A Man 2:21</li><li>You Go To My Head 2:50</li><li>The Very Thought Of You 2:43</li><li>That’s All I Ask Of You 2:53</li><li>Dream Of Life 2:40</li><li>Long Gone Blues 3:03</li></ol><h2 id="101619-The-Bethlehem-Year"><a href="#101619-The-Bethlehem-Year" class="headerlink" title="101619 - The Bethlehem Year"></a>101619 - The Bethlehem Year</h2><p>冷爵士著名萨克斯手Dexter在西海岸爵士盛行的年代离开洛杉矶大本营, 来到纽约以求发展.</p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=3&id=2063654286&auto=0&height=66"></iframe><h3 id="曲目列表-Tracklist-3"><a href="#曲目列表-Tracklist-3" class="headerlink" title="曲目列表 / Tracklist"></a>曲目列表 / Tracklist</h3><ol><li>Daddy Plays The Horn 9:05</li><li>Confirmation 7:51</li><li>Darn That Dream 4:13</li><li>Number Four 4:49</li><li>Autumn In New York 6:25</li><li>You Can Depend On Me 9:04</li></ol>]]></content:encoded>
+      
+      
+      <category domain="https://hisenz.com/categories/Music/">Music</category>
+      
+      
+      <category domain="https://hisenz.com/tags/Radio/">Radio</category>
+      
+      <category domain="https://hisenz.com/tags/Vinyl/">Vinyl</category>
+      
+      <category domain="https://hisenz.com/tags/Jazz/">Jazz</category>
+      
+      
+      <comments>https://hisenz.com/post/the-jazz-age-1019-2/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
+      <title>爵士时代 | 2019年十月合集(上)</title>
+      <link>https://hisenz.com/post/the-jazz-age-1019-1/</link>
+      <guid>https://hisenz.com/post/the-jazz-age-1019-1/</guid>
+      <pubDate>Sun, 13 Oct 2019 13:19:25 GMT</pubDate>
+      
+      <description>&lt;p&gt;十月上旬播出了五场节目. 开始播节目一个月左右, 对这些爵士乐大师的风格了解越发深入.&lt;/p&gt;
+&lt;ol&gt;
+&lt;li&gt;100219 - The Extraordinary&lt;/li&gt;
+&lt;li&gt;100519 - Duke Ellington&lt;/li&gt;
+&lt;li&gt;100719 - Stormy Monday Blues&lt;/li&gt;
+&lt;li&gt;100919 - Encores&lt;/li&gt;
+&lt;li&gt;101219 - Art Tatum &amp;amp; Duke Ellington&lt;/li&gt;
+&lt;/ol&gt;</description>
+      
+      
+      
+      <content:encoded><![CDATA[<p>十月上旬播出了五场节目. 开始播节目一个月左右, 对这些爵士乐大师的风格了解越发深入.</p><ol><li>100219 - The Extraordinary</li><li>100519 - Duke Ellington</li><li>100719 - Stormy Monday Blues</li><li>100919 - Encores</li><li>101219 - Art Tatum &amp; Duke Ellington</li></ol><span id="more"></span><meta name="description" itemprop="description" content="爵士时代 | 海森的博客"/><h2 id="100219-The-Extraordinary"><a href="#100219-The-Extraordinary" class="headerlink" title="100219 - The Extraordinary"></a>100219 - The Extraordinary</h2><p>Nat King Cole, 杰出早期爵士歌手.</p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=3&id=2063459933&auto=0&height=66"></iframe><h3 id="曲目列表-Tracklist"><a href="#曲目列表-Tracklist" class="headerlink" title="曲目列表 / Tracklist"></a>曲目列表 / Tracklist</h3><ol><li>L-O-V-E </li><li>Walkin’ </li><li>(I Would Do) Anything For You </li><li>The Song Is Ended (But The Melody Lingers On) </li><li>Unforgettable </li><li>Walkin’ My Baby Back Home </li><li>I’m Gonna Sit Right Down (And Write Myself A Letter) </li><li>Midnight Flyer </li><li>Send For Me </li><li>Open Up The Doghouse (Two Cats Are Coming In) </li><li>(Get Your Kicks On) Route 66 </li><li>Love </li><li>Papa Love Mambo </li><li>You’ve Got The Indian Sign On Me </li><li>Mona Lisa </li><li>Let’s Face The Music And Dance </li><li>Almost Like Being In Love </li><li>Don’t Get Around Much Anymore </li><li>Orange Colored Sky </li><li>Long, Long Ago </li><li>Breezin’ Along With The Breeze</li></ol><h3 id="本次节目未播放-Not-played-in-this-show"><a href="#本次节目未播放-Not-played-in-this-show" class="headerlink" title="本次节目未播放 / Not played in this show"></a>本次节目未播放 / Not played in this show</h3><ol start="22"><li>You’re Wrong All Wrong </li><li>You Weren’t There </li><li>How (How Do I Got About It?) </li><li>Sweet William (Previously Unreleased) </li><li>Sleeping Beauty (Previously Unreleased Version) </li><li>When I’m Alone </li><li>The Magic Window (Previously Unreleased) </li><li>Little Fingers (Previously Unreleased) </li><li>Ain’t She Sweet (with Carole and Natalie Cole) </li><li>What To Do (with Carole and Natalie Cole) (Previously Unreleased) </li><li>Straighten Up And Fly Right (Unreleased Alternate Take) </li><li>(I Love You) For Sentimental Reasons (Unreleased Alternate Take) </li><li>Unforgettable (Unreleased Alternate Take) </li><li>Mona Lisa (Unreleased Alternate Take) </li><li>The Christmas Song (Unreleased Alternate Take)</li></ol><h3 id="背景-Background"><a href="#背景-Background" class="headerlink" title="背景 / Background"></a>背景 / Background</h3><p>非凡的Nat King Cole收录了22场经典的Cole表演以及14首稀有和/或以前未发行的曲目。</p><p>The Extraordinary Nat King Cole contains 22 classic Cole performances plus 14 rare and/or previously unreleased tracks. </p><p>纳撒尼尔·亚当斯·科尔斯（1919年3月17日至1965年2月15日），专业称为纳特·金·科尔，是美国爵士钢琴家和歌手。 他录制了一百多首歌曲，成为流行音乐排行榜的热门歌曲。 他的三重奏是随后的小型爵士乐团的典范。 科尔还曾在电影和电视中演出，并在百老汇演出。 他是第一个主持美国电视连续剧的非洲裔美国人。</p><p>Nathaniel Adams Coles (March 17, 1919 – February 15, 1965), known professionally as Nat King Cole, was an American jazz pianist and vocalist. He recorded over one hundred songs that became hits on the pop charts. His trio was the model for small jazz ensembles that followed. Cole also acted in films and on television and performed on Broadway. He was the first African American man to host an American television series.</p><h2 id="100519-Duke-Ellington"><a href="#100519-Duke-Ellington" class="headerlink" title="100519 - Duke Ellington"></a>100519 - Duke Ellington</h2><p>艾林顿公爵, 爵士黄金时代的伟大作曲家和演奏家.</p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=3&id=2063484669&auto=0&height=66"></iframe><h3 id="曲目列表-Tracklist-1"><a href="#曲目列表-Tracklist-1" class="headerlink" title="曲目列表 / Tracklist"></a>曲目列表 / Tracklist</h3><h4 id="Ellington-Uptown"><a href="#Ellington-Uptown" class="headerlink" title="Ellington Uptown"></a>Ellington Uptown</h4><ol><li>Take The “A” Train 7:56</li><li>The Mooche 6:34</li><li>A Tone Parallel To Harlem (Harlem Suite) 13:44</li><li>Perdido 8:20</li><li>The Controversial Suite, Part I (Before My Time) 6:06</li><li>The Controversial Suite, Part II (Later) 4:13</li><li>Skin Deep 6:48</li></ol><h4 id="At-New-Port"><a href="#At-New-Port" class="headerlink" title="At New Port"></a>At New Port</h4><ol><li>Festival Junction - 10:08</li><li>Blues to Be There - 8:04</li><li>Newport Up - 5:33</li><li>Jeep’s Blues - 5:12</li><li>Diminuendo and Crescendo in Blue - 14:56</li></ol><h2 id="100719-Stormy-Monday-Blues"><a href="#100719-Stormy-Monday-Blues" class="headerlink" title="100719 - Stormy Monday Blues"></a>100719 - Stormy Monday Blues</h2><p>每周一在WRPI我们邀请当地的蓝调乐队来现场演出!</p><p>Every Mondays at WRPI we have local blues bands performing live show!</p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=3&id=2063529864&auto=0&height=66"></iframe><h2 id="100919-Encores"><a href="#100919-Encores" class="headerlink" title="100919 - Encores"></a>100919 - Encores</h2><p>Again, it’s Bird!</p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=3&id=2063540108&auto=0&height=66"></iframe><h3 id="曲目列表-Tracklist-2"><a href="#曲目列表-Tracklist-2" class="headerlink" title="曲目列表 / Tracklist"></a>曲目列表 / Tracklist</h3><ol><li>A1 Tiny’s Tempo </li><li>A2 Romance Without Finance </li><li>A3 Red Cross </li><li>A4 Billie’s Bounce </li><li>A5 Now’s The Time </li><li>A6 Thriving On A Riff </li><li>A7 Donna Lee </li><li>A8 Chasin’ The Bird </li><li>B1 Buzzy </li><li>B2 Milestones </li><li>B3 Little Willy Leaps </li><li>B4 Half Nelson </li><li>B5 Sippin’ At Bells</li></ol><h3 id="未播放曲目-Not-Played-in-This-Show"><a href="#未播放曲目-Not-Played-in-This-Show" class="headerlink" title="未播放曲目 / Not Played in This Show"></a>未播放曲目 / Not Played in This Show</h3><ol start="14"><li>B6 Bluebird </li><li>B7 Bird Gets The Worm </li><li>B8 Barbados</li></ol><h2 id="101219-Art-Tatum-amp-Duke-Ellington"><a href="#101219-Art-Tatum-amp-Duke-Ellington" class="headerlink" title="101219 - Art Tatum &amp; Duke Ellington"></a>101219 - Art Tatum &amp; Duke Ellington</h2><p>这一期Art Tatum的爵钢solo系列是爵士爱好者不容错过的收藏!</p><iframe frameborder="no" border="0" marginwidth="0" marginheight="0" width=330 height=86 src="//music.163.com/outchain/player?type=3&id=2063569572&auto=0&height=66"></iframe><h3 id="曲目列表-Tracklist-3"><a href="#曲目列表-Tracklist-3" class="headerlink" title="曲目列表 / Tracklist"></a>曲目列表 / Tracklist</h3><h4 id="The-Tatum-Solo-Masterpieces-Vol-9"><a href="#The-Tatum-Solo-Masterpieces-Vol-9" class="headerlink" title="The Tatum Solo Masterpieces, Vol. 9"></a>The Tatum Solo Masterpieces, Vol. 9</h4><ol><li>Too Marvellous For Words 2:58</li><li>You Took Advantage Of Me 3:16</li><li>Sophisticated Lady 3:35</li><li>I’m In The Moosolor Love 4:26</li><li>Everything I Have Is Yours 5:44</li><li>Blue Lou 2:43</li><li>Embraceable You 4:30</li><li>I Didn’t Know What Time It Was 4:13</li><li>Tea For Two 3:30</li><li>Come Rain, Or Come Shine 5:07</li></ol><h4 id="Duke-Ellington-•-Charlie-Mingus-•-Max-Roach-‎–-Money-Jungle"><a href="#Duke-Ellington-•-Charlie-Mingus-•-Max-Roach-‎–-Money-Jungle" class="headerlink" title="Duke Ellington • Charlie Mingus • Max Roach ‎– Money Jungle"></a>Duke Ellington • Charlie Mingus • Max Roach ‎– Money Jungle</h4><ol><li>Money Jungle 5:25</li><li>Le Fleurs Africaines (African Flower) 3:32</li><li>Very Special 4:25</li><li>Warm Valley 3:30</li><li>Wig Wise 3:20</li><li>Caravan 4:15</li><li>Solitude 5:30</li></ol>]]></content:encoded>
+      
+      
+      <category domain="https://hisenz.com/categories/Music/">Music</category>
+      
+      
+      <category domain="https://hisenz.com/tags/Radio/">Radio</category>
+      
+      <category domain="https://hisenz.com/tags/Vinyl/">Vinyl</category>
+      
+      <category domain="https://hisenz.com/tags/Jazz/">Jazz</category>
+      
+      
+      <comments>https://hisenz.com/post/the-jazz-age-1019-1/#disqus_thread</comments>
+      
+    </item>
+    
+  </channel>
+</rss>

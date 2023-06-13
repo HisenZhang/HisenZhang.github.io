@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+Allow: /archives/
+Allow: /tags/ 
+Allow: /about/
+Allow: /post/
+Disallow: /vendors/
+Disallow: /js/
+Disallow: /css/
+Disallow: /fonts/
+Disallow: /vendors/
+
+Sitemap: https://hisenz.com/sitemap.xml
+Sitemap: https://hisenz.com/baidusitemap.xml
