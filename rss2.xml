@@ -43,6 +43,42 @@
     </item>
     
     <item>
+      <title>大语言模型LLM与机器大工业阶段</title>
+      <link>https://hisenz.com/post/llm/llm-and-industry/</link>
+      <guid>https://hisenz.com/post/llm/llm-and-industry/</guid>
+      <pubDate>Mon, 29 May 2023 16:00:00 GMT</pubDate>
+      
+        
+        
+      <description>&lt;p&gt;信息社会的技术奇点&lt;/p&gt;
+&lt;p&gt;信息社会：信息收集、处理、分析、传播能力&lt;/p&gt;
+&lt;p&gt;物质的 AI是信息的机器大工业&lt;/p&gt;
+&lt;p&gt;目前以GPT为代表的LLM可以有效收集、处理、并且进行简单的分析 信息传播依托于现有社交网络 （新闻媒体使用AI撰稿）&lt;/p&gt;
+&lt;p&gt;分析</description>
+        
+      
+      
+      
+      <content:encoded><![CDATA[<p>信息社会的技术奇点</p><p>信息社会：信息收集、处理、分析、传播能力</p><p>物质的 AI是信息的机器大工业</p><p>目前以GPT为代表的LLM可以有效收集、处理、并且进行简单的分析 信息传播依托于现有社交网络 （新闻媒体使用AI撰稿）</p><p>分析 - 对自己的影响 “为我所用”</p><p>尽管AI的个人数据获取能力可以 目前AI对深度信息处理仍有不足。</p><p>创意 可表达的创意成为语言的一部分 由此可以被学习 - 语言/表示承载智能 LLM可以处理一切经由语言描述的智能</p><p>语言的有限性</p><p>1.语言只承载了人类全部知识的一小部分。<br>2.大部分人类知识和所有动物的知识都是非语言的（非象征性的）。<br>3.因此大型语言模型无法接近人类水平的智能。</p><p>推进到下一个阶段</p><p>AI的行动力</p><p>ref </p><ul><li><p>Yann LeCun：语言的有限性决定了 AI 永远无法比肩人类智能<a href="https://www.leiphone.com/category/academic/gF28LsG6W8aT0B1T.html">https://www.leiphone.com/category/academic/gF28LsG6W8aT0B1T.html</a></p></li><li><p>【资本论】机器大工业阶段 <a href="https://zhuanlan.zhihu.com/p/269546144">https://zhuanlan.zhihu.com/p/269546144</a></p></li><li><p>AI发展感觉对绘圈冲击太大了怎么办? - 神们自己的回答 - 知乎<br><a href="https://www.zhihu.com/question/557600073/answer/2705548589">https://www.zhihu.com/question/557600073/answer/2705548589</a></p></li></ul>]]></content:encoded>
+      
+      
+      <category domain="https://hisenz.com/categories/Spark/">Spark</category>
+      
+      <category domain="https://hisenz.com/categories/Spark/Technology/">Technology</category>
+      
+      
+      <category domain="https://hisenz.com/tags/Spark/">Spark</category>
+      
+      <category domain="https://hisenz.com/tags/AI/">AI</category>
+      
+      <category domain="https://hisenz.com/tags/Capitalism/">Capitalism</category>
+      
+      
+      <comments>https://hisenz.com/post/llm/llm-and-industry/#disqus_thread</comments>
+      
+    </item>
+    
+    <item>
       <title>Structure Your Program Neatly</title>
       <link>https://hisenz.com/post/opsys-memo/program-structuring/</link>
       <guid>https://hisenz.com/post/opsys-memo/program-structuring/</guid>
@@ -587,34 +623,6 @@
       
       
       <comments>https://hisenz.com/post/the-jazz-age-0919-1/#disqus_thread</comments>
-      
-    </item>
-    
-    <item>
-      <title>度量的艺术</title>
-      <link>https://hisenz.com/post/the-art-of-measuring/</link>
-      <guid>https://hisenz.com/post/the-art-of-measuring/</guid>
-      <pubDate>Sat, 08 Jun 2019 11:03:59 GMT</pubDate>
-      
-      <description>&lt;meta name=&quot;description&quot; itemprop=&quot;description&quot; content=&quot;海森的博客&quot;/&gt;
-
-
-&lt;p&gt;如何用现有精度的机床加工出更高精度的下一代机床? 这是个先有鸡还是先有蛋的悖论.&lt;/p&gt;</description>
-      
-      
-      
-      <content:encoded><![CDATA[<meta name="description" itemprop="description" content="海森的博客"/><p>如何用现有精度的机床加工出更高精度的下一代机床? 这是个先有鸡还是先有蛋的悖论.</p><span id="more"></span><h2 id="不同基准得出不同结论"><a href="#不同基准得出不同结论" class="headerlink" title="不同基准得出不同结论"></a>不同基准得出不同结论</h2><p>人们总是有意无意的做着度量. 昨天的股价大跌了, 今天的消费偏高了, 明天的气温要降了. 股市4000点相比2000点是上涨. 明天的气温23度, 比今天的32度来得低, 由此得出明天要降温. 事实上, 度量结果本身不能告诉我们什么, 只有度量的结果之间相比才可以得出结论.</p><p>为什么说度量结果本身是没有意义的? 试读下面一句话.</p><blockquote><p>某电阻器的阻值为10Ω.</p></blockquote><p>10Ω阻值意味着什么? 不知道吧. </p><p>要使得度量结果有意义, 通常先手动选取一个值作为基准来参照. 然而很多时候, 基准藏在潜意识里. 用手去试水温, 你会知道是热还是冷, 即使你并不知道准确的温度. 这就是为什么我在上面的例子里使用电阻来说明问题 - 人类对于电阻很少有直觉上的基准. 不过你可以尝试一下这个问题: </p><blockquote><p>100摄氏度属于高温吗? </p></blockquote><p>直觉的回答: 100度确实属于高温, 因为这个温度的蒸汽可以造成严重烫伤. 但是从化学家的角度看, 大多数的盐类在这个温度下不能分解, 因此这个温度实在算不上高温. 这个问题中, 前者以生物可以接受的温度(直觉里)作为基准, 而后者采用大多数盐类分解的温度作为基准, <strong>由不同的基准得出了两个截然相反的答案.</strong> 基准的选取决定了比较的结果. </p><h2 id="量具与基准"><a href="#量具与基准" class="headerlink" title="量具与基准"></a>量具与基准</h2><p>你想知道在过去十年里你长高了多少, 在今天不是一件难事. 用尺子测量现在的身高, 和十年前的记录比对, 就可以得到我们想要的数据. 但是在尺子发明之前, 这不是一件容易的事情 - 你无法把十年前的自己找来, 站在一起比身高. 介于多数场合下直接比较的困难性, 人们开始使用量具. <strong>量具的目的是提供一个基准, 但是反过来基准又定义了量器.</strong></p><p>为了使结果通用, 人们又定义了统一的基准. 这样一来, 你的尺上一的一米和我尺上的一米就是相同的. 在不同地方由不同科学家测量出来的结果之间可以相互比较. 值得一提的是, 古人并不笨 - 他们善于运用天然的事物. 早在尺子发明之前, 古埃及人就用小臂来测量长度, 并且凭借这看似不准确的量具建造出了金字塔奇观. </p><p>尽可能准确地定义千克, 米, 秒, 科学家逐渐建立起现有的SI单位体系, 物理学大厦在此基础上飞速的建造.</p><h2 id="度量悖论"><a href="#度量悖论" class="headerlink" title="度量悖论"></a>度量悖论</h2><p>如开篇所提的问题: 如何用现有精度的机床加工出更高精度的下一代机床? 这个问题的的实质, 是如果度量的尺子本身并不准确/精准, 我们该怎么办? </p><p><strong>再放到更广义的角度上, 我们所依赖的度量本身是否可靠? 我们又如何知道它是否可靠?</strong></p><p>同一个温度, 在两种摄氏华氏两种温标下的读数不一样. 然而它们代表的仍然是同一个温度.</p><p>同一个行为, 在不同文化的价值观下的评判不一样. 有的文化禁止食用猪肉, 其它的则没有. 然而评判的其实仍然是同一个行为.</p><p>我们用不同的度量, 不同的基准都会得到不同的结果. 我们应该到底信任哪一种?</p><p><strong>大概, 理念世界中本来就没有什么黑白对错.</strong></p><p>还有最后一个可怕的问题: 度量这个概念本身可靠吗?</p>]]></content:encoded>
-      
-      
-      <category domain="https://hisenz.com/categories/Spark/">Spark</category>
-      
-      
-      <category domain="https://hisenz.com/tags/Measuring/">Measuring</category>
-      
-      <category domain="https://hisenz.com/tags/Paradox/">Paradox</category>
-      
-      
-      <comments>https://hisenz.com/post/the-art-of-measuring/#disqus_thread</comments>
       
     </item>
     
