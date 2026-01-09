@@ -60,9 +60,11 @@ PUBLIC_KEYSTATIC_GITHUB_APP_SLUG=your-github-app-slug
 ## Troubleshooting
 
 - **500 Error on `/api/keystatic/github/login`**:
+  - **React 19 Compatibility**: Make sure your `astro.config.mjs` includes the Vite alias for `react-dom/server.edge` (this should already be configured)
   - Check that the KV namespace is properly bound with variable name `SESSION` (Step 2)
   - Verify all 4 environment variables are set (Step 3)
   - Make sure you redeployed after adding the KV binding
+- **"MessageChannel is not defined"**: This indicates the React 19 edge runtime config is missing from your Vite configuration
 - **"Unable to load collection"**: Check that environment variables are set correctly in Cloudflare
 - **OAuth redirect error**: Verify the callback URL in GitHub App settings matches: `https://hisenz.com/api/keystatic/github/oauth/callback`
 - **Permission denied**: Make sure the GitHub App is installed on the repository and has "Contents: Read and write" permission
