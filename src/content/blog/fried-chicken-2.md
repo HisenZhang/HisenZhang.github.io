@@ -1,18 +1,17 @@
 ---
-title: '料理 | 鸡腿排练习'
-pubDate: 2019-05-26 20:47:19
-category: Food
-tags:
-  - Cuisine
-  - Frying
-  - Drumsticks
+title: "料理 | 鸡腿排练习"
 description: "料理 | 鸡腿排练习"
+pubDate: 2019-05-26 20:47:19
+tags:
+  - "Cuisine"
+  - "Frying"
+  - "Drumsticks"
+category: "Food"
 ---
-<meta name="description" itemprop="description" content="料理 | 鸡腿排练习"/>
 
 继上次的[完美鸡腿排指南](/post/fried-chicken), 这一次的练习做出了一些改进.
 
-<!-- more -->
+
 
 ## 复炸
 

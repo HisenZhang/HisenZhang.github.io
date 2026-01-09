@@ -1,16 +1,15 @@
 ---
-title: '研报 | 公开行业报告资源合集'
+title: "研报 | 公开行业报告资源合集"
+description: "研报 | 公开行业报告资源合集"
 pubDate: 2020-11-06 16:21:33
 tags:
-  - Research
-  - Resources
-  - Report
-  - Industry
-  - Market
-category: Spark
-description: "研报 | 公开行业报告资源合集"
+  - "Research"
+  - "Resources"
+  - "Report"
+  - "Industry"
+  - "Market"
+category: "Spark"
 ---
-<meta name="description" itemprop="description" content="公开行业报告资源合集"/>
 
 使用指南:
 
@@ -20,7 +19,7 @@ description: "研报 | 公开行业报告资源合集"
 
 数据收集整理自互联网, 来源见文末.
 
-<!-- more -->
+
 
 ## 搜索引擎
 

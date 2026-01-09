@@ -1,18 +1,17 @@
 ---
-title: '料理 | 完美鸡腿排指南'
-pubDate: 2019-05-04 21:32:41
-category: Food
-tags:
-  - Cuisine
-  - Frying
-  - Drumsticks
+title: "料理 | 完美鸡腿排指南"
 description: "料理 | 完美鸡腿排指南"
+pubDate: 2019-05-04 21:32:41
+tags:
+  - "Cuisine"
+  - "Frying"
+  - "Drumsticks"
+category: "Food"
 ---
-<meta name="description" itemprop="description" content="料理 | 完美鸡腿排指南"/>
 
 市售的鸡排大多是合成的鸡肉饼, 口感和来源均令人堪忧. 这篇教程教你如何从鸡腿开始做出一块完美鸡排.
 
-<!-- more -->
+
 
 ![](https://s2.ax1x.com/2019/05/04/EdXkh6.jpg)
 
@@ -94,4 +93,3 @@ description: "料理 | 完美鸡腿排指南"
 ### 最后
 
 如同[舒肥鸡胸肉](/post/Sous-Vide/#%E8%88%92%E8%82%A5%E9%B8%A1%E8%83%B8%E8%82%89)一样, 可以搭配土豆泥和白葡萄酒. 可乐也是个不错的选择.
-

@@ -1,17 +1,15 @@
 ---
-title: 随想 | 疫情下的北美留学生活
-pubDate: 2020-03-26 17:23:43
-category: Spark
-tags:
-  - Coronavirus
-  - Living
-  - RPI
-  - Recommendation
-  - Resources
-
+title: "随想 | 疫情下的北美留学生活"
 description: "随想 | 疫情下的北美留学生活"
+pubDate: 2020-03-26 17:23:43
+tags:
+  - "Coronavirus"
+  - "Living"
+  - "RPI"
+  - "Recommendation"
+  - "Resources"
+category: "Spark"
 ---
-<meta name="description" itemprop="description" content="海森的博客"/>
 
 自病毒在纽约州爆发以来之变故实在是所有人未曾预料到的. 这篇北美租房记写于入住后一周 - 它未必具有普适性, 但至少可以带给紧急租房或者日后打算搬出学校的同学些许安慰和流程概览. 本文以日记形式呈现, 主要涵盖以下三方面: 
 
@@ -22,7 +20,7 @@ description: "随想 | 疫情下的北美留学生活"
 **欢迎在文末评论区留言提问, 我会定期解答并更新本文.**[修订记录](#修订记录)附于文末.
 
 
-<!-- more -->
+
 
 ## Day 0
 

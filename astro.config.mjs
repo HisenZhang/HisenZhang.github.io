@@ -8,11 +8,17 @@ import rehypeFigureTitle from 'rehype-figure-title'
 import { rehypeAccessibleEmojis } from 'rehype-accessible-emojis'
 import { remarkReadingTime } from './src/plugins/remark-reading-time.mjs'
 import { remarkModifiedTime } from './src/plugins/remark-modified-time.mjs'
+import react from '@astrojs/react'
+import keystatic from '@keystatic/astro'
+import cloudflare from '@astrojs/cloudflare'
 
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://hisenz.com',
+	adapter: cloudflare(),
 	integrations: [
+		react(),
+		keystatic(),
 		mdx(),
 		sitemap(),
 		icon(),

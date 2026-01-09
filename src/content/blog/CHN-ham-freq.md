@@ -1,16 +1,15 @@
 ---
-title: 中华人民共和国无线电频率划分规定（业余部分摘录）
-pubDate: 2023-03-31 10:41:25
-category: Technology
-tags:
-  - Radio
+title: "中华人民共和国无线电频率划分规定（业余部分摘录）"
 description: "中华人民共和国无线电频率划分规定（业余部分摘录）"
+pubDate: 2023-03-31 10:41:25
+tags:
+  - "Radio"
+category: "Technology"
 ---
-<meta name="description" itemprop="description" content="海森的博客"/>
 
 国内业余无线电活跃频段集中在HF-UHF，而其他频段的使用与了解者甚少。本文总结中国内地业余电台频率划分与备注。内容摘录自2018 年 7 月 1 日起实施的《中华人民共和国无线电频率划分规定》。
 
-<!-- more -->
+
 
 ## 频率划分表
 

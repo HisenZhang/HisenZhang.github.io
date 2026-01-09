@@ -1,19 +1,17 @@
 ---
-title: Mac双系统之删除Windows系统
-pubDate: 2019-04-27 14:08:16
-category:
-  - Technology
-tags:
-  - Mac
-  - Fix
-  - Tutorial
+title: "Mac双系统之删除Windows系统"
 description: "Mac双系统之删除Windows系统"
+pubDate: 2019-04-27 14:08:16
+tags:
+  - "Mac"
+  - "Fix"
+  - "Tutorial"
+category: "[\"Technology\"]"
 ---
-<meta name="description" itemprop="description" content="海森的博客"/>
 
 很多同学在Mac上通过Bootcamp安装了双系统之后, 由于种种原因, 想要卸载Windows操作系统并释放磁盘空间. 这一篇教程教你如何卸载Windows, 部分内容编译自StackOverflow的[这个回答](https://apple.stackexchange.com/a/344481).
 
-<!-- more -->
+
 
 ## Bootcamp 卸载
 
@@ -72,4 +70,3 @@ description: "Mac双系统之删除Windows系统"
     rm这一步如果出现Error, 无需采取措施. 这个错误说明安装时候采用的是legacy方式. 
 
 5. 所有工作已完成. 再次打开Disk Utility来确认刚刚的工作成果.
-    

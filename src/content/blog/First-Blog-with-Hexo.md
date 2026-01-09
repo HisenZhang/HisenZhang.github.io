@@ -1,9 +1,9 @@
 ---
-title: 'First Blog with Hexo'
-pubDate: 2018-04-12 18:41:54
-tags: 
- - News
+title: "First Blog with Hexo"
 description: "First Blog with Hexo"
+pubDate: 2018-04-12 18:41:54
+tags:
+  - "News"
 ---
 
 Several days ago my host got attacked and for the first time I realized that hosting blog on GitHub might be a wise solution. 

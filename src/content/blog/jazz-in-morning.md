@@ -1,19 +1,17 @@
 ---
-title: 随想 | 晨间爵士
-category: Music
+title: "随想 | 晨间爵士"
+description: "随想 | 晨间爵士"
 pubDate: 2019-02-05 00:00:00
 tags:
-  - Jazz
-  - Recommendation
-  - Morning
-description: "随想 | 晨间爵士"
+  - "Jazz"
+  - "Recommendation"
+  - "Morning"
+category: "Music"
 ---
-
-<meta name="description" itemprop="description" content="海森的博客 | 晨间爵士"/>
 
 并非所有爵士都属于黑夜. 在晨间迷雾里, 它美的令人窒息. 
 
-<!-- more -->
+
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.css">
 <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
@@ -84,4 +82,3 @@ description: "随想 | 晨间爵士"
 > I'm out of my head
 
 Terry Callier 的嗓音有厚度有沧桑, 和 Louis Armstrong 有几分内在的相像. 可惜当我知道这首爵士的时候, 他已经去天堂唱歌了.
-

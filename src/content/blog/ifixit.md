@@ -1,15 +1,13 @@
 ---
-title: 'iFixit: 自己动手维修'
-pubDate: 2019-01-15 19:00:09
-tags:
-category: 
-  - Spark
+title: "iFixit: 自己动手维修"
 description: "iFixit: 自己动手维修"
+pubDate: 2019-01-15 19:00:09
+category: "[\"Spark\"]"
 ---
 
 以下内容翻译自[iFixit](https://ifixit.org/)主页.
 
-<!-- more -->
+
 
 ## 为什么选择维修
 
@@ -35,4 +33,4 @@ description: "iFixit: 自己动手维修"
 
 每个人都有维修的需要. 一些人用不上清洁的水是因为他们不知道如何维修水泵. 许多的公司没有向那些独立的维修专家提供可用的零件和手册. 我们尝试改变这一局面.
 
-iFixit 是一套免费的维修手册. 我们会教你如何维修你的设备. 
+iFixit 是一套免费的维修手册. 我们会教你如何维修你的设备.

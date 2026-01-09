@@ -1,18 +1,15 @@
 ---
 title: "歌剧 | 从Carmen看歌剧的常见声部"
-category: Music
+description: "歌剧 | 从Carmen看歌剧的常见声部"
 pubDate: 2019-05-07 11:10:34
 tags:
-  - Opera
-description: "歌剧 | 从Carmen看歌剧的常见声部"
+  - "Opera"
+category: "Music"
 ---
-
-<meta name="description" itemprop="description" content="歌剧 | 从Carmen看歌剧的常见声部"/>
-
 
 首演于1875, 歌剧卡门中的许多唱段至今仍然有着巨大的影响力. 在兴趣的驱使下, 我决定从比才的这部作品入手, 初探歌剧这种艺术形式. 这篇文章简要介绍了歌剧中常见的声音类型和与之对应的角色特征.
 
-<!-- more -->
+
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.css">
 <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>

@@ -1,12 +1,12 @@
 ---
 title: "爵士时代 | 2019年九月合集(下)"
-pubDate: 2019-09-30 21:19:25
-category: Music
-tags:
-  - Radio
-  - Vinyl
-  - Jazz
 description: "爵士时代 | 2019年九月合集(下)"
+pubDate: 2019-09-30 21:19:25
+tags:
+  - "Radio"
+  - "Vinyl"
+  - "Jazz"
+category: "Music"
 ---
 
 九月下旬播出共计五场节目, 作为一个Jazz DJ已经开始慢慢步入正轨. 感谢Kelvin和John的无私帮助.
@@ -20,7 +20,7 @@ description: "爵士时代 | 2019年九月合集(下)"
 <!--more-->
 
 
-<meta name="description" itemprop="description" content="爵士时代 | 海森的博客"/>
+
 
 ##  091819 - The Original Recordings Of Charlie Parker
 

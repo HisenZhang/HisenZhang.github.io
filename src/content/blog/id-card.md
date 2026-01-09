@@ -1,15 +1,9 @@
 ---
-title: 挑战 | 身份证号校验
-pubDate: 2019-04-16 12:47:05
-category:
-  - Lecture
-tag:
-  - Python
-  - C
-  - Resources
+title: "挑战 | 身份证号校验"
 description: "挑战 | 身份证号校验"
+pubDate: 2019-04-16 12:47:05
+category: "[\"Lecture\"]"
 ---
-<meta name="description" itemprop="description" content="海森的博客"/>
 
 > Copyright 2019 [HisenZhang](mailto:hisen@hisenz.com)
 
@@ -26,7 +20,7 @@ description: "挑战 | 身份证号校验"
 
 在这个挑战里, 你需要编写一个程序来检验输入的身份证号是否合法.
 
-<!-- more -->
+
 
 这里以身份证号`11010519491231002X`为例, 演示上述过程.
 

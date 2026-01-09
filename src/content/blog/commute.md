@@ -1,14 +1,11 @@
 ---
 title: "没有捷径"
-pubDate: 2019-06-03 12:35:57
-category:
-  - Spark
-tags:
-  - Philosophy
 description: "没有捷径"
+pubDate: 2019-06-03 12:35:57
+tags:
+  - "Philosophy"
+category: "[\"Spark\"]"
 ---
-<meta name="description" itemprop="description" content="海森的博客"/>
-
 
 规划交通方式的时候, 我们希望省时省钱省力三要素齐备. 但是, 往往三者不可得兼. 
 
@@ -21,4 +18,4 @@ description: "没有捷径"
 
 还是那句话:
 
-> 没有捷径. 走捷径总是有额外代价的. 
+> 没有捷径. 走捷径总是有额外代价的.

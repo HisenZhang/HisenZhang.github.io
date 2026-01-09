@@ -1,14 +1,12 @@
 ---
-title: 硬件 | 百元选购第一块Arduino开发套件
-pubDate: 2020-02-09 14:43:35
-category:
-  - Technology
-tags:
-  - Arduino
-  - MCU
+title: "硬件 | 百元选购第一块Arduino开发套件"
 description: "硬件 | 百元选购第一块Arduino开发套件"
+pubDate: 2020-02-09 14:43:35
+tags:
+  - "Arduino"
+  - "MCU"
+category: "[\"Technology\"]"
 ---
-<meta name="description" itemprop="description" content="海森的博客"/>
 
 我第一次接触Arduino还是在五年前. 虽然那个时候的生态还未完善, Arduino仍然让我一个初中生很快的上手硬件开发. 直到现在我也常常顺手抄起一块Arduino花一个小时快速搭建原型. 这也正是Arduino对于工程师的意义所在 - 不仅仅是初学者的玩具, 也是快速验证概念的工具.
 
@@ -16,7 +14,7 @@ description: "硬件 | 百元选购第一块Arduino开发套件"
 
 本文在推荐时候主要的参考指标为实用性 > 上手复杂度 > 单价 > 板载资源. 
 
-<!-- more -->
+
 
 ## 大礼包 vs 单买
 

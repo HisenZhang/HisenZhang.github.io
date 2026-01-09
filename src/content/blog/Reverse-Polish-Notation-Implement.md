@@ -1,14 +1,12 @@
 ---
-title: '例程 | 逆波兰表达式Python实现'
-pubDate: 2017-10-27 18:41:59
-tags:
-  - Python
-category: Lecture
+title: "Reverse-Polish-Notation-Implement"
 description: "例程 | 逆波兰表达式Python实现"
+pubDate: 2026-01-09T04:46:21.575Z
 ---
+
 [逆波兰表达式练习](/post/rpn-challenge/)涉及到条件判断/循环/变量类型以及初级的数据结构, 逻辑简洁, 是理想的初学者编程练习项目. 这里提供一个简单的Python版本实现.
 
-<!-- more -->
+
 
 ```python
 import sys

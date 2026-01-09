@@ -1,20 +1,19 @@
 ---
-title: 料理 | 牛肉蔬菜浓汤
-pubDate: 2019-05-27 18:10:31
-category: Food
-tags:
-  - Cuisine
-  - Soup
-  - Beef
+title: "料理 | 牛肉蔬菜浓汤"
 description: "料理 | 牛肉蔬菜浓汤"
+pubDate: 2019-05-27 18:10:31
+tags:
+  - "Cuisine"
+  - "Soup"
+  - "Beef"
+category: "Food"
 ---
-<meta name="description" itemprop="description" content="料理 | 牛肉蔬菜浓汤"/>
 
 心心念念很久要尝试做个汤. 当这一天终于来临的时候, 其实并没有太激动. 我明白, 这是开始~~炸厨房~~试验的好机会.
 
 在做汤过程中第一次使用高压锅, ~~这我能吹上好几天.~~
 
-<!-- more -->
+
 
 ![](https://s2.ax1x.com/2019/05/27/VZy3TJ.jpg)
 
@@ -82,6 +81,3 @@ description: "料理 | 牛肉蔬菜浓汤"
 ![](https://s2.ax1x.com/2019/05/27/VZy3TJ.jpg)
 
 最后的最后的最后的最后, enjoy your day.
-
-
-

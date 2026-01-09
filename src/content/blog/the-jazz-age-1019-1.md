@@ -1,12 +1,12 @@
 ---
 title: "爵士时代 | 2019年十月合集(上)"
-pubDate: 2019-10-13 21:19:25
-category: Music
-tags:
-  - Radio
-  - Vinyl
-  - Jazz
 description: "爵士时代 | 2019年十月合集(上)"
+pubDate: 2019-10-13 21:19:25
+tags:
+  - "Radio"
+  - "Vinyl"
+  - "Jazz"
+category: "Music"
 ---
 
 十月上旬播出了五场节目. 开始播节目一个月左右, 对这些爵士乐大师的风格了解越发深入.
@@ -18,7 +18,7 @@ description: "爵士时代 | 2019年十月合集(上)"
 5. 101219 - Art Tatum & Duke Ellington
 
 <!--more-->
-<meta name="description" itemprop="description" content="爵士时代 | 海森的博客"/>
+
 
 ## 100219 - The Extraordinary
 
@@ -166,9 +166,3 @@ Again, it's Bird!
 5. Wig Wise 3:20
 6. Caravan 4:15
 7. Solitude 5:30
-
-
-
-
-
-

@@ -1,17 +1,15 @@
 ---
-title: 面对无限
-pubDate: 2019-04-11 13:03:04
-category:
-    - Spark
-tags:
-    - Struggling
+title: "面对无限"
 description: "面对无限"
+pubDate: 2019-04-11 13:03:04
+tags:
+  - "Struggling"
+category: "[\"Spark\"]"
 ---
-<meta name="description" itemprop="description" content="海森的博客"/>
 
 > 在无穷中, 我们孤独行舟.
 
-<!-- more -->
+
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.css">
 <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>

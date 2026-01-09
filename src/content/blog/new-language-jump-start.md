@@ -1,20 +1,18 @@
 ---
-title: '指南 | 快速上手一门编程语言'
-pubDate: 2020-07-05 23:26:17
-category:
-  - Technology
-tags:
-  - Tutorial
-  - ProgrammingLanguage
+title: "指南 | 快速上手一门编程语言"
 description: "指南 | 快速上手一门编程语言"
+pubDate: 2020-07-05 23:26:17
+tags:
+  - "Tutorial"
+  - "ProgrammingLanguage"
+category: "[\"Technology\"]"
 ---
-<meta name="description" itemprop="description" content="快速上手一门编程语言"/>
 
 近来很多同学提问求助: 海森你学过XX语言吗? 其实在有限的时间经历下, 我不可能精通每一门编程语言. 但是通过本文介绍的方法, 你可以在一小时内快速上手一门语言.
 
 本文前半篇介绍一些相关概念, 后半篇附上方法论.
 
-<!-- more -->
+
 
 ## 相关概念 ##
 

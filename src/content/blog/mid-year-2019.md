@@ -1,14 +1,11 @@
 ---
-title: '这半年: 2019'
-pubDate: 2019-05-30 13:36:15
-category:
-  - Spark
-tags:
-  - Summary
+title: "这半年: 2019"
 description: "这半年: 2019"
+pubDate: 2019-05-30 13:36:15
+tags:
+  - "Summary"
+category: "[\"Spark\"]"
 ---
-<meta name="description" itemprop="description" content="海森的博客"/>
-
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.css">
 <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
@@ -34,7 +31,7 @@ description: "这半年: 2019"
 
 本无意写总结, 但总想整理这些日子写过的文章, 以回顾一下申请季结束后这半年来我到底做了些什么,  想了些什么. 
 
-<!-- more -->
+
 
 ## 这半年来...
 ### 新年

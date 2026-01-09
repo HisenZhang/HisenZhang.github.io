@@ -1,12 +1,12 @@
 ---
 title: "爵士时代 | 2019年十月合集(下)"
-pubDate: 2019-11-04 10:19:25
-category: Music
-tags:
-  - Radio
-  - Vinyl
-  - Jazz
 description: "爵士时代 | 2019年十月合集(下)"
+pubDate: 2019-11-04 10:19:25
+tags:
+  - "Radio"
+  - "Vinyl"
+  - "Jazz"
+category: "Music"
 ---
 
 十月下旬播出了五场节目. 电台开始逐渐受到关注, 也有喜欢爵士乐的陌生人找上来聊音乐. 总之是顺利推进的一个阶段.
@@ -18,7 +18,7 @@ description: "爵士时代 | 2019年十月合集(下)"
 5. 101619 - The Bethlehem Year
 
 <!--more-->
-<meta name="description" itemprop="description" content="爵士时代 | 海森的博客"/>
+
 
 
 ## 103019 - Gerry Mulligan, Chet Baker & Benny Goodman
@@ -123,8 +123,3 @@ Every Mondays at WRPI we have local blues bands performing live show!
 4. Number Four 4:49
 5. Autumn In New York 6:25
 6. You Can Depend On Me 9:04
-
-
-
-
-

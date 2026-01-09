@@ -1,18 +1,16 @@
 ---
 title: "现实世界, 理念世界和永恒"
-pubDate: 2019-06-05 16:34:12
-category:
-  - Spark
-tags:
-  - Plato
-  - Philosophy
 description: "现实世界, 理念世界和永恒"
+pubDate: 2019-06-05 16:34:12
+tags:
+  - "Plato"
+  - "Philosophy"
+category: "[\"Spark\"]"
 ---
-<meta name="description" itemprop="description" content="海森的博客"/>
 
 本文谈论现实世界, 理念世界和永恒之间的联系. 下文的观点基于柏拉图的"理念"理论, 加以个人的观察思考拓展得到.
 
-<!-- more -->
+
 
 现实世界变化万千. 我们尝试着观测这个世界: 每一天的股价波动不息, 每一天都有新的限量商品发售, 并有人为争夺而斗殴. 可是你无法准确地凭借过去的观测数据来预测下一秒会发生什么. 
 

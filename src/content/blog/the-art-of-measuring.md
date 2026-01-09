@@ -1,19 +1,16 @@
 ---
-title: 度量的艺术
-pubDate: 2019-06-08 19:03:59
-category:
-  - Spark
-tags:
-  - Measuring
-  - Paradox
+title: "度量的艺术"
 description: "度量的艺术"
+pubDate: 2019-06-08 19:03:59
+tags:
+  - "Measuring"
+  - "Paradox"
+category: "[\"Spark\"]"
 ---
-<meta name="description" itemprop="description" content="海森的博客"/>
-
 
 如何用现有精度的机床加工出更高精度的下一代机床? 这是个先有鸡还是先有蛋的悖论.
 
-<!-- more -->
+
 
 
 ## 不同基准得出不同结论
@@ -57,4 +54,3 @@ description: "度量的艺术"
 **大概, 理念世界中本来就没有什么黑白对错.**
 
 还有最后一个可怕的问题: 度量这个概念本身可靠吗?
-

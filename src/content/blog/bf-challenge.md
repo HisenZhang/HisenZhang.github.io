@@ -1,14 +1,9 @@
 ---
-title: 挑战 | Brainfuck语言解释器
-pubDate: 2019-04-01 19:53:42
-tag:
-  - Python
-  - Resources
-category: Lecture
+title: "挑战 | Brainfuck语言解释器"
 description: "挑战 | Brainfuck语言解释器"
+pubDate: 2019-04-01 19:53:42
+category: "Lecture"
 ---
-
-<meta name="description" itemprop="description" content="挑战 | Brainfuck语言解释器"/>
 
 > Copyright 2019 [HisenZhang](mailto:hisen@hisenz.com)
 
@@ -26,7 +21,7 @@ BF的工作原理模拟了一台简单的图灵机`Turing Machine`. 这个在193
 
 在这个挑战里, 你需要编写一个解释器来运行BF语言.
 
-<!-- more -->
+
 
 ## 样例
 

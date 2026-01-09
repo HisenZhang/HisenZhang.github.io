@@ -1,14 +1,13 @@
 ---
-title: 短篇 | 三驾马车（三要素驱动模型）
-pubDate: 2023-03-18 23:19:52
-category: Spark
-tags:
-  - Spark
-  - Investment
-  - Learning
+title: "短篇 | 三驾马车（三要素驱动模型）"
 description: "短篇 | 三驾马车（三要素驱动模型）"
+pubDate: 2023-03-18 23:19:52
+tags:
+  - "Spark"
+  - "Investment"
+  - "Learning"
+category: "Spark"
 ---
-<meta name="description" itemprop="description" content="海森的博客"/>
 
 > 每个人在每个领域里想要获得源源不断的内驱力，都该找到自己的三驾马车。
 
@@ -20,7 +19,7 @@ description: "短篇 | 三驾马车（三要素驱动模型）"
 
 三驾马车的本质是三要素之间相互叠加的杠杆带来的规模效应。
 
-<!-- more -->
+
 
 ## 推广
 

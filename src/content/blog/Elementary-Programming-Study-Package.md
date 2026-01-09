@@ -1,12 +1,7 @@
 ---
-title: 'Elementary Programming Study Package'
-tags:
-  - Resources
-  - Tutorial
-  - Python
-category: Lecture
-pubDate: 2017-10-30 16:08:44
+title: "Elementary-Programming-Study-Package"
 description: "Elementary Programming Study Package"
+pubDate: 2026-01-09T04:46:21.575Z
 ---
 
 Elementary Programming Study Package
@@ -17,7 +12,7 @@ This file contains several key information and instructions. Please read them ca
 
 "EP" (Elementary Programming) is capable of teaching students who never contact with computer programming. Unlike most of tutorials, this package change the order of knowledge according to the level of beginners. This course employed Python 3.X for instructing.
 
-<!-- more -->
+
 
 ## [](https://github.com/HisenZhang/EP-elementary_programming#contents)**CONTENTS**
 

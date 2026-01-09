@@ -1,15 +1,12 @@
 ---
-title: FCC业余无线电考证指南
-pubDate: 2019-12-18 18:54:44
-category:
-  - Technology
-tags:
-  - Ham
-  - Exam
+title: "FCC业余无线电考证指南"
 description: "FCC业余无线电考证指南"
+pubDate: 2019-12-18 18:54:44
+tags:
+  - "Ham"
+  - "Exam"
+category: "[\"Technology\"]"
 ---
-<meta name="description" itemprop="description" content="FCC业余无线电考证指南"/>
-
 
 到美国的第一学期, 繁忙学习之余考取了FCC业余无线电General执照, 也算是达成了一个小目标. 这一篇博客大致介绍了其概况, 考试流程以及一些建议.文中提到的在线资源在文末链接汇总.
 
@@ -83,4 +80,3 @@ G和T级别的考试要求35答对26道以上. E要求50中答对37道. 可以�
 | [ARRL官网](http://arrl.org)                                  | 美国业余无线电爱好者联盟, 刊有杂志QSL |
 | [FCC执照数据库](https://wireless2.fcc.gov/UlsApp/UlsSearch/searchLicense.jsp) | 查询呼号/FRN                          |
 | [刷题题库](https://hamstudy.org/)                            | 题库齐全, 带有答案和解析              |
-

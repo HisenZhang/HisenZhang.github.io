@@ -1,11 +1,12 @@
 ---
-title: 'Cartesian 3D Vector lib'
+title: "Cartesian 3D Vector lib"
+description: "Cartesian 3D Vector lib"
 pubDate: 2018-11-21 20:47:04
 tags:
-  - Resources
-category: Technology
-description: "Cartesian 3D Vector lib"
+  - "Resources"
+category: "Technology"
 ---
+
 [View on GitHub](https://github.com/HisenZhang/Cartesian-3D-Vector-lib)
 
 A simple vector library written in plain C for educational purpose.
@@ -16,7 +17,7 @@ This library is written in hope to simplify the coding process for non-professio
 
 This library **should not** be used for industrial or scientific use due to the limited precision and performance; Complex number is not supported either.
 
-<!-- more -->
+
 
 ## Usage
 

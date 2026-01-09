@@ -1,20 +1,19 @@
 ---
-title: '这一年: 2018'
-tags:
-  - Spark
-  - Summary
-category: Spark
-pubDate: 2018-12-24 19:17:17
+title: "这一年: 2018"
 description: "这一年: 2018"
+pubDate: 2018-12-24 19:17:17
+tags:
+  - "Spark"
+  - "Summary"
+category: "Spark"
 ---
-
 
 回顾刚刚过去的2018年, 致海森, 也致他的博客.
 
 ## 开始之前
 
 开始之前, 与各位分享一曲爵士. 请一边听着它, 一边往下读吧.
-<!-- more -->
+
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.css">
 <script src="https://cdn.jsdelivr.net/npm/aplayer@1.10.1/dist/APlayer.min.js"></script>
 <div id="aplayer"></div>
@@ -97,4 +96,3 @@ Hisen's Blog的早期曾有一些爵士乐评, 可惜在一次事故中丢失了
 ## 写在最后
 
 余下的时间里, 继续享受爵士乐大师们的作品吧 : )
-

@@ -1,17 +1,15 @@
 ---
-title: 'C语言 | register变量'
-tags:
-  - Tutorial
-category: Lecture
-pubDate: 2018-12-14 13:18:16
+title: "C语言 | register变量"
 description: "C语言 | register变量"
+pubDate: 2018-12-14 13:18:16
+tags:
+  - "Tutorial"
+category: "Lecture"
 ---
-
-
 
 本文译自The C Programming Language的4.7章节.
 
-<!-- more -->
+
 
 `register`变量声明会告知编译器该变量会被频繁使用. `register`变量在运行时存放在机器的寄存器里, 这样生成的程序更短小, 速度也更快. 但是编译器也可能忽略这些建议.
 

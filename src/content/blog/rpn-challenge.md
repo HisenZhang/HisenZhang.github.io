@@ -1,14 +1,9 @@
 ---
-title: 挑战 | 逆波兰表达式解释器
-pubDate: 2019-02-02 12:50:41
-tag:
-  - Python
-  - Resources
-category: Lecture
+title: "挑战 | 逆波兰表达式解释器"
 description: "挑战 | 逆波兰表达式解释器"
+pubDate: 2019-02-02 12:50:41
+category: "Lecture"
 ---
-
-<meta name="description" itemprop="description" content="挑战 | 逆波兰表达式解释器"/>
 
 > Copyright 2019 [HisenZhang](mailto:hisen@hisenz.com)
 
@@ -18,7 +13,7 @@ description: "挑战 | 逆波兰表达式解释器"
 
 在这个挑战里, 你需要编写一个解释器来计算逆波兰表达式, 实现加减乘除四则运算.
 
-<!-- more -->
+
 
 ## 样例
 
@@ -81,4 +76,3 @@ description: "挑战 | 逆波兰表达式解释器"
    - `pop()`
 2. 字符串对象有个方法:
    - `strip()`
-

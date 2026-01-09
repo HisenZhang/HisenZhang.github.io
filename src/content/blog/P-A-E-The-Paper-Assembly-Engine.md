@@ -1,19 +1,18 @@
 ---
-title: 'P.A.E. | Paper Assembly Engine'
-pubDate: 2018-07-24 16:07:08
-mathjax: true
-tags:
-  - News
-  - Spark
-category: Technology
+title: "P.A.E. | Paper Assembly Engine"
 description: "P.A.E. | Paper Assembly Engine"
+pubDate: 2018-07-24 16:07:08
+tags:
+  - "News"
+  - "Spark"
+category: "Technology"
 ---
 
 > We liberate millions of students and teachers from exam-oriented education by reducing attention and time dissipated on training, with the solution entirely directed by mathematical models.
 >
 > *-- Hisen Zhang*
 
-<!-- more -->
+
 
 ## Overview
 
@@ -282,4 +281,3 @@ This system is designed to be valid based on these following 'believed-to-be-tru
 - The keywords show some features of the text.
 
 So far these postulates are widely validated. However, no solid shreds of evidence suggest they are truth. In other words, if these statements are proved to be wrong, the system may not be effective as it was proposed.
-

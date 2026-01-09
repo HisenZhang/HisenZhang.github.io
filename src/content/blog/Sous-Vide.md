@@ -1,21 +1,20 @@
 ---
-title: '料理 | 关于舒肥'
-tags:
-  - Cuisine
-  - Sous-vide
-  - Life-hacking
-  - Beef
-category: Food
-pubDate: 2018-12-30 18:46:10
+title: "料理 | 关于舒肥"
 description: "料理 | 关于舒肥"
+pubDate: 2018-12-30 18:46:10
+tags:
+  - "Cuisine"
+  - "Sous-vide"
+  - "Life-hacking"
+  - "Beef"
+category: "Food"
 ---
-
 
 舒肥法`Sous Vide`是一种将食材真空低温加热的处理方法. 利用舒肥法可以做出鲜嫩多汁的料理, 把常见的食材潜力尽数发挥. 由于可以把加热过程交给机器控制而无需人工插手, 适合新手以及懒人. 
 
 这篇文章介绍了舒肥法基本要点, 一种低成本DIY舒肥机的方法以及鸡胸肉, 鸡蛋和牛肉的舒肥法烹调示例.
 
-<!-- more -->
+
 
 ![chicken_breast_wide.jpg](https://s1.ax1x.com/2018/12/30/FhVrpF.jpg)
 

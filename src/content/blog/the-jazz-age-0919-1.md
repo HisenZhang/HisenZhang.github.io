@@ -1,12 +1,12 @@
 ---
 title: "爵士时代 | 2019年九月合集(上)"
-pubDate: 2019-09-15 21:19:25
-category: Music
-tags:
-  - Radio
-  - Vinyl
-  - Jazz
 description: "爵士时代 | 2019年九月合集(上)"
+pubDate: 2019-09-15 21:19:25
+tags:
+  - "Radio"
+  - "Vinyl"
+  - "Jazz"
+category: "Music"
 ---
 
 九月上旬的节目只录制了一期. 遗憾的是首秀没有录制下来.
@@ -17,7 +17,7 @@ description: "爵士时代 | 2019年九月合集(上)"
 <!--more-->
 
 
-<meta name="description" itemprop="description" content="爵士时代 | 海森的博客"/>
+
 
 ## 090719 - Chet Baker in Tokyo
 

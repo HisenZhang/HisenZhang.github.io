@@ -1,20 +1,18 @@
 ---
-title: 'C语言 | 利用越界和溢出'
-tags:
-  - Tutorial
-  - Spark
-category: Technology
-pubDate: 2018-12-06 12:45:03
-mathjax: true
+title: "C语言 | 利用越界和溢出"
 description: "C语言 | 利用越界和溢出"
+pubDate: 2018-12-06 12:45:03
+tags:
+  - "Tutorial"
+  - "Spark"
+category: "Technology"
 ---
-
 
 这篇文章以一道challenge为例, 讲述C语言的越界和溢出. 本篇也是自己的学习记录.
 
 某日[罗德大佬](https://github.com/rod-lin)在群内分享了一道题:
 
-<!-- more -->
+
 
 题目与代码如下
 
@@ -315,7 +313,3 @@ $3 = (int (*)[20]) 0x555555755080 <histo>
 
 1. 发现两者内存空间连续, 决定越界
 2. 利用溢出得到负的绝对值输出
-
-
-
-

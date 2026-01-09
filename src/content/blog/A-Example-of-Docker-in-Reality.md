@@ -1,17 +1,17 @@
 ---
-title: 'A Example of Docker in Reality'
-tags:
-  - Spark
-category: Spark
-pubDate: 2018-10-14 16:19:56
+title: "A Example of Docker in Reality"
 description: "A Example of Docker in Reality"
+pubDate: 2018-10-14 16:19:56
+tags:
+  - "Spark"
+category: "Spark"
 ---
 
 The docker on Linux allows easy deployment of software. However, the idea is mainly borrowed from CD ROM. 
 
 People used to buy CD disks and put them in to the drive. Whatever brand your computer is, the content (music files, portable softwares) are always available. Such a design saves cost for two reasons: 
 
-<!-- more -->
+
 
 1. A single release satisfy most of environment;
 2. Less to learn to operate a standard equipment.

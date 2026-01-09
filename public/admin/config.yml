@@ -20,11 +20,18 @@ collections:
     folder: "src/content/blog"
     create: true
     slug: "{{slug}}"
+    # Sort by publish date, newest first
+    sortable_fields: ['pubDate', 'title', 'updatedDate']
+    sort: 'pubDate:desc'
+    # Show summary in list view
+    summary: "{{title}} - {{pubDate | date('YYYY-MM-DD')}}"
     fields:
       - { label: "Title", name: "title", widget: "string" }
       - { label: "Description", name: "description", widget: "string", required: false }
       - { label: "Publish Date", name: "pubDate", widget: "datetime" }
+      - { label: "Updated Date", name: "updatedDate", widget: "datetime", required: false }
       - { label: "Tags", name: "tags", widget: "list", required: false }
       - { label: "Category", name: "category", widget: "list", required: false }
       - { label: "Hero Image", name: "heroImage", widget: "image", required: false }
+      - { label: "Cover Image Credit", name: "coverImageCredit", widget: "string", required: false }
       - { label: "Body", name: "body", widget: "markdown" }
