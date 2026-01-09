@@ -7,9 +7,9 @@ export default config({
 	collections: {
 		blog: collection({
 			label: 'Blog Posts',
-			path: 'src/content/blog/*',
+			path: 'src/content/blog/**',
 			slugField: 'title',
-			format: { data: { extension: 'md' } },
+			format: { contentField: 'content' },
 			columns: ['title', 'pubDate'],
 			schema: {
 				title: fields.slug({ name: { label: 'Title' } }),
@@ -17,11 +17,11 @@ export default config({
 					label: 'Description',
 					multiline: true,
 				}),
-				pubDate: fields.text({
+				pubDate: fields.datetime({
 					label: 'Publish Date',
 					validation: { isRequired: true },
 				}),
-				updatedDate: fields.text({
+				updatedDate: fields.datetime({
 					label: 'Updated Date',
 				}),
 				tags: fields.array(
@@ -39,6 +39,15 @@ export default config({
 				}),
 				coverImageCredit: fields.text({
 					label: 'Cover Image Credit',
+				}),
+				content: fields.markdoc({
+					label: 'Content',
+					options: {
+						image: {
+							directory: 'public/images/uploads',
+							publicPath: '/images/uploads/',
+						},
+					},
 				}),
 			},
 		}),

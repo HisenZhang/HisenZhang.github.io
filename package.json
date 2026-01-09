@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@astrojs/cloudflare": "^12.6.12",
+    "@astrojs/markdoc": "^0.15.10",
     "@astrojs/mdx": "^4.3.13",
     "@astrojs/partytown": "^2.1.4",
     "@astrojs/react": "^4.4.2",
@@ -27,6 +28,8 @@
     "astro-icon": "^1.1.5",
     "dayjs": "^1.11.19",
     "decap-cms-app": "^3.10.0",
+    "js-yaml": "^4.1.1",
+    "marked": "^17.0.1",
     "mdast-util-from-markdown": "^2.0.2",
     "mdast-util-to-markdown": "^2.1.2",
     "mdast-util-to-string": "^4.0.0",
