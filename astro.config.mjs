@@ -33,6 +33,11 @@ export default defineConfig({
 	],
 	vite: {
 		plugins: [tailwindcss()],
+		resolve: {
+			alias: process.env.NODE_ENV === 'production' && {
+				'react-dom/server': 'react-dom/server.edge',
+			},
+		},
 	},
 	markdown: {
 		remarkPlugins: [remarkReadingTime, remarkModifiedTime],
