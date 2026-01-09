@@ -1,21 +1,34 @@
 import { config, fields, collection } from '@keystatic/core'
 
 export default config({
-	storage: {
-		kind: 'local',
-	},
+	storage: import.meta.env.DEV
+		? { kind: 'local' }
+		: {
+				kind: 'github',
+				repo: {
+					owner: 'HisenZhang',
+					name: 'HisenZhang.github.io',
+				},
+				// GitHub App credentials
+				// These will be automatically picked up from environment variables:
+				// KEYSTATIC_GITHUB_CLIENT_ID
+				// KEYSTATIC_GITHUB_CLIENT_SECRET
+		  },
 	collections: {
 		blog: collection({
 			label: 'Blog Posts',
 			path: 'src/content/blog/**',
 			slugField: 'title',
-			format: { data: { extension: 'md' } },
+			format: { contentField: 'content' },
 			columns: ['title', 'pubDate'],
 			schema: {
 				title: fields.slug({ name: { label: 'Title' } }),
 				description: fields.text({
 					label: 'Description',
 					multiline: true,
+				}),
+				content: fields.markdoc({
+					label: 'Content',
 				}),
 				pubDate: fields.datetime({
 					label: 'Publish Date',
