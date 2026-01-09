@@ -9,7 +9,7 @@ export default config({
 			label: 'Blog Posts',
 			path: 'src/content/blog/**',
 			slugField: 'title',
-			format: { contentField: 'content' },
+			format: { data: { extension: 'md' } },
 			columns: ['title', 'pubDate'],
 			schema: {
 				title: fields.slug({ name: { label: 'Title' } }),
@@ -47,15 +47,6 @@ export default config({
 				}),
 				coverImageCredit: fields.text({
 					label: 'Cover Image Credit',
-				}),
-				content: fields.markdoc({
-					label: 'Content',
-					options: {
-						image: {
-							directory: 'public/images/uploads',
-							publicPath: '/images/uploads/',
-						},
-					},
 				}),
 			},
 		}),
