@@ -16,6 +16,7 @@ import markdoc from '@astrojs/markdoc'
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://hisenz.com',
+	output: 'server',
 	adapter: cloudflare(),
 	integrations: [
 		react(),

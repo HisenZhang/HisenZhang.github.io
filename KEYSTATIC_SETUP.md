@@ -21,11 +21,14 @@ You need to add these environment variables to your Cloudflare Pages deployment:
 ```
 KEYSTATIC_GITHUB_CLIENT_ID=your_client_id_here
 KEYSTATIC_GITHUB_CLIENT_SECRET=your_client_secret_here
+KEYSTATIC_SECRET=your_random_secret_key_here
+PUBLIC_KEYSTATIC_GITHUB_APP_SLUG=your-github-app-slug
 ```
 
 **Important Notes:**
+- `KEYSTATIC_SECRET`: A random string for session encryption (use the one from your `.env` file)
+- `PUBLIC_KEYSTATIC_GITHUB_APP_SLUG`: The slug of your GitHub App (found in the app URL, usually lowercase version of the app name)
 - Do NOT add `KEYSTATIC_GITHUB_APP_ID` or `KEYSTATIC_GITHUB_PRIVATE_KEY` to Cloudflare - they're only needed for local development
-- The Client ID and Client Secret are sufficient for authentication in production
 - Make sure to redeploy after adding environment variables
 
 ### Verify Setup
