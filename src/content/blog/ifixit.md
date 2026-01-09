@@ -2,7 +2,7 @@
 title: "iFixit: 自己动手维修"
 description: "iFixit: 自己动手维修"
 pubDate: 2019-01-15T19:00:09.000Z
-category: "[\"Spark\"]"
+category: Spark
 ---
 
 以下内容翻译自[iFixit](https://ifixit.org/)主页.

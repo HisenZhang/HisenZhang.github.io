@@ -5,7 +5,7 @@ pubDate: 2019-06-05T16:34:12.000Z
 tags:
   - Plato
   - Philosophy
-category: "[\"Spark\"]"
+category: Spark
 ---
 
 本文谈论现实世界, 理念世界和永恒之间的联系. 下文的观点基于柏拉图的"理念"理论, 加以个人的观察思考拓展得到.

@@ -4,7 +4,7 @@ description: 面对无限
 pubDate: 2019-04-11T13:03:04.000Z
 tags:
   - Struggling
-category: "[\"Spark\"]"
+category: Spark
 ---
 
 > 在无穷中, 我们孤独行舟.

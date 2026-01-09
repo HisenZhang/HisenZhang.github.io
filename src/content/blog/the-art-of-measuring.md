@@ -5,7 +5,7 @@ pubDate: 2019-06-08T19:03:59.000Z
 tags:
   - Measuring
   - Paradox
-category: "[\"Spark\"]"
+category: Spark
 ---
 
 如何用现有精度的机床加工出更高精度的下一代机床? 这是个先有鸡还是先有蛋的悖论.

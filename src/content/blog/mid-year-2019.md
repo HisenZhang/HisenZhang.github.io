@@ -4,7 +4,7 @@ description: "这半年: 2019"
 pubDate: 2019-05-30T13:36:15.000Z
 tags:
   - Summary
-category: "[\"Spark\"]"
+category: Spark
 ---
 
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aplayer/1.10.1/APlayer.min.css">

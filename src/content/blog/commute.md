@@ -4,7 +4,7 @@ description: 没有捷径
 pubDate: 2019-06-03T12:35:57.000Z
 tags:
   - Philosophy
-category: "[\"Spark\"]"
+category: Spark
 ---
 
 规划交通方式的时候, 我们希望省时省钱省力三要素齐备. 但是, 往往三者不可得兼. 

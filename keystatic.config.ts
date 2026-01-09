@@ -31,8 +31,16 @@ export default config({
 						itemLabel: (props) => props.value,
 					}
 				),
-				category: fields.text({
+				category: fields.select({
 					label: 'Category',
+					options: [
+						{ label: 'Spark', value: 'Spark' },
+						{ label: 'Music', value: 'Music' },
+						{ label: 'Technology', value: 'Technology' },
+						{ label: 'Lecture', value: 'Lecture' },
+						{ label: 'Food', value: 'Food' },
+					],
+					defaultValue: 'Spark',
 				}),
 				heroImage: fields.text({
 					label: 'Hero Image',
