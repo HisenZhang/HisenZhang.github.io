@@ -1,0 +1,10 @@
+name = "blog-astro"
+compatibility_date = "2025-01-09"
+compatibility_flags = ["nodejs_compat"]
+
+# KV Namespace for Keystatic sessions
+# Note: The actual namespace ID will be bound in Cloudflare Pages dashboard
+# This is just to let the build know about the binding
+[[kv_namespaces]]
+binding = "SESSION"
+id = "placeholder"
