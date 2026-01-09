@@ -15,11 +15,11 @@ const posts = (await getCollection('blog'))
 		class="app-container flex flex-col gap-12 justify-center py-36 md:py-48 pt-44 md:pt-56 relative"
 	>
 		<div>
-			<p class="block text-3xl opacity-70 mt-9 mb-4">Welcome to</p>
-			<h1 class="text-8xl font-bold leading-none">Saral Theme</h1>
+			<p class="block text-3xl opacity-70 mt-9 mb-4">Hi, I'm</p>
+			<h1 class="text-8xl font-bold leading-none">Hisen Zhang</h1>
 		</div>
 		<p class="text-2xl max-w-2xl font-light leading-normal">
-			A simple theme for personal blog sites, created for Astro framework.
+			Computer Science & Computer Engineering student at RPI, focusing on digital communication, AI, and wireless/IoT security. Amateur radio operator KD2TAI.
 		</p>
 		<div class="flex flex-wrap gap-8">
 			{
@@ -48,36 +48,34 @@ const posts = (await getCollection('blog'))
 		</a>
 	</section>
 
-	<!-- Recent Posts Section -->
+	<!-- About Section -->
 	<section class="app-container py-42 grid lg:grid-cols-2 gap-28 lg:gap-10">
 		<div class="space-y-6">
-			<h2 class="section-title">About Me</h2>
+			<h2 class="section-title">关于我 / About Me</h2>
 			<p class="text-lg max-w-xl pb-4">
-				A brief introduction about yourself. You can include your profession,
-				hobbies, interests, or anything you'd like visitors to know about you.
+				我是海森，现就读于伦斯勒理工学院的计算机科学与计算机工程双专业本科，专注于数字通信与人工智能技术。业余无线电呼号KD2TAI，研究兴趣包括软件定义无线电、数字信号处理，以及无线/物联网安全。
+			</p>
+			<p class="text-lg max-w-xl pb-4">
+				Hisen, KD2TAI, officially known as Zhemin Zhang, is the president of W2SZ Rensselaer Polytechnic Institute Amateur Radio Club.
 			</p>
 			<a class="btn-secondary" href={`${SITE_BASE}/about`}
-				>Go to About
+				>Read More
 				<Icon size={20} name="mdi:arrow-right" />
 			</a>
 		</div>
 		<div class="space-y-6">
-			<h2 class="section-title">Get in touch</h2>
+			<h2 class="section-title">履历 / CV</h2>
 			<p class="text-lg max-w-xl">
-				Use the buttons below for my resume & email.
+				版本若干，详略各异，自取所需。Various CVs for different purposes.
 			</p>
-			<div class="flex flex-wrap mt-auto space-x-4">
-				<a
-					class="btn-primary"
-					href="mailto:example@email.com"
-					download
-					target="_blank"
-					>Get in touch
-					<Icon height={20} name="mdi:email" />
+			<div class="flex flex-wrap mt-auto gap-4">
+				<a class="btn-secondary" href="https://drive.google.com/drive/folders/1yjGs06L5jsOb7V4cnr0k2sHhIgjTP67z" target="_blank"
+					>Academic CV
+					<Icon height={20} name="mdi:school" />
 				</a>
-				<a class="btn-secondary" href="https://example.com" target="_blank"
-					>Download Resume
-					<Icon height={20} name="mdi:arrow-collapse-down" />
+				<a class="btn-secondary" href="https://drive.google.com/drive/folders/1qrFfl3FtcHRchagDrciE3N_8OMpHJEy4" target="_blank"
+					>Work CV
+					<Icon height={20} name="mdi:briefcase" />
 				</a>
 			</div>
 		</div>

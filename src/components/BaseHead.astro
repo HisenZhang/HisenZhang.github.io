@@ -13,9 +13,6 @@ const canonicalURL = new URL(Astro.url.pathname, Astro.site)
 const { title, description, image = `${SITE_BASE}/saral-og.jpg` } = Astro.props
 ---
 
-<!-- Prevent search indexing for theme demo page --><!-- REMOVE FOR YOUR SITE -->
-<meta name="robots" content="noindex" />
-
 <!-- Global Metadata -->
 <meta charset="utf-8" />
 <meta name="viewport" content="width=device-width,initial-scale=1" />
@@ -25,17 +22,23 @@ const { title, description, image = `${SITE_BASE}/saral-og.jpg` } = Astro.props
 <link
 	rel="icon"
 	type="image/png"
-	href={`${SITE_BASE}/favicon-96x96.png`}
-	sizes="96x96"
+	href={`${SITE_BASE}/h-favicon-32x32.png`}
+	sizes="32x32"
 />
-<link rel="icon" type="image/svg+xml" href={`${SITE_BASE}/favicon.svg`} />
-<link rel="shortcut icon" href={`${SITE_BASE}/favicon.ico`} />
+<link
+	rel="icon"
+	type="image/png"
+	href={`${SITE_BASE}/h-favicon-16x16.png`}
+	sizes="16x16"
+/>
+<link rel="icon" type="image/svg+xml" href={`${SITE_BASE}/h-favicon.svg`} />
+<link rel="shortcut icon" href={`${SITE_BASE}/h-favicon.svg`} />
 <link
 	rel="apple-touch-icon"
 	sizes="180x180"
-	href={`${SITE_BASE}/apple-touch-icon.png`}
+	href={`${SITE_BASE}/h-favicon-32x32.png`}
 />
-<meta name="apple-mobile-web-app-title" content="Saral Theme" />
+<meta name="apple-mobile-web-app-title" content="Hisen Zhang" />
 <link rel="manifest" href={`${SITE_BASE}/site.webmanifest`} />
 
 <!-- Canonical URL -->
@@ -64,6 +67,6 @@ const { title, description, image = `${SITE_BASE}/saral-og.jpg` } = Astro.props
 <link
 	rel="alternate"
 	type="application/rss+xml"
-	title="Saral Theme RSS Feed"
+	title="Hisen Zhang RSS Feed"
 	href={new URL('rss.xml', Astro.site)}
 />

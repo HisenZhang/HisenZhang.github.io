@@ -1,9 +1,9 @@
 // Place any global data in this file.
 // You can import this data from anywhere in your site by using the `import` keyword.
 
-export const SITE_TITLE = 'HisenZhang'
+export const SITE_TITLE = '海森的博客'
 export const SITE_DESCRIPTION =
-	'Personal blog of HisenZhang'
+	'Hacking, Cooking & Thinking | 技术, 料理 & 爵士乐'
 
 // If you deploy to a subdirectory, set the `WEBSITE_BASE` here.
 // e.g. '/blog' if you are deploying to example.com/blog
